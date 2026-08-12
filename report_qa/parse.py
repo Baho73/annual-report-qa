@@ -205,3 +205,188 @@ if __name__ == "__main__":
     top = [s for s in secs if s["level"] == 1]
     print(f"разделов: {len(secs)} (уровень 1: {len(top)})")
     print(f"записано: {config.SECTIONS_JSON}")
+
+
+# START_BLOCK_AGGREGATES
+# Блоки верхнего уровня сегментной отчётности: сумма их выручки плюс
+# межсегментные расчёты даёт консолидированный итог.
+TOP_SEGMENTS = [
+    "Поисковые сервисы и ИИ",
+    "Городские сервисы",
+    "Персональные сервисы",
+    "Б2Б Тех",
+    "Автономные технологии",
+    "Прочие сервисы и инициативы",
+]
+
+_REVENUE_TOTAL_NAMES = {"общая выручка", "выручка", "консолидированная выручка"}
+
+
+def load_tables(path=None) -> List[dict]:
+    path = path or config.TABLES_JSON
+    out = []
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip().rstrip(",")
+            if line and line not in "[]":
+                out.append(json.loads(line))
+    return out
+
+
+def _pick(records, metric_sub, segment=None, period=None):
+    """Значение по подстроке метрики, сегменту и периоду. None если нет."""
+    for r in records:
+        if metric_sub.lower() not in str(r.get("m", "")).lower():
+            continue
+        if segment is not None and r.get("s") != segment:
+            continue
+        if segment is None and r.get("s"):
+            continue
+        if period is not None and str(r.get("p")) != str(period):
+            continue
+        if r.get("v") is not None:
+            return r
+    return None
+
+
+def _trust(rec: dict) -> tuple:
+    """Ключ доверия к записи: подтверждённая двумя путями выигрывает.
+
+    Дальше — точность: 1441.1 из финансового раздела предпочтительнее
+    округлённого 1441.0 из обзорной врезки.
+    """
+    confirmed = 1 if (rec.get("confirmed") or rec.get("src") == "both") else 0
+    value = rec.get("v") or 0
+    precision = 1 if abs(value - round(value)) > 1e-9 else 0
+    return (confirmed, precision, -(rec.get("pg") or 999))
+
+
+def total_revenue(records, period) -> Optional[dict]:
+    """Консолидированная выручка периода.
+
+    Кандидатов в документе несколько (обзорная врезка, сегментная таблица,
+    финансовый раздел). Берём наиболее доверенный, а не первый попавшийся.
+    """
+    candidates = []
+    for name in _REVENUE_TOTAL_NAMES:
+        for rec in records:
+            if str(rec.get("m", "")).strip().lower() != name:
+                continue
+            if rec.get("s") or str(rec.get("p")) != str(period):
+                continue
+            if rec.get("v") is None or rec.get("u") != "млрд_руб":
+                continue
+            candidates.append(rec)
+    if not candidates:
+        return None
+    return max(candidates, key=_trust)
+
+
+def compute_aggregates(records=None, cur="2025", prev="2024") -> dict:
+    """Приросты, доли и вклад в прирост — считает код, не модель.
+
+    Вклад в прирост отвечает на вопрос, почему прибыль выросла сильнее
+    выручки: там нужна раскладка по драйверам, а не одно число.
+    ponytail: чистый Python вместо pandas — 868 записей, зависимость не окупается.
+    """
+    records = records if records is not None else load_tables()
+    tot_cur = total_revenue(records, cur)
+    tot_prev = total_revenue(records, prev)
+    total_growth = None
+    if tot_cur and tot_prev:
+        total_growth = tot_cur["v"] - tot_prev["v"]
+
+    segments = []
+    for seg in TOP_SEGMENTS:
+        a = _pick(records, "выручк", segment=seg, period=cur)
+        b = _pick(records, "выручк", segment=seg, period=prev)
+        if not a:
+            continue
+        row = {
+            "segment": seg,
+            "period": cur,
+            "value": a["v"],
+            "unit": a.get("u"),
+            "page": a.get("pg"),
+            "prev": b["v"] if b else None,
+        }
+        if b and b["v"]:
+            row["yoy_abs"] = round(a["v"] - b["v"], 3)
+            row["yoy_pct"] = round((a["v"] - b["v"]) / abs(b["v"]) * 100, 2)
+            if total_growth:
+                row["contrib_growth_pct"] = round((a["v"] - b["v"]) / total_growth * 100, 2)
+        if tot_cur and tot_cur["v"]:
+            row["share_pct"] = round(a["v"] / tot_cur["v"] * 100, 2)
+        segments.append(row)
+
+    segments.sort(key=lambda r: r.get("yoy_pct", float("-inf")), reverse=True)
+    return {
+        "period": cur,
+        "prev_period": prev,
+        "total_revenue": tot_cur["v"] if tot_cur else None,
+        "total_revenue_page": tot_cur.get("pg") if tot_cur else None,
+        "total_revenue_prev": tot_prev["v"] if tot_prev else None,
+        "total_growth_abs": round(total_growth, 3) if total_growth else None,
+        "segments": segments,
+    }
+
+
+def checksum_segments(records=None, period="2025") -> dict:
+    """Сумма блоков против консолидированного итога.
+
+    Расхождение выше порога означает потерянную строку или неразобранный знак.
+    Без этой сверки ошибка разбора становится уверенным враньём в ответе.
+    Известный результат: 1630.9 против 1441.1 (13.17%), причина в сносках
+    стр. 21 и 87 — блоковая выручка дана до коррекции на межсегментные расчёты.
+    """
+    records = records if records is not None else load_tables()
+    parts, seen = [], set()
+    for r in records:
+        seg = r.get("s")
+        if seg in TOP_SEGMENTS and str(r.get("p")) == period and r.get("v") is not None:
+            if "выручк" in str(r.get("m", "")).lower() and seg not in seen:
+                seen.add(seg)
+                parts.append({"segment": seg, "value": r["v"], "page": r.get("pg")})
+
+    inter = [r["v"] for r in records
+             if str(r.get("p")) == period and r.get("v") is not None
+             and "ежсегмент" in f'{r.get("m","")} {r.get("s","")}']
+    # Межсегментные расчёты встречаются и как отдельные строки блоков,
+    # и как общая корректировка. Берём корректировку по модулю один раз.
+    correction = -abs(max(inter, key=abs)) if inter else 0.0
+
+    tot = total_revenue(records, period)
+    raw_sum = round(sum(p["value"] for p in parts), 3)
+    adjusted = round(raw_sum + correction, 3)
+    total = tot["v"] if tot else None
+
+    result = {
+        "check": "segments_vs_total",
+        "period": period,
+        "parts": parts,
+        "sum_raw": raw_sum,
+        "intersegment_correction": round(correction, 3),
+        "sum_adjusted": adjusted,
+        "total": total,
+    }
+    if total:
+        result["delta_raw_pct"] = round((raw_sum - total) / total * 100, 3)
+        result["delta_pct"] = round(abs(adjusted - total) / total * 100, 3)
+        result["ok"] = result["delta_pct"] <= config.THRESHOLDS["checksum_delta_pct"]
+    else:
+        result["ok"] = False
+        result["reason"] = "консолидированный итог не найден в данных"
+    return result
+
+
+def save_aggregates(path=None) -> dict:
+    records = load_tables()
+    payload = {
+        "aggregates": compute_aggregates(records),
+        "checksum": checksum_segments(records),
+    }
+    path = path or config.AGGREGATES_JSON
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=1)
+    return payload
+# END_BLOCK_AGGREGATES
