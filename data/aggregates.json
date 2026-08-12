@@ -1,0 +1,124 @@
+{
+ "aggregates": {
+  "period": "2025",
+  "prev_period": "2024",
+  "total_revenue": 1441.1,
+  "total_revenue_page": 12,
+  "total_revenue_prev": 1094.6,
+  "total_growth_abs": 346.5,
+  "segments": [
+   {
+    "segment": "Автономные технологии",
+    "period": "2025",
+    "value": 0.6,
+    "unit": "млрд_руб",
+    "page": 21,
+    "prev": 0.13,
+    "yoy_abs": 0.47,
+    "yoy_pct": 361.54,
+    "contrib_growth_pct": 0.14,
+    "share_pct": 0.04
+   },
+   {
+    "segment": "Персональные сервисы",
+    "period": "2025",
+    "value": 214.3,
+    "unit": "млрд_руб",
+    "page": 21,
+    "prev": 133.2,
+    "yoy_abs": 81.1,
+    "yoy_pct": 60.89,
+    "contrib_growth_pct": 23.41,
+    "share_pct": 14.87
+   },
+   {
+    "segment": "Б2Б Тех",
+    "period": "2025",
+    "value": 48.2,
+    "unit": "млрд_руб",
+    "page": 21,
+    "prev": 32.5,
+    "yoy_abs": 15.7,
+    "yoy_pct": 48.31,
+    "contrib_growth_pct": 4.53,
+    "share_pct": 3.34
+   },
+   {
+    "segment": "Городские сервисы",
+    "period": "2025",
+    "value": 804.5,
+    "unit": "млрд_руб",
+    "page": 21,
+    "prev": 592.6,
+    "yoy_abs": 211.9,
+    "yoy_pct": 35.76,
+    "contrib_growth_pct": 61.15,
+    "share_pct": 55.83
+   },
+   {
+    "segment": "Поисковые сервисы и ИИ",
+    "period": "2025",
+    "value": 551.2,
+    "unit": "млрд_руб",
+    "page": 21,
+    "prev": 499.8,
+    "yoy_abs": 51.4,
+    "yoy_pct": 10.28,
+    "contrib_growth_pct": 14.83,
+    "share_pct": 38.25
+   },
+   {
+    "segment": "Прочие сервисы и инициативы",
+    "period": "2025",
+    "value": 12.1,
+    "unit": "млрд_руб",
+    "page": 21,
+    "prev": null,
+    "share_pct": 0.84
+   }
+  ]
+ },
+ "checksum": {
+  "check": "segments_vs_total",
+  "period": "2025",
+  "parts": [
+   {
+    "segment": "Автономные технологии",
+    "value": 0.6,
+    "page": 21
+   },
+   {
+    "segment": "Б2Б Тех",
+    "value": 48.2,
+    "page": 21
+   },
+   {
+    "segment": "Городские сервисы",
+    "value": 804.5,
+    "page": 21
+   },
+   {
+    "segment": "Персональные сервисы",
+    "value": 214.3,
+    "page": 21
+   },
+   {
+    "segment": "Поисковые сервисы и ИИ",
+    "value": 551.2,
+    "page": 21
+   },
+   {
+    "segment": "Прочие сервисы и инициативы",
+    "value": 12.1,
+    "page": 21
+   }
+  ],
+  "sum_raw": 1630.9,
+  "intersegment_correction": -189.7,
+  "sum_adjusted": 1441.2,
+  "total": 1441.1,
+  "delta_raw_pct": 13.17,
+  "delta_pct": 0.007,
+  "ok": true
+ }
+}
