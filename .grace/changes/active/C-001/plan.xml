@@ -61,6 +61,7 @@
     </DurableScope>
     <ObservedWriteScope>
       <Glob>report_qa/**/*.py</Glob>
+      <Glob>build/*.py</Glob>
       <Glob>tests/**/*.py</Glob>
       <Glob>eval/**</Glob>
       <File>app.py</File>
