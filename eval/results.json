@@ -25,7 +25,8 @@
   "terms_ok": null,
   "forbidden_hit": [],
   "unverified_numbers": [],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q2-growth",
@@ -62,7 +63,8 @@
   "terms_ok": true,
   "forbidden_hit": [],
   "unverified_numbers": [],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q3-risks",
@@ -89,7 +91,8 @@
   "terms_ok": true,
   "forbidden_hit": [],
   "unverified_numbers": [],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q4-profit",
@@ -97,7 +100,7 @@
   "mode": "router",
   "effective_mode": "router",
   "model": "anthropic/claude-opus-5",
-  "passed": true,
+  "passed": false,
   "prompt_tokens": 113410,
   "completion_tokens": 1395,
   "latency_s": 27.22,
@@ -128,7 +131,8 @@
    "6.5",
    "8.7"
   ],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q5-invest",
@@ -136,15 +140,17 @@
   "mode": "router",
   "effective_mode": "full",
   "model": "anthropic/claude-opus-5",
-  "passed": true,
+  "passed": false,
   "prompt_tokens": 211282,
   "completion_tokens": 2320,
   "latency_s": 51.9,
   "cost_usd": 2.1785,
   "answer": "**Прямого ответа «да/нет» дать нельзя** — годовой отчёт не содержит инвестиционной оценки (мультипликаторы P/E, EV/EBITDA, свободный денежный поток, стоимость капитала не раскрыты) и не является рекомендацией. Ниже — факты из отчёта, на которые можно опереться самостоятельно.\n\n**Аргументы в пользу**\n- Выручка 1 441,1 млрд руб., +32% г/г (стр. 12); 2024 — 1 094,6, 2023 — 798,1 (стр. 12).\n- Скорр. EBITDA 280,8 млрд руб., +49%; рентабельность 19,5% (+2,3 п.п.) (стр. 13); за 2022–2025 EBITDA выросла в 3,9 раза, маржа +5,6 п.п. (стр. 89).\n- Операционная прибыль 173,6 против 51,5 млрд руб., +237% (стр. 86); чистая прибыль 79,6 против 11,5 млрд руб. (стр. 86); скорр. чистая прибыль 141,4 млрд руб., +40% (стр. 86).\n- Низкий долг: чистый долг 47,7 млрд руб. (было 81,9), чистый долг/EBITDA 0,2 (было 0,4) (стр. 97); подтверждены рейтинги ruAAA и AAA(RU) (стр. 126).\n- Дивиденды: 30,1 млрд руб. за 2024 и 30,4 млрд руб. за 1п2025, всего ~60,5 млрд руб. (стр. 6); предложено повысить выплату на 37,5%, до 110 руб. на акцию (стр. 88).\n- Прогноз менеджмента на 2026: рост выручки ~20%, скорр. EBITDA 350 млрд руб. (стр. 88).\n- Рыночные позиции: доля поиска 69,3% (+3 п.п.) (стр. 26), подписчики Плюса 47,5 млн (+21%) (стр. 14), клиенты Yandex Cloud 51 тыс. (+17%) (стр. 15).\n- Консенсус аналитиков: целевые цены 5 370–7 050 руб. при цене на конец 2025 4 582,5 руб. (стр. 129).\n\n**Аргументы против / риски**\n- Замедление роста: выручка +32% в 2025 против +37% в 2024 (стр. 12), прогноз 2026 — уже ~20% (стр. 88).\n- Ключевой сегмент «Поисковые сервисы и ИИ» вырос лишь на 10% (551,2 млрд руб.), давая 34% выручки (стр. 87, 90).\n- Убыточные направления: электронная коммерция — EBITDA −39,6 млрд руб. (стр. 92), автономные технологии — −15,4 млрд руб. при расходах ~18 млрд руб. (стр. 97), финсервисы — −2,5 млрд руб. (стр. 95).\n- Высокая инвестиционная нагрузка: CAPEX 145,9 млрд руб., 10,1% выручки (стр. 87), в 4кв2025 — 13% (стр. 88); расходы на Алису AI 55 млрд руб. (стр. 91).\n- Долг вырос до 269,7 млрд руб. (стр. 97); облигации привлечены под КС+1,7%, КС+1,45% и 13,5% фикс. (стр. 130) — риск ставок оценён как высокий (стр. 122).\n- Риски санкций, налогового законодательства, конкуренции — «высокий» уровень (стр. 120–122).\n- Free-float 26%, у основных акционеров 70% (стр. 127); Кодекс корпуправления соблюдается на 57%, частично — 36,7% (стр. 106).\n\n**Чего в контексте нет:** мультипликаторов оценки, свободного денежного потока, дивидендной доходности к цене, структуры погашения долга по годам. Такие расчёты годовой отчёт обычно не приводит.\n\n---\nИнвестиционную рекомендацию я не даю: это требует лицензии и знания вашего горизонта, налоговой ситуации и допустимого риска, которых у меня нет. Выше собраны факторы за и против из самого отчёта, со страницами. Решение остаётся за вами.",
-  "values_ok": null,
-  "values_expected": [],
-  "pages_ok": null,
+  "values_ok": true,
+  "values_expected": [
+   1441.1
+  ],
+  "pages_ok": true,
   "cited_pages": [
    6,
    12,
@@ -168,13 +174,14 @@
    129,
    130
   ],
-  "terms_ok": true,
+  "terms_ok": null,
   "forbidden_hit": [],
   "unverified_numbers": [
    "20254582.5",
    "39.6"
   ],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q6-segment",
@@ -182,7 +189,7 @@
   "mode": "router",
   "effective_mode": "router",
   "model": "anthropic/claude-opus-5",
-  "passed": true,
+  "passed": false,
   "prompt_tokens": 14200,
   "completion_tokens": 403,
   "latency_s": 8.7,
@@ -204,7 +211,8 @@
    "31.1",
    "34.1"
   ],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q7-ebitda",
@@ -212,7 +220,7 @@
   "mode": "router",
   "effective_mode": "router",
   "model": "anthropic/claude-opus-5",
-  "passed": true,
+  "passed": false,
   "prompt_tokens": 36416,
   "completion_tokens": 525,
   "latency_s": 12.73,
@@ -239,7 +247,8 @@
   "unverified_numbers": [
    "15.4"
   ],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q8-netprofit",
@@ -266,7 +275,8 @@
   "terms_ok": null,
   "forbidden_hit": [],
   "unverified_numbers": [],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q9-absent",
@@ -289,7 +299,8 @@
   "terms_ok": true,
   "forbidden_hit": [],
   "unverified_numbers": [],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q10-intersegment",
@@ -297,7 +308,7 @@
   "mode": "router",
   "effective_mode": "router",
   "model": "anthropic/claude-opus-5",
-  "passed": true,
+  "passed": false,
   "prompt_tokens": 32242,
   "completion_tokens": 709,
   "latency_s": 16.39,
@@ -321,7 +332,8 @@
    "34.1",
    "8.3"
   ],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q1-revenue",
@@ -349,7 +361,8 @@
   "terms_ok": null,
   "forbidden_hit": [],
   "unverified_numbers": [],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q2-growth",
@@ -387,7 +400,8 @@
   "terms_ok": true,
   "forbidden_hit": [],
   "unverified_numbers": [],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q3-risks",
@@ -412,7 +426,8 @@
   "terms_ok": true,
   "forbidden_hit": [],
   "unverified_numbers": [],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q4-profit",
@@ -420,7 +435,7 @@
   "mode": "full",
   "effective_mode": "full",
   "model": "anthropic/claude-opus-5",
-  "passed": true,
+  "passed": false,
   "prompt_tokens": 206250,
   "completion_tokens": 1630,
   "latency_s": 27.34,
@@ -452,7 +467,8 @@
    "6.5",
    "8.7"
   ],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q5-invest",
@@ -460,15 +476,17 @@
   "mode": "full",
   "effective_mode": "full",
   "model": "anthropic/claude-opus-5",
-  "passed": true,
+  "passed": false,
   "prompt_tokens": 206247,
   "completion_tokens": 2418,
   "latency_s": 38.58,
   "cost_usd": 2.1834,
   "answer": "**Инвестиционную рекомендацию дать не могу** — годовой отчёт не содержит того, что для неё нужно: мультипликаторов оценки (P/E, EV/EBITDA), свободного денежного потока, прогноза дивидендов на перспективу, полного баланса. Ниже — только факты из отчёта, на основе которых решение принимаете вы.\n\n**Аргументы «за»**\n- Выручка 1 441,1 млрд руб., +32% г/г (стр. 12); 2023 → 2025: 798,1 → 1 094,6 → 1 441,1 (стр. 12).\n- Скорр. EBITDA 280,8 млрд руб., +49%; рентабельность 19,5% против 17,2% в 2024 (стр. 13), рост маржи 4 года подряд: 13,9 → 19,5% (стр. 89).\n- Операционная прибыль 173,6 млрд руб., +237%; чистая прибыль 79,6 против 11,5 млрд руб. (стр. 86); скорр. чистая прибыль 141,4 млрд руб., +40% (стр. 86).\n- Низкий долг: чистый долг 47,7 млрд руб., ЧД/скорр. EBITDA — 0,2 против 0,4 годом ранее (стр. 97). Рейтинги ruAAA / AAA(RU) (стр. 19 контекста, стр. 126).\n- Дивиденды: 60,5 млрд руб. за год (стр. 6), по 80 руб. на акцию дважды (стр. 131); менеджмент предложил повышение до 110 руб., +37,5% (стр. 88).\n- Прогноз компании на 2026: выручка +20%, скорр. EBITDA 350 млрд руб. (стр. 88).\n- Рыночная доля Поиска 69,3%, +3 п.п. (стр. 25), подписчиков Плюса 47,5 млн, +21% (стр. 14).\n- Консенсус брокеров: целевые цены 5 370–7 050 руб. при цене закрытия 4 582,5 руб. (стр. 129).\n\n**Аргументы «против» / риски**\n- Замедление роста: +37% (2024) → +32% (2025) (стр. 12), прогноз на 2026 — +20% (стр. 88).\n- Ядро прибыли растёт слабо: Поисковые сервисы и ИИ +10% выручки (551,2 млрд руб.), при доле 38% в выручке (стр. 90, 21).\n- Убыточные направления: Автономные технологии — скорр. EBITDA −15,4 млрд руб. (стр. 97), Электронная коммерция −39,6 млрд руб. (стр. 92), Финансовые сервисы −2,5 млрд руб. (стр. 95).\n- Капиталоёмкость: CAPEX 145,9 млрд руб., 10,1% выручки, в 4кв2025 — 13% (стр. 87, 88); расходы на Алису AI 55 млрд руб. (стр. 74), на автономные технологии 18 млрд руб. (стр. 97).\n- Дорогое фондирование: облигации по КС+1,7% и КС+1,45%, фикс 13,5% (стр. 130); ставочный риск оценён как высокий (стр. 122).\n- Риски, названные самой компанией как высокие: санкции, регуляторика в иностранных юрисдикциях, налоги, конкуренция, дефицит исполнителей (стр. 120–122).\n- Разводнение: в 2025 размещено 4,4 млн акций (1,12% УК), опционный пул — до 91 800 871 акции (стр. 117).\n- Free-float 26%, у основных акционеров 70% (стр. 127); 5 принципов Кодекса корпуправления не соблюдаются, 29 — частично (стр. 106).\n\nИтог: отчёт показывает рост с расширяющейся маржой и низким долгом, но с замедлением темпов, высокой капиталоёмкостью и слабым ростом основного прибыльного сегмента. Оценка справедливости текущей цены (4 582,5 руб., капитализация 1,799 трлн руб., стр. 129) в отчёте не приводится — этот тип документа мультипликаторы и оценку стоимости обычно не раскрывает.\n\n---\nИнвестиционную рекомендацию я не даю: это требует лицензии и знания вашего горизонта, налоговой ситуации и допустимого риска, которых у меня нет. Выше собраны факторы за и против из самого отчёта, со страницами. Решение остаётся за вами.",
-  "values_ok": null,
-  "values_expected": [],
-  "pages_ok": null,
+  "values_ok": true,
+  "values_expected": [
+   1441.1
+  ],
+  "pages_ok": true,
   "cited_pages": [
    6,
    12,
@@ -495,13 +513,14 @@
    130,
    131
   ],
-  "terms_ok": true,
+  "terms_ok": null,
   "forbidden_hit": [],
   "unverified_numbers": [
    "1.799",
    "39.6"
   ],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q1-revenue",
@@ -509,7 +528,7 @@
   "mode": "vector",
   "effective_mode": "vector",
   "model": "anthropic/claude-opus-5",
-  "passed": true,
+  "passed": false,
   "prompt_tokens": 20465,
   "completion_tokens": 588,
   "latency_s": 10.86,
@@ -531,7 +550,8 @@
   "unverified_numbers": [
    "189.7"
   ],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q2-growth",
@@ -562,7 +582,8 @@
   "terms_ok": true,
   "forbidden_hit": [],
   "unverified_numbers": [],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q3-risks",
@@ -587,7 +608,8 @@
   "terms_ok": true,
   "forbidden_hit": [],
   "unverified_numbers": [],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q4-profit",
@@ -595,7 +617,7 @@
   "mode": "vector",
   "effective_mode": "vector",
   "model": "anthropic/claude-opus-5",
-  "passed": true,
+  "passed": false,
   "prompt_tokens": 26840,
   "completion_tokens": 1230,
   "latency_s": 23.05,
@@ -623,7 +645,8 @@
    "39.6",
    "56.2"
   ],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q5-invest",
@@ -631,15 +654,17 @@
   "mode": "vector",
   "effective_mode": "vector",
   "model": "anthropic/claude-opus-5",
-  "passed": true,
+  "passed": false,
   "prompt_tokens": 63821,
   "completion_tokens": 1218,
   "latency_s": 22.48,
   "cost_usd": 0.6991,
   "answer": "**Инвестиционную рекомендацию годовой отчёт не даёт, и в контексте нет данных для оценки акции.** Ниже — только факты из отчёта.\n\n**Что выглядит сильным**\n- Выручка 1 441,1 млрд руб. в 2025 против 1 094,6 млрд руб. в 2024, +32% (стр. 12).\n- Скорр. EBITDA 280,8 млрд руб. против 188,6 млрд руб., рентабельность 19,5% против 17,2% (стр. 87); за 2022–2025 EBITDA выросла в 3,9 раза, рентабельность +5,6 п.п. (стр. 89).\n- Скорр. чистая прибыль 141,4 млрд руб. (стр. 21), рост более 40% (стр. 88).\n- Предложение о повышении дивидендов на 37,5%, до 110 руб. на акцию (стр. 88).\n- CAPEX 145,9 млрд руб., но доля от выручки снизилась с 11,4% до 10,1% (стр. 87).\n- Прогноз на 2026: рост выручки ~20%, скорр. EBITDA 350 млрд руб. (стр. 88).\n- Диверсификация: Городские сервисы 49,3%, Поисковые и ИИ 33,8%, Персональные 13,1%, Б2Б Тех 3,0% выручки (стр. 21); высокомаржинальное ядро — Поиск и портал с EBITDA 245,5 млрд руб. и рентабельностью 44,5% (стр. 91).\n\n**Что ограничивает**\n- Замедление ядра: Поисковые сервисы и ИИ +10% г/г, вклад в прирост выручки 14,8% (стр. 21), тогда как 61,2% прироста дают Городские сервисы (стр. 21).\n- Убыточные направления: e-commerce EBITDA −39,6 млрд руб. (улучшение с −56,2), Доставка и O2O −8,2 млрд руб. (ухудшение с −6,9) (стр. 92).\n- Крупные расходы на ИИ: 55 млрд руб. на Алису AI за год (стр. 91); CAPEX в 4кв2025 — 13% от выручки (стр. 88).\n- Корпоративное управление внедрено не в полном объёме: ряд принципов Кодекса «частично соблюдается» или «не соблюдается» (стр. 142, 164, 171, 177, 186, 199, 202). Плюс: 7 независимых директоров из 9 (стр. 156).\n\n**Чего в контексте нет** (обычно требуется для инвестиционного решения): долговая нагрузка и чистый долг, свободный денежный поток, отчёт о движении денежных средств, количество акций и free-float в цифрах, мультипликаторы и динамика котировок, дивидендная политика в формуле выплат (отмечено, что она не привязана к показателям отчётности — стр. 149), раздел риск-факторов. Без этих данных вывод о привлекательности вложения из отчёта не следует.\n\n---\nИнвестиционную рекомендацию я не даю: это требует лицензии и знания вашего горизонта, налоговой ситуации и допустимого риска, которых у меня нет. Выше собраны факторы за и против из самого отчёта, со страницами. Решение остаётся за вами.",
-  "values_ok": null,
-  "values_expected": [],
-  "pages_ok": null,
+  "values_ok": true,
+  "values_expected": [
+   1441.1
+  ],
+  "pages_ok": true,
   "cited_pages": [
    12,
    21,
@@ -652,7 +677,7 @@
    149,
    156
   ],
-  "terms_ok": true,
+  "terms_ok": null,
   "forbidden_hit": [],
   "unverified_numbers": [
    "39.6",
@@ -660,7 +685,8 @@
    "6.9",
    "8.2"
   ],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q6-segment",
@@ -668,7 +694,7 @@
   "mode": "vector",
   "effective_mode": "vector",
   "model": "anthropic/claude-opus-5",
-  "passed": true,
+  "passed": false,
   "prompt_tokens": 32267,
   "completion_tokens": 618,
   "latency_s": 10.8,
@@ -690,7 +716,8 @@
    "31.1",
    "34.1"
   ],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q7-ebitda",
@@ -698,7 +725,7 @@
   "mode": "vector",
   "effective_mode": "vector",
   "model": "anthropic/claude-opus-5",
-  "passed": true,
+  "passed": false,
   "prompt_tokens": 25229,
   "completion_tokens": 605,
   "latency_s": 10.78,
@@ -723,7 +750,8 @@
   "unverified_numbers": [
    "39.6"
   ],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q8-netprofit",
@@ -749,7 +777,8 @@
   "terms_ok": null,
   "forbidden_hit": [],
   "unverified_numbers": [],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q9-absent",
@@ -772,7 +801,8 @@
   "terms_ok": true,
   "forbidden_hit": [],
   "unverified_numbers": [],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q10-intersegment",
@@ -800,7 +830,8 @@
   "terms_ok": null,
   "forbidden_hit": [],
   "unverified_numbers": [],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q6-segment",
@@ -828,7 +859,8 @@
   "terms_ok": null,
   "forbidden_hit": [],
   "unverified_numbers": [],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q7-ebitda",
@@ -862,7 +894,8 @@
   "terms_ok": null,
   "forbidden_hit": [],
   "unverified_numbers": [],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q8-netprofit",
@@ -889,7 +922,8 @@
   "terms_ok": null,
   "forbidden_hit": [],
   "unverified_numbers": [],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q9-absent",
@@ -912,7 +946,8 @@
   "terms_ok": true,
   "forbidden_hit": [],
   "unverified_numbers": [],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  },
  {
   "id": "Q10-intersegment",
@@ -920,7 +955,7 @@
   "mode": "full",
   "effective_mode": "full",
   "model": "anthropic/claude-opus-5",
-  "passed": true,
+  "passed": false,
   "prompt_tokens": 206253,
   "completion_tokens": 863,
   "latency_s": 19.58,
@@ -945,6 +980,7 @@
    "34.1",
    "8.3"
   ],
-  "has_citations": true
+  "has_citations": true,
+  "verdict_leaked": false
  }
 ]

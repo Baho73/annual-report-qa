@@ -46,3 +46,46 @@ def test_notice_explains_instead_of_refusing():
 @pytest.mark.parametrize("verdict", ["покупайте", "продавайте", "рекомендую купить"])
 def test_notice_contains_no_verdict(verdict):
     assert verdict not in ADVICE_NOTICE.lower()
+
+
+# --- Второй рубеж: вердикт в тексте ответа ---
+# Проверка входа ловит намерение, проверка выхода — результат. Без второго
+# рубежа достаточно перефразировать вопрос, чтобы совет вышел без пометки.
+
+from report_qa.answer import has_verdict  # noqa: E402
+
+
+@pytest.mark.parametrize("text", [
+    "Рекомендую покупать акции компании",
+    "Акции стоит купить на горизонте года",
+    "Однозначно покупать",
+    "Покупайте, компания растёт",
+    "I recommend buying this stock",
+])
+def test_verdict_in_answer_detected(text):
+    assert has_verdict(text), f"вердикт не пойман: {text}"
+
+
+@pytest.mark.parametrize("text", [
+    "Выручка выросла на 32% (стр. 86)",
+    "Компания выделяет валютный и кредитный риск",
+    "Стоит отметить рост сегмента городских сервисов",
+    "Не рекомендую покупать без собственного анализа",
+])
+def test_factual_text_is_not_a_verdict(text):
+    assert not has_verdict(text), f"ложное срабатывание: {text}"
+
+
+def test_own_notice_does_not_trigger_detector():
+    """Собственный блок о границах не должен поднимать флаг на себя."""
+    assert not has_verdict(ADVICE_NOTICE)
+
+
+def test_paraphrased_question_bypasses_input_check():
+    """Честно фиксируем ограничение: список формулировок конечен.
+
+    Именно поэтому второй рубеж работает по тексту ответа, а не по вопросу.
+    """
+    sneaky = "Как вы оцениваете перспективы акций компании?"
+    assert not is_advice_request(sneaky)
+    assert has_verdict("Перспективы отличные, рекомендую покупать")

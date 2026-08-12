@@ -77,11 +77,16 @@ def score(question: dict, answer) -> dict:
     forbidden = question.get("forbid_terms") or []
     forbidden_hit = [t for t in forbidden if t.lower() in text.lower()]
 
-    # Для вопроса про отсутствующие данные любое число в ответе подозрительно.
-    if question.get("forbid_values_any"):
-        values_ok = not text_values
+    # Вопрос-отказ: ответ обязан содержать признание, что данных нет.
+    # Проверяется явная формулировка отсутствия, а не отсутствие чисел:
+    # числа из контекста в объяснении границы — правильное поведение.
+    if question.get("require_refusal"):
+        refusal_markers = ("не приводит", "не раскрыв", "нет данных", "не содержит",
+                           "таких данных нет", "не указан", "не приводится", "отсутству")
+        terms_ok = bool(terms_ok) and any(m in text.lower() for m in refusal_markers)
 
     return {
+        "verdict_leaked": bool(getattr(answer, "verdict_leaked", False)),
         "values_ok": values_ok,
         "values_expected": expected,
         "pages_ok": pages_ok,
@@ -94,8 +99,18 @@ def score(question: dict, answer) -> dict:
 
 
 def _passed(card: dict) -> bool:
+    """Вопрос пройден, если ни одна проверка не провалена.
+
+    Число в ответе, которого нет в поданном контексте, считается провалом:
+    иначе флаг вычисляется, показывается в отчёте и ни на что не влияет —
+    ровно та болезнь, которую проект называет своим главным уроком.
+    """
     checks = [card["values_ok"], card["pages_ok"], card["terms_ok"]]
-    return all(c is not False for c in checks) and not card["forbidden_hit"]
+    if any(c is False for c in checks):
+        return False
+    if card["forbidden_hit"] or card.get("verdict_leaked"):
+        return False
+    return not card.get("unverified_numbers")
 # END_BLOCK_SCORING
 
 
@@ -274,6 +289,7 @@ def rescore():
         if not question:
             continue
         fake = SimpleNamespace(
+            verdict_leaked=row.get("verdict_leaked", False),
             text=row["answer"],
             cited_pages=row.get("cited_pages") or [],
             unverified_numbers=row.get("unverified_numbers") or [],

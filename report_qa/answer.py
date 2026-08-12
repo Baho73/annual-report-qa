@@ -16,7 +16,9 @@
 #   Answer - результат: текст, цитаты, флаги, режим, токены, задержка, цена
 #   ask - полный цикл ответа на вопрос в выбранном режиме
 #   extract_citations - номера страниц, на которые сослался ответ
-#   is_advice_request - детектор запроса инвестиционной рекомендации
+#   is_advice_request - детектор запроса рекомендации по тексту вопроса
+#   has_verdict - детектор вердикта в тексте ответа, второй рубеж
+#   ADVICE_NOTICE - блок о границах, добавляемый при срабатывании любого рубежа
 #   ADVICE_NOTICE - блок про границы ответственности, добавляемый к такому ответу
 #   check_numbers - числа ответа, которых нет в поданном контексте
 #   numbers_in - все числа строки в нормализованном виде
@@ -30,7 +32,7 @@ from report_qa import llm
 from report_qa.context import SYSTEM_PROMPT, build
 
 __all__ = [
-    "Answer", "ask", "extract_citations", "is_advice_request",
+    "Answer", "ask", "extract_citations", "is_advice_request", "has_verdict",
     "ADVICE_NOTICE", "check_numbers", "numbers_in",
 ]
 
@@ -47,6 +49,19 @@ _ADVICE_RE = re.compile(
     re.I,
 )
 
+# Вердикт в ответе: рекомендация действия, а не изложение факта.
+# Отрицания («не рекомендую давать советы», «не даю рекомендаций») отсеиваются
+# отдельно, иначе собственный дисклеймер системы поднимал бы её же флаг.
+_VERDICT_RE = re.compile(
+    r"(?<!не )(рекомендую|советую|стоит|следует)\s+(купить|покупать|продать|продавать|инвестировать|вкладывать)"
+    r"|(?<!не )(покупайте|продавайте|инвестируйте)"
+    r"|(хорош\w+|отличн\w+|плох\w+)\s+(момент|время)\s+для\s+(покупк|входа|инвестиц)"
+    r"|(акци\w+|бумаг\w+)\s+(стоит|следует)\s+(купить|покупать|брать)"
+    r"|однозначно\s+(да|нет|покупать|продавать)"
+    r"|i\s+(recommend|advise)\s+(buying|to\s+buy)",
+    re.I,
+)
+
 ADVICE_NOTICE = (
     "\n\n---\n"
     "Инвестиционную рекомендацию я не даю: это требует лицензии и знания вашего "
@@ -57,16 +72,39 @@ ADVICE_NOTICE = (
 
 
 def is_advice_request(question: str) -> bool:
-    """Запрос на оценку «покупать или нет», а не на факт из отчёта."""
+    """Запрос на оценку «покупать или нет», а не на факт из отчёта.
+
+    Список формулировок конечен, поэтому перефразированный вопрос эту
+    проверку обходит. Второй рубеж — has_verdict по тексту ответа.
+    """
     return bool(_ADVICE_RE.search(question or ""))
+
+
+def has_verdict(answer_text: str) -> bool:
+    """Вердикт в тексте ответа, независимо от того, как был задан вопрос.
+
+    Проверка входа ловит намерение, проверка выхода ловит результат. Без
+    второго рубежа достаточно спросить «как оцениваете перспективы акций»,
+    чтобы совет вышел наружу без единой пометки.
+    """
+    return bool(_VERDICT_RE.search(answer_text or ""))
 # END_BLOCK_GUARD
 
 
 # START_BLOCK_NUMCHECK
-_NUM_RE = re.compile(r"-?\d[\d   ]*(?:[.,]\d+)?")
-# Годы и номера страниц числами не считаются: они дают ложные срабатывания.
+# Пробел считается разделителем тысяч только перед ровно тремя цифрами.
+# Жадный класс склеивал соседние числа: «2025 4 582,5» давало 20254582.5,
+# и проверка сама порождала «неподтверждённое» число, которого в ответе нет.
+_NUM_RE = re.compile(
+    r"-?\d{1,3}(?:[    ]\d{3})+(?:[.,]\d+)?"
+    r"|-?\d+(?:[.,]\d+)?"
+)
+# Годы числами не считаются: дают ложные срабатывания. Оговорка: под это
+# правило попадают и настоящие величины в диапазоне 1900-2099.
 _YEAR_RE = re.compile(r"^(19|20)\d{2}$")
-_PAGE_CITE_RE = re.compile(r"стр\.?\s*\d+", re.I)
+# Ссылки на страницы вырезаются целиком, включая диапазоны «стр. 86-88»:
+# иначе хвост «-88» становился отдельным числом и уезжал в неподтверждённые.
+_PAGE_CITE_RE = re.compile(r"стр\.?\s*\d{1,3}(?:\s*[-–—]\s*\d{1,3})?", re.I)
 
 
 def _values_in(text: str):
@@ -141,6 +179,7 @@ class Answer:
     section_ids: List[str] = field(default_factory=list)
     unverified_numbers: List[str] = field(default_factory=list)
     advice_guarded: bool = False
+    verdict_leaked: bool = False
     prompt_tokens: int = 0
     completion_tokens: int = 0
     latency_s: float = 0.0
@@ -168,9 +207,18 @@ def ask(
     result = llm.call(ctx.prompt, role="answer", system=SYSTEM_PROMPT, model=model)
 
     text = result.text
-    guarded = is_advice_request(question)
+    # Два независимых рубежа: намерение в вопросе и результат в ответе.
+    # Второй срабатывает даже когда вопрос перефразирован так, что первый молчит.
+    verdict_leaked = has_verdict(result.text)
+    guarded = is_advice_request(question) or verdict_leaked
     if guarded:
         text = text + ADVICE_NOTICE
+    if verdict_leaked:
+        text = (
+            "**Внимание: в ответе ниже обнаружена формулировка, похожая на "
+            "инвестиционную рекомендацию. Это не рекомендация, см. блок о границах "
+            "в конце.**\n\n" + text
+        )
 
     return Answer(
         text=text,
@@ -180,6 +228,7 @@ def ask(
         section_ids=ctx.section_ids,
         unverified_numbers=check_numbers(result.text, ctx.prompt),
         advice_guarded=guarded,
+        verdict_leaked=verdict_leaked,
         prompt_tokens=result.prompt_tokens,
         completion_tokens=result.completion_tokens,
         latency_s=result.latency_s,

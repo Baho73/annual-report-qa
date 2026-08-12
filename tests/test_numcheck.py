@@ -54,3 +54,26 @@ def test_empty_context_flags_everything():
 
 def test_numbers_in_normalizes():
     assert numbers_in("1 441,1 и 1441.10") == {"1441.1"}
+
+
+def test_adjacent_numbers_are_not_glued():
+    """«2025 4 582,5» — два числа, а не одно.
+
+    Жадный разбор склеивал их в 20254582.5, и проверка сама порождала
+    «неподтверждённое» число, которого в ответе нет.
+    """
+    assert check_numbers("В 2025 году 4 582,5 единиц", "контекст: 4582.5") == []
+
+
+def test_page_ranges_do_not_leak_numbers():
+    """«стр. 86-88» не должно давать число -88."""
+    assert check_numbers("Данные приведены (стр. 86-88)", CONTEXT) == []
+
+
+def test_thousand_separators_still_work():
+    assert numbers_in("1 441 100") == {"1441100"}
+
+
+def test_real_invention_still_caught():
+    """Смягчения разбора не должны глушить настоящую выдумку."""
+    assert check_numbers("Рост составил 39,6%", CONTEXT) == ["39.6"]
