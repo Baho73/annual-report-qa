@@ -1,0 +1,52 @@
+<GraceVerificationDocument graceVersion="4.0">
+  <VD-PREP>
+    <V-M-CONFIG>
+      <Priority>low</Priority>
+      <Command>pytest tests/test_config.py</Command>
+      <Scenario>success: пути к PDF и артефактам разрешаются от корня проекта независимо от текущей директории.</Scenario>
+      <Scenario>failure: отсутствие ключа OpenRouter даёт понятную ошибку при первом вызове модели, а не при импорте.</Scenario>
+    </V-M-CONFIG>
+    <V-M-NUM>
+      <Priority>high</Priority>
+      <Command>pytest tests/test_num.py</Command>
+      <Scenario>success: «(1 234,5)» даёт -1234.5 — скобки означают минус.</Scenario>
+      <Scenario>success: «1 234 567» с обычным и неразрывным пробелом даёт 1234567.</Scenario>
+      <Scenario>success: «12,3%» даёт 12.3 и единицу «%».</Scenario>
+      <Scenario>success: «1 441,1» при шапке «млрд руб.» даёт 1441.1 и единицу «млрд_руб».</Scenario>
+      <Scenario>failure: прочерк, «н/д» и пустая ячейка записи не создают.</Scenario>
+      <Scenario>success: сноска-звёздочка и цифровой индекс отсекаются от значения.</Scenario>
+    </V-M-NUM>
+    <V-M-PARSE>
+      <Priority>high</Priority>
+      <Command>pytest tests/test_parse.py</Command>
+      <Scenario>success: из закладок документа получается 9 разделов верхнего уровня и 33 второго.</Scenario>
+      <Scenario>success: границы страниц разделов не пересекаются, покрытие 1-201 без дыр.</Scenario>
+      <Scenario>success: раздел «Финансовые результаты» имеет границы 86-97, «Корпоративное управление» 103-125.</Scenario>
+      <Scenario>failure: PDF без закладок уходит на эвристику заголовков и не падает.</Scenario>
+    </V-M-PARSE>
+    <V-M-TABLES>
+      <Priority>high</Priority>
+      <Command>pytest tests/test_tables.py</Command>
+      <Scenario>success: каждая запись содержит непустые t, m, p, v, u, pg.</Scenario>
+      <Scenario>success: контрольные значения находятся — выручка 2025 равна 1441.1 на стр. 86, сегменты 551.2 / 804.5 / 214.3 / 48.2.</Scenario>
+      <Scenario>failure: нечисловые таблицы (оглавление, списки органов управления) записей не порождают.</Scenario>
+    </V-M-TABLES>
+    <V-M-VISION>
+      <Priority>high</Priority>
+      <Command>pytest tests/test_vision.py</Command>
+      <Evidence date="2026-08-12">Прогон 201 страницы, стоимость 8.47 доллара. 264 записи подтверждены двумя независимыми путями, расхождений 0, только парсер 2, только зрение 602. Литералы в коде устранены. Галлюцинаций нет: график котировок на стр. 128 помечен отсутствием чисел, точки не выдуманы.</Evidence>
+      <Scenario>success: записи со стр. 87, 89, 90, 91, 94, 96, 97 воспроизводятся автоматически, без литералов в коде.</Scenario>
+      <Scenario>success: страница без числовых данных (фото, текст, декор) даёт пустой список записей, и это не ошибка.</Scenario>
+      <Scenario>success: где парсер и зрение дали значение независимо, расхождение поднимает флаг вместо молчаливого выбора одного из них.</Scenario>
+      <Scenario>failure: модель не выдумывает точки на графике без числовых подписей.</Scenario>
+    </V-M-VISION>
+    <V-M-AGG>
+      <Priority>high</Priority>
+      <Command>pytest tests/test_agg.py</Command>
+      <Evidence date="2026-08-12">Сумма блоков 1630.9 против консолидированных 1441.1, расхождение 13.17 процента. Причина найдена в сносках стр. 21 и 87: блоковая выручка дана до коррекции на межсегментные расчёты 189.7 млрд. С коррекцией 1441.2 против 1441.1, остаток 0.007 процента — округление. Механизм поймал расхождение и потребовал объяснения.</Evidence>
+      <Scenario>success: сумма сегментов с учётом межсегментной коррекции сходится с консолидированным итогом в пределах 0.5 процента.</Scenario>
+      <Scenario>failure: искусственно испорченная запись (потерянная строка сегмента) поднимает флаг контрольной суммы.</Scenario>
+      <Scenario>success: вклад в прирост считается по сегментам и в сумме даёт общий прирост выручки.</Scenario>
+    </V-M-AGG>
+  </VD-PREP>
+</GraceVerificationDocument>

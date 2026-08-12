@@ -1,0 +1,34 @@
+<GraceVerificationIndex graceVersion="4.0">
+  <VerificationDocuments>
+    <VD-PREP>
+      <Path>verification/prep.xml</Path>
+      <Owns>
+        <V-M-CONFIG />
+        <V-M-NUM />
+        <V-M-PARSE />
+        <V-M-TABLES />
+        <V-M-VISION />
+        <V-M-AGG />
+      </Owns>
+    </VD-PREP>
+    <VD-ANSWER>
+      <Path>verification/answer.xml</Path>
+      <Owns>
+        <V-M-LLM />
+        <V-M-ROUTER />
+        <V-M-CONTEXT />
+        <V-M-ANSWER />
+        <V-M-GUARD />
+        <V-M-NUMCHECK />
+      </Owns>
+    </VD-ANSWER>
+    <VD-EVAL>
+      <Path>verification/eval.xml</Path>
+      <Owns>
+        <V-M-VECTOR />
+        <V-M-EVAL />
+        <V-M-UI />
+      </Owns>
+    </VD-EVAL>
+  </VerificationDocuments>
+</GraceVerificationIndex>

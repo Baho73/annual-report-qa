@@ -1,0 +1,34 @@
+<GraceGraphIndex graceVersion="4.0">
+  <GraphDocuments>
+    <GD-PREP>
+      <Path>graph/prep.xml</Path>
+      <Owns>
+        <M-CONFIG />
+        <M-NUM />
+        <M-PARSE />
+        <M-TABLES />
+        <M-VISION />
+        <M-AGG />
+      </Owns>
+    </GD-PREP>
+    <GD-ANSWER>
+      <Path>graph/answer.xml</Path>
+      <Owns>
+        <M-LLM />
+        <M-ROUTER />
+        <M-CONTEXT />
+        <M-ANSWER />
+        <M-GUARD />
+        <M-NUMCHECK />
+      </Owns>
+    </GD-ANSWER>
+    <GD-EVAL>
+      <Path>graph/eval.xml</Path>
+      <Owns>
+        <M-VECTOR />
+        <M-EVAL />
+        <M-UI />
+      </Owns>
+    </GD-EVAL>
+  </GraphDocuments>
+</GraceGraphIndex>

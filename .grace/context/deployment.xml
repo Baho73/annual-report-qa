@@ -1,0 +1,20 @@
+<GraceDeployment graceVersion="4.0">
+  <Applicability>applicable</Applicability>
+  <Scope>Локальный прототип. Продакшн-развёртывание вне области тестового задания.</Scope>
+  <Environments>
+    <E-LOCAL>Windows 11, Python 3.10+. Запуск демонстрации: streamlit run app.py. Подготовка данных: python -m report_qa.parse (один раз, офлайн).</E-LOCAL>
+  </Environments>
+  <Secrets>
+    <S-OPENROUTER>Ключ OpenRouter в переменной окружения OPENROUTER_API_KEY. В репозиторий не попадает, в файлы результатов не пишется.</S-OPENROUTER>
+  </Secrets>
+  <Artifacts>
+    <A-SECTIONS>data/sections.xml — разделы документа по встроенным закладкам</A-SECTIONS>
+    <A-TABLES>data/tables_merged.json — 868 записей, поля src (parser/vision/both) и confirmed</A-TABLES>
+    <A-INVENTORY>data/inventory.json — 470 объектов документа: 112 таблиц, 46 графиков, 81 инфографика</A-INVENTORY>
+    <A-PDF>data/*.pdf — исходники не коммитятся (27 МБ), ссылки в README</A-PDF>
+  </Artifacts>
+  <OperationalNotes>
+    <N-OFFLINE>Подготовка отделена от ответа во времени. Во время демонстрации PDF не открывается ни разу — это решение противоречия «два часа против максимума пользы».</N-OFFLINE>
+    <N-CACHE>Ответы vision-модели кэшированы постранично в build/vision_cache/; повторный прогон денег не стоит.</N-CACHE>
+  </OperationalNotes>
+</GraceDeployment>

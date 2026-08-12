@@ -1,0 +1,261 @@
+<GraceChangePlan graceVersion="4.0" status="approved">
+  <C-001>
+    <IntentSummary>Собрать ядро ассистента от разделов документа до заполненной матрицы замера. Данные разбора готовы, пишется код продукта.</IntentSummary>
+    <BaselineAssertions>
+      <MustExist>
+        <Value>M-CONFIG</Value>
+        <Value>M-PARSE</Value>
+        <Value>M-TABLES</Value>
+        <Value>M-AGG</Value>
+        <Value>M-ANSWER</Value>
+      </MustExist>
+    </BaselineAssertions>
+    <TargetAssertions>
+      <MustVerify>
+        <Module>M-NUM</Module>
+        <Module>M-PARSE</Module>
+        <Module>M-AGG</Module>
+        <Module>M-ROUTER</Module>
+        <Module>M-GUARD</Module>
+        <Module>M-NUMCHECK</Module>
+        <Module>M-EVAL</Module>
+      </MustVerify>
+      <MustPassCommand>
+        <Command>pytest tests/ -q</Command>
+      </MustPassCommand>
+    </TargetAssertions>
+    <DurableScope>
+      <GraphAnchors>
+        <M-CONFIG />
+        <M-NUM />
+        <M-PARSE />
+        <M-TABLES />
+        <M-AGG />
+        <M-LLM />
+        <M-ROUTER />
+        <M-CONTEXT />
+        <M-ANSWER />
+        <M-GUARD />
+        <M-NUMCHECK />
+        <M-VECTOR />
+        <M-EVAL />
+        <M-UI />
+      </GraphAnchors>
+      <VerificationAnchors>
+        <V-M-CONFIG />
+        <V-M-NUM />
+        <V-M-PARSE />
+        <V-M-TABLES />
+        <V-M-AGG />
+        <V-M-LLM />
+        <V-M-ROUTER />
+        <V-M-CONTEXT />
+        <V-M-ANSWER />
+        <V-M-GUARD />
+        <V-M-NUMCHECK />
+        <V-M-VECTOR />
+        <V-M-EVAL />
+        <V-M-UI />
+      </VerificationAnchors>
+      <ContextArtifact>requirements.xml</ContextArtifact>
+    </DurableScope>
+    <ObservedWriteScope>
+      <Glob>report_qa/**/*.py</Glob>
+      <Glob>tests/**/*.py</Glob>
+      <Glob>eval/**</Glob>
+      <File>app.py</File>
+      <File>requirements.txt</File>
+      <File>data/sections.json</File>
+      <File>data/aggregates.json</File>
+      <File>README.md</File>
+    </ObservedWriteScope>
+    <ImplementationPlan>
+
+      <T-001>
+        <Title>M-CONFIG: пути, ключ из окружения, модели по ролям, пороги</Title>
+        <DependsOn></DependsOn>
+        <AcceptanceCriteria>
+          <Criterion>Пути разрешаются от корня проекта независимо от текущей директории</Criterion>
+          <Criterion>Ключ OpenRouter читается из OPENROUTER_API_KEY; отсутствие даёт понятную ошибку при первом вызове модели, а не при импорте</Criterion>
+          <Criterion>Модели заданы по ролям: answer, router, vision, embeddings</Criterion>
+        </AcceptanceCriteria>
+        <Verification>
+          <Command>pytest tests/test_config.py -q</Command>
+        </Verification>
+      </T-001>
+
+      <T-002>
+        <Title>M-NUM: нормализация чисел финансовой отчётности</Title>
+        <DependsOn></DependsOn>
+        <AcceptanceCriteria>
+          <Criterion>«(1 234,5)» даёт -1234.5; скобки означают минус</Criterion>
+          <Criterion>Обычный и неразрывный пробел как разделитель тысяч удаляются</Criterion>
+          <Criterion>Единица измерения извлекается в отдельное поле</Criterion>
+          <Criterion>Прочерк, «н/д» и пустая ячейка записи не создают</Criterion>
+        </AcceptanceCriteria>
+        <Verification>
+          <Command>pytest tests/test_num.py -q</Command>
+        </Verification>
+      </T-002>
+
+      <T-003>
+        <Title>M-PARSE: разделы документа по встроенным закладкам в data/sections.json</Title>
+        <DependsOn>T-001</DependsOn>
+        <AcceptanceCriteria>
+          <Criterion>9 разделов верхнего уровня и 33 второго</Criterion>
+          <Criterion>Границы страниц не пересекаются, покрытие 1-201 без дыр</Criterion>
+          <Criterion>«Финансовые результаты» 86-97, «Корпоративное управление» 103-125</Criterion>
+          <Criterion>Артефакт data/sections.json содержит id, заголовок, уровень, границы, текст</Criterion>
+        </AcceptanceCriteria>
+        <Verification>
+          <Command>pytest tests/test_parse.py -q</Command>
+        </Verification>
+      </T-003>
+
+      <T-004>
+        <Title>M-AGG: агрегаты и контрольные суммы из tables_merged.json в код</Title>
+        <DependsOn>T-002</DependsOn>
+        <AcceptanceCriteria>
+          <Criterion>Прирост абсолютный и в процентах, доля сегмента, вклад в прирост считаются из данных при запуске</Criterion>
+          <Criterion>Сверка суммы сегментов с итогом воспроизводит известный результат: 1630.9 против 1441.1, с межсегментной коррекцией 189.7 расхождение 0.007 процента</Criterion>
+          <Criterion>Искусственно испорченная запись поднимает флаг контрольной суммы</Criterion>
+        </AcceptanceCriteria>
+        <Verification>
+          <Command>pytest tests/test_agg.py -q</Command>
+        </Verification>
+      </T-004>
+
+      <T-005>
+        <Title>M-LLM: слой OpenRouter с timeout, счётчиком токенов и замером задержки</Title>
+        <DependsOn>T-001</DependsOn>
+        <AcceptanceCriteria>
+          <Criterion>Каждый вызов уходит с timeout</Criterion>
+          <Criterion>Возвращаются использование токенов и замеренная задержка</Criterion>
+          <Criterion>Недоступность провайдера даёт понятную ошибку, а не тихий пустой ответ</Criterion>
+        </AcceptanceCriteria>
+        <Verification>
+          <Command>pytest tests/test_llm.py -q</Command>
+        </Verification>
+      </T-005>
+
+      <T-006>
+        <Title>M-CONTEXT: сборка промпта, разделы XML-тегами, числа JSON-блоком</Title>
+        <DependsOn><T-003 /><T-004 /></DependsOn>
+        <AcceptanceCriteria>
+          <Criterion>Разделы обёрнуты тегами с идентификатором и диапазоном страниц</Criterion>
+          <Criterion>JSON с таблицами и агрегатами присутствует при любом режиме</Criterion>
+          <Criterion>Текст раздела не экранируется и попадает в промпт как есть</Criterion>
+        </AcceptanceCriteria>
+        <Verification>
+          <Command>pytest tests/test_context.py -q</Command>
+        </Verification>
+      </T-006>
+
+      <T-007>
+        <Title>M-ANSWER: первый ответ end-to-end в режиме полного контекста</Title>
+        <DependsOn><T-005 /><T-006 /></DependsOn>
+        <AcceptanceCriteria>
+          <Criterion>Пять вопросов задания получают ответ; каждое число сопровождается страницей</Criterion>
+          <Criterion>При отсутствии данных выдаётся явный отказ с названием границы документа</Criterion>
+          <Criterion>Возвращаются текст, цитаты, режим, токены, задержка</Criterion>
+        </AcceptanceCriteria>
+        <Verification>
+          <Command>python eval/run_eval.py --quick</Command>
+        </Verification>
+      </T-007>
+
+      <T-008>
+        <Title>M-NUMCHECK: проверка чисел ответа против поданного контекста</Title>
+        <DependsOn>T-007</DependsOn>
+        <AcceptanceCriteria>
+          <Criterion>Число, отсутствующее в контексте, поднимает флаг и попадает в отчёт ответа</Criterion>
+          <Criterion>Проверка устойчива к формату: 1441,1 и 1441.1 и «1 441,1» считаются одним числом</Criterion>
+          <Criterion>Годы и номера страниц не дают ложных срабатываний</Criterion>
+        </AcceptanceCriteria>
+        <Verification>
+          <Command>pytest tests/test_numcheck.py -q</Command>
+        </Verification>
+      </T-008>
+
+      <T-009>
+        <Title>M-GUARD: границы ответственности на инвестиционном вопросе</Title>
+        <DependsOn>T-007</DependsOn>
+        <AcceptanceCriteria>
+          <Criterion>Запрос рекомендации распознаётся</Criterion>
+          <Criterion>Ответ содержит факторы за и против с цифрами и страницами</Criterion>
+          <Criterion>Ответ не содержит вердикта «покупать», «продавать», «рекомендую» ни в какой форме</Criterion>
+        </AcceptanceCriteria>
+        <Verification>
+          <Command>pytest tests/test_guard.py -q</Command>
+        </Verification>
+      </T-009>
+
+      <T-010>
+        <Title>M-ROUTER: выбор разделов по оглавлению</Title>
+        <DependsOn>T-006</DependsOn>
+        <AcceptanceCriteria>
+          <Criterion>Вопросы про выручку и рост сегментов дают «Финансовые результаты»</Criterion>
+          <Criterion>Вопрос про риски даёт «Корпоративное управление»</Criterion>
+          <Criterion>Вопрос про инвестиции возвращает признак «нужен весь документ»</Criterion>
+          <Criterion>Низкая уверенность расширяет набор, а не сужает</Criterion>
+        </AcceptanceCriteria>
+        <Verification>
+          <Command>pytest tests/test_router.py -q</Command>
+        </Verification>
+      </T-010>
+
+      <T-011>
+        <Title>eval/questions.yaml: десять вопросов с эталонами</Title>
+        <DependsOn>T-004</DependsOn>
+        <AcceptanceCriteria>
+          <Criterion>Пять вопросов задания плюс пять на отказы и границы</Criterion>
+          <Criterion>Эталоны числовых ответов взяты из записей, подтверждённых двумя независимыми путями; не менее трёх выписаны вручную из PDF для независимости</Criterion>
+          <Criterion>Каждый вопрос несёт ожидаемую страницу источника</Criterion>
+        </AcceptanceCriteria>
+        <Verification>
+          <Command>python -c "import yaml,io;d=yaml.safe_load(io.open('eval/questions.yaml',encoding='utf-8'));assert len(d['questions'])>=10"</Command>
+        </Verification>
+      </T-011>
+
+      <T-012>
+        <Title>M-VECTOR: добросовестная векторная ветка для замера</Title>
+        <DependsOn>T-003</DependsOn>
+        <AcceptanceCriteria>
+          <Criterion>Чанки режутся по разделам, таблица попадает в чанк целиком</Criterion>
+          <Criterion>Заголовок и страница лежат в тексте чанка, а не только в метаданных</Criterion>
+          <Criterion>Числовой запрос задействует лексическую ветку, а не только плотную</Criterion>
+        </AcceptanceCriteria>
+        <Verification>
+          <Command>pytest tests/test_vector.py -q</Command>
+        </Verification>
+      </T-012>
+
+      <T-013>
+        <Title>M-EVAL: прогон трёх режимов и заполнение матрицы в README</Title>
+        <DependsOn><T-008 /><T-009 /><T-010 /><T-011 /><T-012 /></DependsOn>
+        <AcceptanceCriteria>
+          <Criterion>Десять вопросов прогоняются через три режима</Criterion>
+          <Criterion>Фиксируются точность числа, наличие и верность страницы, токены, задержка, цена</Criterion>
+          <Criterion>Матрица в README заполнена измеренными значениями вместо прочерков</Criterion>
+        </AcceptanceCriteria>
+        <Verification>
+          <Command>python eval/run_eval.py</Command>
+        </Verification>
+      </T-013>
+
+      <T-014>
+        <Title>M-UI: демонстрация на Streamlit</Title>
+        <DependsOn><T-009 /><T-010 /></DependsOn>
+        <AcceptanceCriteria>
+          <Criterion>Приложение поднимается одной командой и отвечает на вопрос</Criterion>
+          <Criterion>Под ответом доступен блок с номерами страниц и заголовками разделов</Criterion>
+          <Criterion>Переключатель режима меняет режим, и это видно в выводе</Criterion>
+        </AcceptanceCriteria>
+        <Verification>
+          <Command>streamlit run app.py</Command>
+        </Verification>
+      </T-014>
+
+    </ImplementationPlan>
+  </C-001>
+</GraceChangePlan>

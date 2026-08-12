@@ -1,0 +1,50 @@
+<GraceVerificationDocument graceVersion="4.0">
+  <VD-ANSWER>
+    <V-M-LLM>
+      <Priority>medium</Priority>
+      <Command>pytest tests/test_llm.py</Command>
+      <Scenario>success: каждый вызов уходит с timeout; отсутствие timeout считается дефектом.</Scenario>
+      <Scenario>success: возвращается использование токенов и замеренная задержка.</Scenario>
+      <Scenario>failure: недоступность провайдера даёт понятную ошибку, а не тихий пустой ответ.</Scenario>
+    </V-M-LLM>
+    <V-M-ROUTER>
+      <Priority>high</Priority>
+      <Command>pytest tests/test_router.py</Command>
+      <Scenario>success: вопрос про выручку и вопрос про рост сегментов дают раздел «Финансовые результаты».</Scenario>
+      <Scenario>success: вопрос про основные риски даёт раздел «Корпоративное управление».</Scenario>
+      <Scenario>success: вопрос «стоит ли инвестировать» возвращает признак «нужен весь документ».</Scenario>
+      <Scenario>success: низкая уверенность расширяет набор разделов, а не сужает.</Scenario>
+      <Scenario>failure: роутер не возвращает пустой список — минимальный ответ это один раздел либо признак полного контекста.</Scenario>
+    </V-M-ROUTER>
+    <V-M-CONTEXT>
+      <Priority>medium</Priority>
+      <Command>pytest tests/test_context.py</Command>
+      <Scenario>success: разделы обёрнуты XML-тегами с идентификатором и диапазоном страниц.</Scenario>
+      <Scenario>success: JSON с таблицами и агрегатами присутствует при любом режиме, включая режим роутера.</Scenario>
+      <Scenario>success: текст раздела не экранируется и попадает в промпт как есть.</Scenario>
+    </V-M-CONTEXT>
+    <V-M-ANSWER>
+      <Priority>high</Priority>
+      <Command>python eval/run_eval.py --quick</Command>
+      <Scenario>success: ответ на вопрос про выручку содержит 1441,1 и ссылку на страницу 86 либо 21.</Scenario>
+      <Scenario>success: вопрос про бизнес-риски, заданный к отчётности МСФО, даёт явный отказ с названием границы документа, а не досочинённый ответ про конкуренцию и регулирование.</Scenario>
+      <Scenario>failure: ответ без единой ссылки на страницу считается непройденным сценарием.</Scenario>
+    </V-M-ANSWER>
+    <V-M-GUARD>
+      <Priority>high</Priority>
+      <Command>pytest tests/test_guard.py</Command>
+      <Scenario>success: запрос «стоит ли инвестировать» распознаётся как запрос рекомендации.</Scenario>
+      <Scenario>success: ответ на такой запрос содержит факторы за и против с цифрами и страницами.</Scenario>
+      <Scenario>failure: ответ не содержит вердикта «покупать», «продавать», «рекомендую» ни в какой форме.</Scenario>
+      <Scenario>success: запрос «какие факторы за и против» отвечается полностью, без срабатывания ограничения.</Scenario>
+    </V-M-GUARD>
+    <V-M-NUMCHECK>
+      <Priority>high</Priority>
+      <Command>pytest tests/test_numcheck.py</Command>
+      <Scenario>success: число, присутствующее в поданном контексте, проверку проходит.</Scenario>
+      <Scenario>failure: число, отсутствующее в контексте, поднимает флаг и попадает в отчёт ответа.</Scenario>
+      <Scenario>success: проверка устойчива к формату — 1441,1 и 1441.1 и «1 441,1» считаются одним числом.</Scenario>
+      <Scenario>success: годы и номера страниц не дают ложных срабатываний.</Scenario>
+    </V-M-NUMCHECK>
+  </VD-ANSWER>
+</GraceVerificationDocument>

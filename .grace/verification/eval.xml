@@ -1,0 +1,27 @@
+<GraceVerificationDocument graceVersion="4.0">
+  <VD-EVAL>
+    <V-M-VECTOR>
+      <Priority>medium</Priority>
+      <Command>pytest tests/test_vector.py</Command>
+      <Scenario>success: чанк не рвёт таблицу — таблица попадает в один чанк целиком.</Scenario>
+      <Scenario>success: заголовок раздела и номер страницы присутствуют в тексте чанка, а не только в метаданных.</Scenario>
+      <Scenario>success: поиск числового запроса задействует лексическую ветку, а не только плотную.</Scenario>
+      <Scenario>failure: индекс, построенный нарезкой по фиксированному размеру, считается недобросовестной реализацией и не допускается в замер.</Scenario>
+    </V-M-VECTOR>
+    <V-M-EVAL>
+      <Priority>high</Priority>
+      <Command>python eval/run_eval.py</Command>
+      <Scenario>success: десять вопросов прогоняются через три режима, таблица результатов формируется.</Scenario>
+      <Scenario>success: по каждому ответу фиксируются точность числа, наличие и верность страницы, токены, задержка, цена.</Scenario>
+      <Scenario>success: эталоны загружаются из questions.yaml и не берутся из ответов системы.</Scenario>
+      <Scenario>failure: прогон с недоступной моделью останавливается с понятной ошибкой, а не записывает нули как результат.</Scenario>
+    </V-M-EVAL>
+    <V-M-UI>
+      <Priority>low</Priority>
+      <Command>streamlit run app.py</Command>
+      <Scenario>success: приложение поднимается одной командой и отвечает на вопрос.</Scenario>
+      <Scenario>success: под ответом доступен блок с номерами страниц и заголовками разделов.</Scenario>
+      <Scenario>success: переключатель режима поиска меняет режим и это видно в выводе.</Scenario>
+    </V-M-UI>
+  </VD-EVAL>
+</GraceVerificationDocument>

@@ -1,0 +1,31 @@
+<GraceTechnology graceVersion="4.0">
+  <Language>Python 3.10+</Language>
+  <Runtime>CPython 3.10+, Windows 11 (разработка). Кодировка UTF-8 принудительно: PYTHONUTF8=1, encoding="utf-8" во всех файловых операциях</Runtime>
+  <Framework>Streamlit для демонстрации; PyMuPDF (fitz) и pdfplumber для разбора PDF; pandas для агрегатов; OpenRouter как единая точка к моделям</Framework>
+  <TestingStack>pytest для модулей нормализации и агрегатов; eval/run_eval.py как основной инструмент проверки качества ответов (10 вопросов с эталонами, три режима поиска)</TestingStack>
+  <Observability>Счётчик токенов и замер задержки на каждом вызове модели; поле src в каждой записи данных (parser / vision / both) для прослеживаемости происхождения числа</Observability>
+  <Models>
+    <M-ANSWER-MODEL>anthropic/claude-opus-5 — окно 1M, документ 120-175k токенов входит с запасом. Дефолт намеренно избыточен: сначала доказываем, что задача решается, оптимизация после</M-ANSWER-MODEL>
+    <M-ROUTER-MODEL>дешёвая быстрая модель: роутеру подаётся только оглавление, 2-3k токенов</M-ROUTER-MODEL>
+    <M-VISION-MODEL>anthropic/claude-opus-5 — прогон 201 страницы обошёлся в 8.47 доллара</M-VISION-MODEL>
+  </Models>
+  <RetrievalStrategies>
+    <S-FULL>Полный контекст: документ целиком, кэш префикса. Ноль потерь на чанкинге, multi-hop работает штатно. Порядка 175k токенов на вопрос</S-FULL>
+    <S-ROUTER>Маршрутизация по разделам: роутер читает оглавление и выбирает разделы, в большую модель уходит 7-15k. Не RAG: единица выборки — смысловой раздел с границами страниц, таблицы не рвутся</S-ROUTER>
+    <S-VECTOR>Векторный поиск как контрольная ветка замера. Условие честности: чанки по разделам, таблица целиком в чанк, заголовок и страница в тексте чанка, top-8, гибрид с BM25. Соломенное чучело обесценивает сравнение</S-VECTOR>
+  </RetrievalStrategies>
+  <OperationalConstraints>
+    <Constraint>Любой исходящий HTTP только с timeout</Constraint>
+    <Constraint>Ключ OpenRouter из переменной окружения, в репозиторий не попадает</Constraint>
+    <Constraint>fast-варианты моделей только там, где пользователь ждёт ответ. Пакетная обработка идёт на обычной модели: пилот vision на claude-opus-5-fast прогнозировал 23 доллара, обычная модель дала те же данные за 8.47</Constraint>
+    <Constraint>Числа проходят нормализацию до попадания в JSON: скобки означают минус, пробел и U+00A0 — разделители тысяч, запятая — десятичный разделитель, единица измерения выносится в отдельное поле</Constraint>
+    <Constraint>Исходные PDF (27 МБ) не коммитятся, доступны по ссылкам из README</Constraint>
+  </OperationalConstraints>
+  <RejectedTechnology>
+    <R-DOCLING>Docling: тянет layout-модели и время старта. У документа есть закладки и текстовый слой, при двухчасовом лимите риск не окупается. На растровых графиках не помог бы всё равно</R-DOCLING>
+    <R-PYPDF>pypdf, pdfminer: плоский текст, таблица разваливается в кашу из чисел</R-PYPDF>
+    <R-LLAMAPARSE>LlamaParse: облако, платно, зависимость от сети во время защиты</R-LLAMAPARSE>
+    <R-LOCAL-LLM>Локальная LLM и Ollama: время инференса на 175k контекста не укладывается в демонстрацию</R-LOCAL-LLM>
+    <R-FASTAPI-REACT>FastAPI плюс React: час работы ради того же результата. Защита это демонстрация, а не витрина фронтенда</R-FASTAPI-REACT>
+  </RejectedTechnology>
+</GraceTechnology>

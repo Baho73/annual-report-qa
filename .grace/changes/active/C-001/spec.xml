@@ -1,0 +1,58 @@
+<GraceChangeSpec graceVersion="4.0" status="approved">
+  <C-001>
+    <Summary>Собрать работающее ядро ассистента: разделы документа, агрегаты в коде, слой ответа с провенансом, маршрутизация по разделам, границы ответственности, замер трёх стратегий и демонстрационный интерфейс.</Summary>
+    <Problem>Данные разбора готовы (868 записей, 264 подтверждены двумя независимыми путями), но продукта нет: ни одного модуля кода не написано. Разделы документа не выделены, агрегаты существуют как разовый расчёт в отчёте агента, ответить на вопрос система не может.</Problem>
+    <Goals>
+      <Goal>Ответ на любой из пяти вопросов задания со ссылкой на страницу источника</Goal>
+      <Goal>Агрегаты и контрольные суммы пересчитываются из данных при каждом запуске, а не существуют как разовый расчёт</Goal>
+      <Goal>Три стратегии поиска прогоняются на общем наборе вопросов, матрица в README заполняется измеренными значениями</Goal>
+      <Goal>Демонстрация запускается одной командой</Goal>
+    </Goals>
+    <Constraints>
+      <Constraint>Арифметику считает код, модель формулирует вывод</Constraint>
+      <Constraint>Провенанс структурный: номер страницы приходит из данных, а не из послушности модели</Constraint>
+      <Constraint>Инвестиционный вердикт не выдаётся ни в какой форме</Constraint>
+      <Constraint>Любой исходящий HTTP с timeout; ключ из окружения</Constraint>
+      <Constraint>UTF-8 во всех файловых операциях, PYTHONUTF8=1 при запуске</Constraint>
+    </Constraints>
+    <NonGoals>
+      <NonGoal>Мультидокументность и обновление корпуса</NonGoal>
+      <NonGoal>Reranker, агент с инструментами, история диалога</NonGoal>
+      <NonGoal>Аутентификация, БД, мониторинг: это прототип, а не сервис</NonGoal>
+      <NonGoal>Повторный прогон vision: данные получены, кэш сохранён</NonGoal>
+    </NonGoals>
+    <AcceptanceCriteria>
+      <Criterion>Вопрос про выручку даёт 1441,1 со ссылкой на страницу</Criterion>
+      <Criterion>Вопрос про рост сегментов опирается на посчитанные кодом приросты, а не на счёт модели в уме</Criterion>
+      <Criterion>Вопрос про бизнес-риски, заданный к отчётности МСФО, даёт явный отказ с названием границы документа</Criterion>
+      <Criterion>Вопрос про инвестиции даёт факторы за и против без вердикта</Criterion>
+      <Criterion>Матрица «режим на модель» в README содержит измеренные значения вместо прочерков</Criterion>
+    </AcceptanceCriteria>
+    <AffectedAreas>
+      <M-CONFIG />
+      <M-NUM />
+      <M-PARSE />
+      <M-TABLES />
+      <M-AGG />
+      <M-LLM />
+      <M-ROUTER />
+      <M-CONTEXT />
+      <M-ANSWER />
+      <M-GUARD />
+      <M-NUMCHECK />
+      <M-VECTOR />
+      <M-EVAL />
+      <M-UI />
+    </AffectedAreas>
+    <VerificationIntent>
+      <ExpectedCommand>pytest tests/</ExpectedCommand>
+      <ExpectedCommand>python eval/run_eval.py</ExpectedCommand>
+      <ExpectedEvidence>Прогон десяти вопросов через три режима с зафиксированными точностью числа, наличием и верностью страницы, токенами, задержкой и ценой</ExpectedEvidence>
+    </VerificationIntent>
+    <Assumptions>
+      <Assumption>Документ 120-175 тысяч токенов входит в окно выбранной модели целиком</Assumption>
+      <Assumption>Данные в tables_merged.json пригодны как есть; повторный разбор PDF не требуется</Assumption>
+      <Assumption>Закладки PDF дают пригодную нарезку на разделы без ручной правки границ</Assumption>
+    </Assumptions>
+  </C-001>
+</GraceChangeSpec>
