@@ -7,11 +7,18 @@
   "budgetPercent": null,
   "checkpointMinutes": 30,
   "status": "active",
-  "commits": 10,
-  "escalations": 0,
+  "commits": 12,
+  "escalations": 2,
   "deferred": 0,
-  "lastTickAt": "2026-08-12T14:53:25.594Z",
+  "lastTickAt": "2026-08-12T15:06:45.717Z",
   "stopReason": null,
-  "openAsks": [],
+  "openAsks": [
+    {
+      "correlationId": "2448f8",
+      "messageId": 13,
+      "sentAt": "2026-08-12T14:58:56.061Z",
+      "title": "Бюджет прогона замера"
+    }
+  ],
   "answers": {}
 }

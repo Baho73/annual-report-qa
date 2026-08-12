@@ -19,6 +19,10 @@
 #   run_one - прогон одного вопроса в одном режиме
 #   run - прогон набора через выбранные режимы
 #   render_markdown - таблица результатов для README
+#   QUESTIONS_PATH - путь к набору вопросов с эталонами
+#   RESULTS_JSON - сырые результаты прогона
+#   RESULTS_MD - отчёт прогона в markdown
+#   rescore - пересчёт оценок по сохранённым ответам, без обращения к модели
 #   main - точка входа с аргументами командной строки
 # END_MODULE_MAP
 
@@ -228,3 +232,41 @@ def main():
 if __name__ == "__main__":
     main()
 # END_BLOCK_REPORT
+
+
+# START_BLOCK_RESCORE
+def rescore():
+    """Пересчёт оценок по сохранённым ответам, без обращения к модели.
+
+    Нужен, когда дефект найден в критерии, а не в системе: перегонять ответы
+    заново значило бы платить за исправление собственной меры.
+    """
+    from types import SimpleNamespace
+
+    with io.open(RESULTS_JSON, encoding="utf-8") as f:
+        rows = json.load(f)
+    questions = {q["id"]: q for q in load_questions()}
+
+    for row in rows:
+        if row.get("error") or "answer" not in row:
+            continue
+        question = questions.get(row["id"])
+        if not question:
+            continue
+        fake = SimpleNamespace(
+            text=row["answer"],
+            cited_pages=row.get("cited_pages") or [],
+            unverified_numbers=row.get("unverified_numbers") or [],
+            has_citations=bool(row.get("cited_pages")),
+        )
+        card = score(question, fake)
+        row.update(card)
+        row["passed"] = _passed(card)
+
+    with io.open(RESULTS_JSON, "w", encoding="utf-8") as f:
+        json.dump(rows, f, ensure_ascii=False, indent=1)
+    with io.open(RESULTS_MD, "w", encoding="utf-8") as f:
+        f.write(render_markdown(rows))
+    scored = [r for r in rows if not r.get("error")]
+    print(f"пересчитано: {sum(1 for r in scored if r['passed'])}/{len(scored)} пройдено")
+# END_BLOCK_RESCORE
