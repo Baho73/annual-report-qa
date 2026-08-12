@@ -1,11 +1,33 @@
-"""M-NUM / M-PARSE / M-TABLES / M-AGG: разбор документа и подготовка данных.
+"""M-NUM / M-PARSE / M-AGG: разбор документа и подготовка данных."""
 
-MODULE_CONTRACT:
-    PURPOSE: превратить PDF в смысловые разделы и числа, пригодные для вычислений.
-    SCOPE:   parse_number, extract_unit (M-NUM); build_sections (M-PARSE);
-             агрегаты и контрольные суммы (M-AGG).
-    DEPENDS: M-CONFIG.
-"""
+# FILE: report_qa/parse.py
+# VERSION: 1.0.0
+# START_MODULE_CONTRACT
+#   PURPOSE: превратить PDF в смысловые разделы и числа, пригодные для вычислений кодом.
+#   SCOPE: нормализация чисел финотчётности; разделы по встроенным закладкам; агрегаты и контрольные суммы.
+#   DEPENDS: M-CONFIG
+#   LINKS: M-NUM, M-PARSE, M-AGG, V-M-NUM, V-M-PARSE, V-M-AGG
+#   INPUTS: data/yandex_annual_report_2025.pdf, data/tables_merged.json
+#   OUTPUTS: data/sections.json, data/aggregates.json
+#   ROLE: RUNTIME
+#   MAP_MODE: EXPORTS
+# END_MODULE_CONTRACT
+#
+# START_MODULE_MAP
+#   parse_number - число из ячейки: скобки как минус, четыре вида пробелов, сноски до NFKC
+#   extract_unit - единица измерения из шапки таблицы или подписи оси
+#   parse_cell - пара значение и единица; пустая ячейка даёт (None, None)
+#   build_sections - разделы по 178 встроенным закладкам документа
+#   save_sections - запись разделов в data/sections.json
+#   load_sections - чтение разделов из артефакта
+#   toc_outline - оглавление для роутера, 2-3k токенов вместо 175k
+#   load_tables - чтение чисел длинного формата с провенансом
+#   total_revenue - консолидированная выручка периода, выбор по доверию к источнику
+#   compute_aggregates - приросты, доли, вклад в прирост; арифметика в коде, не в модели
+#   checksum_segments - сумма блоков против итога, детектор собственной ошибки разбора
+#   save_aggregates - запись агрегатов и контрольной суммы в data/aggregates.json
+#   TOP_SEGMENTS - блоки верхнего уровня сегментной отчётности
+# END_MODULE_MAP
 
 import json
 import re
@@ -13,6 +35,13 @@ import unicodedata
 from typing import List, Optional, Tuple
 
 from report_qa import config
+
+__all__ = [
+    "parse_number", "extract_unit", "parse_cell",
+    "build_sections", "save_sections", "load_sections", "toc_outline",
+    "load_tables", "total_revenue", "compute_aggregates", "checksum_segments",
+    "save_aggregates", "TOP_SEGMENTS",
+]
 
 # START_BLOCK_NUM_NORMALIZE
 # Пробелы, которыми в отчётности разделяют тысячи: обычный, неразрывный,

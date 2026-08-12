@@ -1,14 +1,43 @@
-"""M-CONFIG: пути, ключи, модели по ролям, пороги.
+"""M-CONFIG: пути, ключи, модели по ролям, пороги."""
 
-MODULE_CONTRACT:
-    PURPOSE: единственный источник путей к данным, ключа OpenRouter, имён моделей
-             по ролям и числовых порогов.
-    SCOPE:   BASE_DIR, пути к PDF и артефактам, MODELS, THRESHOLDS, api_key().
-    DEPENDS: none (корень графа).
-"""
+# FILE: report_qa/config.py
+# VERSION: 1.0.0
+# START_MODULE_CONTRACT
+#   PURPOSE: единственный источник путей к данным, ключа OpenRouter, имён моделей по ролям и числовых порогов.
+#   SCOPE: пути к PDF и артефактам, MODELS, THRESHOLDS, HTTP_TIMEOUT, api_key().
+#   DEPENDS: none
+#   LINKS: M-CONFIG, V-M-CONFIG
+#   ROLE: RUNTIME
+#   MAP_MODE: EXPORTS
+# END_MODULE_CONTRACT
+#
+# START_MODULE_MAP
+#   BASE_DIR - корень проекта, от него разрешаются все пути
+#   DATA_DIR - каталог данных и артефактов разбора
+#   BUILD_DIR - одноразовые скрипты и кэш vision-прохода
+#   EVAL_DIR - вопросы с эталонами и прогон замера
+#   PDF_PATH - рабочий документ: Годовой отчёт Яндекса 2025, 201 страница
+#   IFRS_PDF_PATH - контрольный пример: бизнес-рисков не содержит
+#   SECTIONS_JSON - разделы по встроенным закладкам
+#   TABLES_JSON - числа в длинном формате с провенансом
+#   AGGREGATES_JSON - приросты, доли, вклад в прирост, контрольные суммы
+#   INVENTORY_JSON - опись объектов документа: таблицы, графики, инфографика
+#   MODELS - модели по ролям: answer, router, vision, embeddings
+#   OPENROUTER_URL - единая точка входа к моделям
+#   HTTP_TIMEOUT - обязательный таймаут любого исходящего запроса
+#   THRESHOLDS - пороги: расхождение контрольной суммы, top_k, уверенность роутера
+#   api_key - ключ OpenRouter из окружения, ошибка при вызове, а не при импорте
+# END_MODULE_MAP
 
 import os
 from pathlib import Path
+
+__all__ = [
+    "BASE_DIR", "DATA_DIR", "BUILD_DIR", "EVAL_DIR",
+    "PDF_PATH", "IFRS_PDF_PATH",
+    "SECTIONS_JSON", "TABLES_JSON", "AGGREGATES_JSON", "INVENTORY_JSON",
+    "MODELS", "OPENROUTER_URL", "HTTP_TIMEOUT", "THRESHOLDS", "api_key",
+]
 
 # START_BLOCK_PATHS
 BASE_DIR = Path(__file__).resolve().parent.parent
