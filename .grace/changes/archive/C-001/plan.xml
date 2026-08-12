@@ -1,6 +1,6 @@
-<GraceChangePlan graceVersion="4.0" status="approved">
+<GraceChangePlan graceVersion="4.0" status="superseded">
   <C-001>
-    <IntentSummary>Собрать ядро ассистента от разделов документа до заполненной матрицы замера. Данные разбора готовы, пишется код продукта.</IntentSummary>
+    <IntentSummary>Собрать ядро ассистента от разделов документа до заполненной матрицы замера. ВЫПОЛНЕНО ПОЛНОСТЬЮ 2026-08-12: все 14 задач закрыты, три режима поиска замерены на 10 вопросах, 139 тестов зелёные. Статус superseded — терминальная метка архива, а не признак отмены; фактический результат в README и eval/results.md.</IntentSummary>
     <BaselineAssertions>
       <MustExist>
         <Value>M-CONFIG</Value>
