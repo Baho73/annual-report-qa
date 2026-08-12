@@ -72,3 +72,20 @@ def test_empty_selection_falls_back_to_full():
 def test_system_prompt_states_the_rules():
     for rule in ("ТОЛЬКО", "стр.", "не нашёл" if "не нашёл" in SYSTEM_PROMPT else "не хватает"):
         assert rule in SYSTEM_PROMPT
+
+
+def test_nested_sections_deduplicated():
+    """Вложенный раздел не подаётся вместе с родителем: его текст уже там.
+
+    Первый прогон замера дал 251k токенов вместо 180k полного документа
+    именно из-за дублей — вся экономия роутера уходила в них.
+    """
+    sections = load_sections()
+    gov = next(s for s in sections if s["title"] == "Корпоративное управление")
+    inner = [s for s in sections
+             if s["level"] > 1 and gov["page_from"] <= s["page_from"] <= gov["page_to"]]
+    assert inner, "не нашлось вложенных разделов для проверки"
+
+    ctx = build("Вопрос", mode="router", section_ids=[gov["id"]] + [s["id"] for s in inner])
+    assert ctx.section_ids == [gov["id"]]
+    assert ctx.approx_tokens < 40_000

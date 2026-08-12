@@ -102,6 +102,25 @@ def render_numbers(records: List[dict], aggregates: Optional[dict] = None) -> st
 
 
 # START_BLOCK_BUILD
+def _drop_nested(chosen: List[dict]) -> List[dict]:
+    """Убрать разделы, целиком лежащие внутри другого выбранного.
+
+    Текст вложенного раздела уже содержится в родителе, поэтому выбор обоих
+    удваивает контекст. Первый прогон дал 251k токенов вместо 180k полного
+    документа именно из-за этого: экономия роутера уходила в дубли.
+    """
+    ordered = sorted(chosen, key=lambda s: (s["page_from"], -(s["page_to"] - s["page_from"])))
+    kept: List[dict] = []
+    for section in ordered:
+        inside_other = any(
+            k["page_from"] <= section["page_from"] and section["page_to"] <= k["page_to"]
+            for k in kept
+        )
+        if not inside_other:
+            kept.append(section)
+    return kept
+
+
 def _load_aggregates() -> Optional[dict]:
     if not config.AGGREGATES_JSON.exists():
         return None
@@ -129,7 +148,7 @@ def build(
         chosen = [s for s in sections if s["level"] == 1]
     else:
         wanted = set(section_ids or [])
-        chosen = [s for s in sections if s["id"] in wanted]
+        chosen = _drop_nested([s for s in sections if s["id"] in wanted])
         if not chosen:
             # Пустая выборка означала бы ответ без источника. Падаем в полный
             # контекст: лишние токены дешевле неверного ответа.
