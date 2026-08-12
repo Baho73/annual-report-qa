@@ -24,3 +24,7 @@ venv/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Артефакты фонового прогона
+eval/run.log
+eval/run.pid
