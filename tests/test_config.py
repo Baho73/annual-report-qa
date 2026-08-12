@@ -15,8 +15,15 @@ def test_paths_resolve_from_project_root_not_cwd(tmp_path, monkeypatch):
     assert config.BASE_DIR.name == "test-4a"
 
 
+@pytest.mark.skipif(not config.PDF_PATH.exists(),
+                    reason="PDF не входит в репозиторий, ссылка на источник в README")
 def test_working_document_exists():
-    """Рабочий документ на месте: без него не собрать ни разделы, ни таблицы."""
+    """Рабочий документ на месте.
+
+    PDF весит 4.6 МБ и в репозиторий не коммитится. Артефакты разбора
+    (sections.json, tables_merged.json) лежат в data/, поэтому демо и замер
+    работают без исходника; повторный разбор требует скачать его по ссылке.
+    """
     assert config.PDF_PATH.exists(), f"нет файла {config.PDF_PATH}"
 
 

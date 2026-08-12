@@ -6,6 +6,11 @@
 
 ## Запуск
 
+Исходный PDF (4,6 МБ) в репозиторий не входит. Артефакты разбора лежат в `data/`,
+поэтому демонстрация и прогон замера работают сразу. PDF нужен только для
+повторного разбора — [скачать с сайта эмитента](https://yastatic.net/s3/ir-docs/prospectus/reports/2025/RUS_YANDEX_AR2025.pdf)
+и положить в `data/yandex_annual_report_2025.pdf`.
+
 ```bash
 pip install -r requirements.txt
 export OPENROUTER_API_KEY=...
