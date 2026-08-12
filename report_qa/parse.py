@@ -7,9 +7,12 @@ MODULE_CONTRACT:
     DEPENDS: M-CONFIG.
 """
 
+import json
 import re
 import unicodedata
-from typing import Optional, Tuple
+from typing import List, Optional, Tuple
+
+from report_qa import config
 
 # START_BLOCK_NUM_NORMALIZE
 # Пробелы, которыми в отчётности разделяют тысячи: обычный, неразрывный,
@@ -113,3 +116,92 @@ def parse_cell(raw: object, *unit_sources: object) -> Tuple[Optional[float], Opt
         return None, None
     return value, extract_unit(raw, *unit_sources)
 # END_BLOCK_NUM_NORMALIZE
+
+
+# START_BLOCK_SECTIONS
+def _slug(title: str, index: int) -> str:
+    """Устойчивый идентификатор раздела: латиница по возможности, иначе номер."""
+    base = re.sub(r"[^\w]+", "-", title.strip().lower(), flags=re.U).strip("-")
+    return f"s{index:03d}-{base[:40]}" if base else f"s{index:03d}"
+
+
+def build_sections(pdf_path=None) -> List[dict]:
+    """Разделы документа по встроенным закладкам.
+
+    Закладки проставлены автором отчёта — это готовая смысловая разметка, и
+    парсер оглавления писать не нужно. Единица выборки для роутера — раздел
+    с границами страниц, поэтому таблица внутри него не рвётся.
+    """
+    import fitz  # локальный импорт: тестам нормализации fitz не нужен
+
+    pdf_path = pdf_path or config.PDF_PATH
+    doc = fitz.open(pdf_path)
+    toc = doc.get_toc()
+    pages = [p.get_text() for p in doc]
+    total = doc.page_count
+
+    if not toc:
+        # Фолбэк для PDF без закладок: весь документ одним разделом.
+        # ponytail: эвристику по кеглю заголовков добавлять, когда встретится
+        # реальный документ без закладок.
+        return [{
+            "id": "s001-document", "title": "Документ", "level": 1,
+            "page_from": 1, "page_to": total,
+            "text": "\n".join(pages),
+        }]
+
+    sections = []
+    for i, (level, title, page) in enumerate(toc):
+        # Конец раздела — страница перед следующей закладкой того же или
+        # более высокого уровня.
+        page_to = total
+        for next_level, _, next_page in toc[i + 1:]:
+            if next_level <= level:
+                page_to = max(page, next_page - 1)
+                break
+        sections.append({
+            "id": _slug(title, i + 1),
+            "title": title.strip(),
+            "level": level,
+            "page_from": page,
+            "page_to": page_to,
+            "text": "\n".join(pages[page - 1:page_to]),
+        })
+    doc.close()
+    return sections
+
+
+def save_sections(sections: List[dict], path=None) -> None:
+    path = path or config.SECTIONS_JSON
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(sections, f, ensure_ascii=False, indent=1)
+
+
+def load_sections(path=None) -> List[dict]:
+    path = path or config.SECTIONS_JSON
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def toc_outline(sections: List[dict], max_level: int = 2) -> str:
+    """Оглавление для роутера: заголовки со страницами, без текста.
+
+    Роутеру подаётся 2-3k токенов вместо 175k, поэтому платить за интеллект
+    на этом шаге не за что.
+    """
+    lines = []
+    for s in sections:
+        if s["level"] <= max_level:
+            indent = "  " * (s["level"] - 1)
+            lines.append(f'{indent}{s["id"]} | {s["title"]} | стр. {s["page_from"]}-{s["page_to"]}')
+    return "\n".join(lines)
+# END_BLOCK_SECTIONS
+
+
+if __name__ == "__main__":
+    secs = build_sections()
+    save_sections(secs)
+    top = [s for s in secs if s["level"] == 1]
+    print(f"разделов: {len(secs)} (уровень 1: {len(top)})")
+    print(f"записано: {config.SECTIONS_JSON}")
