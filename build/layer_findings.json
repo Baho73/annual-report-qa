@@ -1,0 +1,10773 @@
+{
+ "overlaps": [
+  {
+   "pg": 17,
+   "frac": 1.0,
+   "text_block_idx": 12,
+   "img_block_idx": 9,
+   "text_bbox": [
+    92.9,
+    420.7,
+    546.8,
+    449.9
+   ],
+   "img_bbox": [
+    73.9,
+    394.0,
+    567.7,
+    483.4
+   ],
+   "text": "Диверсифицированная линейка бизнесов обеспечивает Компании устойчивый существенный  рост",
+   "img_covers_page": 0.088,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 17,
+   "frac": 1.0,
+   "text_block_idx": 12,
+   "img_block_idx": 10,
+   "text_bbox": [
+    92.9,
+    420.7,
+    546.8,
+    449.9
+   ],
+   "img_bbox": [
+    74.7,
+    398.5,
+    566.8,
+    478.9
+   ],
+   "text": "Диверсифицированная линейка бизнесов обеспечивает Компании устойчивый существенный  рост",
+   "img_covers_page": 0.079,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 17,
+   "frac": 1.0,
+   "text_block_idx": 12,
+   "img_block_idx": 11,
+   "text_bbox": [
+    92.9,
+    420.7,
+    546.8,
+    449.9
+   ],
+   "img_bbox": [
+    85.7,
+    409.5,
+    551.6,
+    463.7
+   ],
+   "text": "Диверсифицированная линейка бизнесов обеспечивает Компании устойчивый существенный  рост",
+   "img_covers_page": 0.05,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 21,
+   "frac": 0.936,
+   "text_block_idx": 63,
+   "img_block_idx": 62,
+   "text_bbox": [
+    563.8,
+    178.2,
+    585.6,
+    186.2
+   ],
+   "img_bbox": [
+    556.6,
+    178.7,
+    640.1,
+    218.5
+   ],
+   "text": "Райдтех",
+   "img_covers_page": 0.007,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 21,
+   "frac": 1.0,
+   "text_block_idx": 64,
+   "img_block_idx": 62,
+   "text_bbox": [
+    563.8,
+    190.5,
+    628.9,
+    198.6
+   ],
+   "img_bbox": [
+    556.6,
+    178.7,
+    640.1,
+    218.5
+   ],
+   "text": "Электронная коммерция",
+   "img_covers_page": 0.007,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 21,
+   "frac": 1.0,
+   "text_block_idx": 65,
+   "img_block_idx": 62,
+   "text_bbox": [
+    563.8,
+    199.8,
+    624.8,
+    215.2
+   ],
+   "img_bbox": [
+    556.6,
+    178.7,
+    640.1,
+    218.5
+   ],
+   "text": "Доставка и другие O2O- сервисы",
+   "img_covers_page": 0.007,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 21,
+   "frac": 0.967,
+   "text_block_idx": 67,
+   "img_block_idx": 66,
+   "text_bbox": [
+    563.8,
+    328.2,
+    629.3,
+    343.6
+   ],
+   "img_bbox": [
+    556.6,
+    328.7,
+    637.1,
+    374.9
+   ],
+   "text": "Плюс и развлекательные  сервисы",
+   "img_covers_page": 0.007,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 21,
+   "frac": 1.0,
+   "text_block_idx": 68,
+   "img_block_idx": 66,
+   "text_bbox": [
+    563.8,
+    345.9,
+    620.1,
+    369.5
+   ],
+   "img_bbox": [
+    556.6,
+    328.7,
+    637.1,
+    374.9
+   ],
+   "text": "Финансовые сервисы  Свои плюсы и другие  сервисы",
+   "img_covers_page": 0.007,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 16,
+   "img_block_idx": 13,
+   "text_bbox": [
+    105.3,
+    241.4,
+    189.3,
+    271.1
+   ],
+   "img_bbox": [
+    91.4,
+    232.1,
+    240.8,
+    432.7
+   ],
+   "text": "Поиск и реклама",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 16,
+   "img_block_idx": 14,
+   "text_bbox": [
+    105.3,
+    241.4,
+    189.3,
+    271.1
+   ],
+   "img_bbox": [
+    94.6,
+    240.3,
+    238.2,
+    424.4
+   ],
+   "text": "Поиск и реклама",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 0.969,
+   "text_block_idx": 16,
+   "img_block_idx": 15,
+   "text_bbox": [
+    105.3,
+    241.4,
+    189.3,
+    271.1
+   ],
+   "img_bbox": [
+    96.6,
+    242.3,
+    232.0,
+    418.3
+   ],
+   "text": "Поиск и реклама",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 17,
+   "img_block_idx": 13,
+   "text_bbox": [
+    105.3,
+    279.1,
+    190.0,
+    293.8
+   ],
+   "img_bbox": [
+    91.4,
+    232.1,
+    240.8,
+    432.7
+   ],
+   "text": "• Яндекс Поиск",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 17,
+   "img_block_idx": 14,
+   "text_bbox": [
+    105.3,
+    279.1,
+    190.0,
+    293.8
+   ],
+   "img_bbox": [
+    94.6,
+    240.3,
+    238.2,
+    424.4
+   ],
+   "text": "• Яндекс Поиск",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 17,
+   "img_block_idx": 15,
+   "text_bbox": [
+    105.3,
+    279.1,
+    190.0,
+    293.8
+   ],
+   "img_bbox": [
+    96.6,
+    242.3,
+    232.0,
+    418.3
+   ],
+   "text": "• Яндекс Поиск",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 18,
+   "img_block_idx": 13,
+   "text_bbox": [
+    105.3,
+    301.2,
+    190.2,
+    315.8
+   ],
+   "img_bbox": [
+    91.4,
+    232.1,
+    240.8,
+    432.7
+   ],
+   "text": "• Яндекс Карты",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 18,
+   "img_block_idx": 14,
+   "text_bbox": [
+    105.3,
+    301.2,
+    190.2,
+    315.8
+   ],
+   "img_bbox": [
+    94.6,
+    240.3,
+    238.2,
+    424.4
+   ],
+   "text": "• Яндекс Карты",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 18,
+   "img_block_idx": 15,
+   "text_bbox": [
+    105.3,
+    301.2,
+    190.2,
+    315.8
+   ],
+   "img_bbox": [
+    96.6,
+    242.3,
+    232.0,
+    418.3
+   ],
+   "text": "• Яндекс Карты",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 13,
+   "text_bbox": [
+    105.3,
+    323.1,
+    199.5,
+    337.8
+   ],
+   "img_bbox": [
+    91.4,
+    232.1,
+    240.8,
+    432.7
+   ],
+   "text": "• Яндекс Браузер",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 14,
+   "text_bbox": [
+    105.3,
+    323.1,
+    199.5,
+    337.8
+   ],
+   "img_bbox": [
+    94.6,
+    240.3,
+    238.2,
+    424.4
+   ],
+   "text": "• Яндекс Браузер",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 15,
+   "text_bbox": [
+    105.3,
+    323.1,
+    199.5,
+    337.8
+   ],
+   "img_bbox": [
+    96.6,
+    242.3,
+    232.0,
+    418.3
+   ],
+   "text": "• Яндекс Браузер",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 20,
+   "img_block_idx": 13,
+   "text_bbox": [
+    105.3,
+    345.1,
+    195.2,
+    359.8
+   ],
+   "img_bbox": [
+    91.4,
+    232.1,
+    240.8,
+    432.7
+   ],
+   "text": "• Яндекс Директ",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 20,
+   "img_block_idx": 14,
+   "text_bbox": [
+    105.3,
+    345.1,
+    195.2,
+    359.8
+   ],
+   "img_bbox": [
+    94.6,
+    240.3,
+    238.2,
+    424.4
+   ],
+   "text": "• Яндекс Директ",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 20,
+   "img_block_idx": 15,
+   "text_bbox": [
+    105.3,
+    345.1,
+    195.2,
+    359.8
+   ],
+   "img_bbox": [
+    96.6,
+    242.3,
+    232.0,
+    418.3
+   ],
+   "text": "• Яндекс Директ",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 21,
+   "text_bbox": [
+    261.1,
+    241.4,
+    340.9,
+    271.1
+   ],
+   "img_bbox": [
+    247.2,
+    232.1,
+    396.5,
+    432.7
+   ],
+   "text": "Устройства с ИИ- ассистентом",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 22,
+   "text_bbox": [
+    261.1,
+    241.4,
+    340.9,
+    271.1
+   ],
+   "img_bbox": [
+    250.4,
+    240.3,
+    394.0,
+    424.4
+   ],
+   "text": "Устройства с ИИ- ассистентом",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 0.969,
+   "text_block_idx": 24,
+   "img_block_idx": 23,
+   "text_bbox": [
+    261.1,
+    241.4,
+    340.9,
+    271.1
+   ],
+   "img_bbox": [
+    252.4,
+    242.3,
+    387.8,
+    418.3
+   ],
+   "text": "Устройства с ИИ- ассистентом",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 21,
+   "text_bbox": [
+    261.1,
+    279.1,
+    356.5,
+    293.8
+   ],
+   "img_bbox": [
+    247.2,
+    232.1,
+    396.5,
+    432.7
+   ],
+   "text": "• Яндекс Станции",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 22,
+   "text_bbox": [
+    261.1,
+    279.1,
+    356.5,
+    293.8
+   ],
+   "img_bbox": [
+    250.4,
+    240.3,
+    394.0,
+    424.4
+   ],
+   "text": "• Яндекс Станции",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 23,
+   "text_bbox": [
+    261.1,
+    279.1,
+    356.5,
+    293.8
+   ],
+   "img_bbox": [
+    252.4,
+    242.3,
+    387.8,
+    418.3
+   ],
+   "text": "• Яндекс Станции",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 26,
+   "img_block_idx": 21,
+   "text_bbox": [
+    261.1,
+    301.1,
+    334.5,
+    315.8
+   ],
+   "img_bbox": [
+    247.2,
+    232.1,
+    396.5,
+    432.7
+   ],
+   "text": "• ТВ Станции",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 26,
+   "img_block_idx": 22,
+   "text_bbox": [
+    261.1,
+    301.1,
+    334.5,
+    315.8
+   ],
+   "img_bbox": [
+    250.4,
+    240.3,
+    394.0,
+    424.4
+   ],
+   "text": "• ТВ Станции",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 26,
+   "img_block_idx": 23,
+   "text_bbox": [
+    261.1,
+    301.1,
+    334.5,
+    315.8
+   ],
+   "img_bbox": [
+    252.4,
+    242.3,
+    387.8,
+    418.3
+   ],
+   "text": "• ТВ Станции",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 27,
+   "img_block_idx": 21,
+   "text_bbox": [
+    261.1,
+    323.1,
+    335.8,
+    337.8
+   ],
+   "img_bbox": [
+    247.2,
+    232.1,
+    396.5,
+    432.7
+   ],
+   "text": "• Умный дом",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 27,
+   "img_block_idx": 22,
+   "text_bbox": [
+    261.1,
+    323.1,
+    335.8,
+    337.8
+   ],
+   "img_bbox": [
+    250.4,
+    240.3,
+    394.0,
+    424.4
+   ],
+   "text": "• Умный дом",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 27,
+   "img_block_idx": 23,
+   "text_bbox": [
+    261.1,
+    323.1,
+    335.8,
+    337.8
+   ],
+   "img_bbox": [
+    252.4,
+    242.3,
+    387.8,
+    418.3
+   ],
+   "text": "• Умный дом",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 21,
+   "text_bbox": [
+    261.1,
+    345.1,
+    380.7,
+    373.3
+   ],
+   "img_bbox": [
+    247.2,
+    232.1,
+    396.5,
+    432.7
+   ],
+   "text": "• Устройства на YaOS и  YaOS X",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 22,
+   "text_bbox": [
+    261.1,
+    345.1,
+    380.7,
+    373.3
+   ],
+   "img_bbox": [
+    250.4,
+    240.3,
+    394.0,
+    424.4
+   ],
+   "text": "• Устройства на YaOS и  YaOS X",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 23,
+   "text_bbox": [
+    261.1,
+    345.1,
+    380.7,
+    373.3
+   ],
+   "img_bbox": [
+    252.4,
+    242.3,
+    387.8,
+    418.3
+   ],
+   "text": "• Устройства на YaOS и  YaOS X",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 21,
+   "text_bbox": [
+    261.1,
+    380.6,
+    339.1,
+    395.3
+   ],
+   "img_bbox": [
+    247.2,
+    232.1,
+    396.5,
+    432.7
+   ],
+   "text": "• Яндекс Авто",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 22,
+   "text_bbox": [
+    261.1,
+    380.6,
+    339.1,
+    395.3
+   ],
+   "img_bbox": [
+    250.4,
+    240.3,
+    394.0,
+    424.4
+   ],
+   "text": "• Яндекс Авто",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 23,
+   "text_bbox": [
+    261.1,
+    380.6,
+    339.1,
+    395.3
+   ],
+   "img_bbox": [
+    252.4,
+    242.3,
+    387.8,
+    418.3
+   ],
+   "text": "• Яндекс Авто",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 33,
+   "img_block_idx": 30,
+   "text_bbox": [
+    416.8,
+    241.4,
+    521.4,
+    271.1
+   ],
+   "img_bbox": [
+    403.0,
+    232.1,
+    552.3,
+    432.8
+   ],
+   "text": "Сервисы объявлений",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 33,
+   "img_block_idx": 31,
+   "text_bbox": [
+    416.8,
+    241.4,
+    521.4,
+    271.1
+   ],
+   "img_bbox": [
+    406.1,
+    240.3,
+    549.7,
+    424.5
+   ],
+   "text": "Сервисы объявлений",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 0.969,
+   "text_block_idx": 33,
+   "img_block_idx": 32,
+   "text_bbox": [
+    416.8,
+    241.4,
+    521.4,
+    271.1
+   ],
+   "img_bbox": [
+    408.1,
+    242.3,
+    543.5,
+    418.3
+   ],
+   "text": "Сервисы объявлений",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 34,
+   "img_block_idx": 30,
+   "text_bbox": [
+    416.8,
+    270.7,
+    475.0,
+    293.7
+   ],
+   "img_bbox": [
+    403.0,
+    232.1,
+    552.3,
+    432.8
+   ],
+   "text": "• Авто.ру",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 34,
+   "img_block_idx": 31,
+   "text_bbox": [
+    416.8,
+    270.7,
+    475.0,
+    293.7
+   ],
+   "img_bbox": [
+    406.1,
+    240.3,
+    549.7,
+    424.5
+   ],
+   "text": "• Авто.ру",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 34,
+   "img_block_idx": 32,
+   "text_bbox": [
+    416.8,
+    270.7,
+    475.0,
+    293.7
+   ],
+   "img_bbox": [
+    408.1,
+    242.3,
+    543.5,
+    418.3
+   ],
+   "text": "• Авто.ру",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 35,
+   "img_block_idx": 30,
+   "text_bbox": [
+    416.8,
+    301.0,
+    510.3,
+    329.2
+   ],
+   "img_bbox": [
+    403.0,
+    232.1,
+    552.3,
+    432.8
+   ],
+   "text": "• Яндекс  Недвижимость",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 35,
+   "img_block_idx": 31,
+   "text_bbox": [
+    416.8,
+    301.0,
+    510.3,
+    329.2
+   ],
+   "img_bbox": [
+    406.1,
+    240.3,
+    549.7,
+    424.5
+   ],
+   "text": "• Яндекс  Недвижимость",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 35,
+   "img_block_idx": 32,
+   "text_bbox": [
+    416.8,
+    301.0,
+    510.3,
+    329.2
+   ],
+   "img_bbox": [
+    408.1,
+    242.3,
+    543.5,
+    418.3
+   ],
+   "text": "• Яндекс  Недвижимость",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 36,
+   "img_block_idx": 30,
+   "text_bbox": [
+    416.8,
+    336.5,
+    510.6,
+    351.2
+   ],
+   "img_bbox": [
+    403.0,
+    232.1,
+    552.3,
+    432.8
+   ],
+   "text": "• Яндекс Аренда",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 36,
+   "img_block_idx": 31,
+   "text_bbox": [
+    416.8,
+    336.5,
+    510.6,
+    351.2
+   ],
+   "img_bbox": [
+    406.1,
+    240.3,
+    549.7,
+    424.5
+   ],
+   "text": "• Яндекс Аренда",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 36,
+   "img_block_idx": 32,
+   "text_bbox": [
+    416.8,
+    336.5,
+    510.6,
+    351.2
+   ],
+   "img_bbox": [
+    408.1,
+    242.3,
+    543.5,
+    418.3
+   ],
+   "text": "• Яндекс Аренда",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 37,
+   "img_block_idx": 30,
+   "text_bbox": [
+    416.8,
+    358.5,
+    536.0,
+    373.2
+   ],
+   "img_bbox": [
+    403.0,
+    232.1,
+    552.3,
+    432.8
+   ],
+   "text": "• Яндекс Путешествия",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 37,
+   "img_block_idx": 31,
+   "text_bbox": [
+    416.8,
+    358.5,
+    536.0,
+    373.2
+   ],
+   "img_bbox": [
+    406.1,
+    240.3,
+    549.7,
+    424.5
+   ],
+   "text": "• Яндекс Путешествия",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 37,
+   "img_block_idx": 32,
+   "text_bbox": [
+    416.8,
+    358.5,
+    536.0,
+    373.2
+   ],
+   "img_bbox": [
+    408.1,
+    242.3,
+    543.5,
+    418.3
+   ],
+   "text": "• Яндекс Путешествия",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 38,
+   "img_block_idx": 30,
+   "text_bbox": [
+    416.8,
+    380.4,
+    535.1,
+    395.1
+   ],
+   "img_bbox": [
+    403.0,
+    232.1,
+    552.3,
+    432.8
+   ],
+   "text": "• Яндекс Исполнители",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 38,
+   "img_block_idx": 31,
+   "text_bbox": [
+    416.8,
+    380.4,
+    535.1,
+    395.1
+   ],
+   "img_bbox": [
+    406.1,
+    240.3,
+    549.7,
+    424.5
+   ],
+   "text": "• Яндекс Исполнители",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 25,
+   "frac": 1.0,
+   "text_block_idx": 38,
+   "img_block_idx": 32,
+   "text_bbox": [
+    416.8,
+    380.4,
+    535.1,
+    395.1
+   ],
+   "img_bbox": [
+    408.1,
+    242.3,
+    543.5,
+    418.3
+   ],
+   "text": "• Яндекс Исполнители",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 27,
+   "frac": 1.0,
+   "text_block_idx": 17,
+   "img_block_idx": 14,
+   "text_bbox": [
+    93.1,
+    291.3,
+    546.5,
+    367.7
+   ],
+   "img_bbox": [
+    73.8,
+    276.3,
+    567.7,
+    386.9
+   ],
+   "text": "Яндекс Браузер — одна из ключевых точек входа в ИИ. После обновлений Алиса AI доступна на ",
+   "img_covers_page": 0.109,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 27,
+   "frac": 1.0,
+   "text_block_idx": 17,
+   "img_block_idx": 15,
+   "text_bbox": [
+    93.1,
+    291.3,
+    546.5,
+    367.7
+   ],
+   "img_bbox": [
+    75.0,
+    281.1,
+    566.5,
+    382.1
+   ],
+   "text": "Яндекс Браузер — одна из ключевых точек входа в ИИ. После обновлений Алиса AI доступна на ",
+   "img_covers_page": 0.099,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 27,
+   "frac": 0.979,
+   "text_block_idx": 17,
+   "img_block_idx": 16,
+   "text_bbox": [
+    93.1,
+    291.3,
+    546.5,
+    367.7
+   ],
+   "img_bbox": [
+    86.0,
+    292.1,
+    551.3,
+    366.9
+   ],
+   "text": "Яндекс Браузер — одна из ключевых точек входа в ИИ. После обновлений Алиса AI доступна на ",
+   "img_covers_page": 0.069,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 18,
+   "img_block_idx": 15,
+   "text_bbox": [
+    103.7,
+    82.0,
+    232.6,
+    97.3
+   ],
+   "img_bbox": [
+    91.8,
+    74.6,
+    332.9,
+    189.4
+   ],
+   "text": "Лидерство в сфере поиска",
+   "img_covers_page": 0.055,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 18,
+   "img_block_idx": 16,
+   "text_bbox": [
+    103.7,
+    82.0,
+    232.6,
+    97.3
+   ],
+   "img_bbox": [
+    94.6,
+    80.9,
+    331.3,
+    183.1
+   ],
+   "text": "Лидерство в сфере поиска",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 0.94,
+   "text_block_idx": 18,
+   "img_block_idx": 17,
+   "text_bbox": [
+    103.7,
+    82.0,
+    232.6,
+    97.3
+   ],
+   "img_bbox": [
+    96.5,
+    82.9,
+    325.1,
+    176.9
+   ],
+   "text": "Лидерство в сфере поиска",
+   "img_covers_page": 0.043,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 15,
+   "text_bbox": [
+    103.7,
+    105.1,
+    316.6,
+    164.3
+   ],
+   "img_bbox": [
+    91.8,
+    74.6,
+    332.9,
+    189.4
+   ],
+   "text": "• Крупнейшая поисковая система России   • Внедрение ИИ в технологии поиска  • Быстрые отве",
+   "img_covers_page": 0.055,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 16,
+   "text_bbox": [
+    103.7,
+    105.1,
+    316.6,
+    164.3
+   ],
+   "img_bbox": [
+    94.6,
+    80.9,
+    331.3,
+    183.1
+   ],
+   "text": "• Крупнейшая поисковая система России   • Внедрение ИИ в технологии поиска  • Быстрые отве",
+   "img_covers_page": 0.048,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 17,
+   "text_bbox": [
+    103.7,
+    105.1,
+    316.6,
+    164.3
+   ],
+   "img_bbox": [
+    96.5,
+    82.9,
+    325.1,
+    176.9
+   ],
+   "text": "• Крупнейшая поисковая система России   • Внедрение ИИ в технологии поиска  • Быстрые отве",
+   "img_covers_page": 0.043,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 23,
+   "img_block_idx": 20,
+   "text_bbox": [
+    351.6,
+    82.0,
+    455.8,
+    97.3
+   ],
+   "img_bbox": [
+    339.7,
+    74.6,
+    558.9,
+    189.3
+   ],
+   "text": "Экосистема сервисов",
+   "img_covers_page": 0.05,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 23,
+   "img_block_idx": 21,
+   "text_bbox": [
+    351.6,
+    82.0,
+    455.8,
+    97.3
+   ],
+   "img_bbox": [
+    342.4,
+    80.9,
+    556.1,
+    182.9
+   ],
+   "text": "Экосистема сервисов",
+   "img_covers_page": 0.043,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 0.94,
+   "text_block_idx": 23,
+   "img_block_idx": 22,
+   "text_bbox": [
+    351.6,
+    82.0,
+    455.8,
+    97.3
+   ],
+   "img_bbox": [
+    344.4,
+    82.9,
+    550.0,
+    176.8
+   ],
+   "text": "Экосистема сервисов",
+   "img_covers_page": 0.038,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 20,
+   "text_bbox": [
+    351.6,
+    105.1,
+    526.0,
+    163.1
+   ],
+   "img_bbox": [
+    339.7,
+    74.6,
+    558.9,
+    189.3
+   ],
+   "text": "• Высокий уровень привлечения и  удержания пользователей  благодаря кросс-сервисности  про",
+   "img_covers_page": 0.05,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 21,
+   "text_bbox": [
+    351.6,
+    105.1,
+    526.0,
+    163.1
+   ],
+   "img_bbox": [
+    342.4,
+    80.9,
+    556.1,
+    182.9
+   ],
+   "text": "• Высокий уровень привлечения и  удержания пользователей  благодаря кросс-сервисности  про",
+   "img_covers_page": 0.043,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 22,
+   "text_bbox": [
+    351.6,
+    105.1,
+    526.0,
+    163.1
+   ],
+   "img_bbox": [
+    344.4,
+    82.9,
+    550.0,
+    176.8
+   ],
+   "text": "• Высокий уровень привлечения и  удержания пользователей  благодаря кросс-сервисности  про",
+   "img_covers_page": 0.038,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 25,
+   "text_bbox": [
+    105.1,
+    207.2,
+    227.7,
+    222.4
+   ],
+   "img_bbox": [
+    91.8,
+    198.4,
+    332.9,
+    367.9
+   ],
+   "text": "Эффективность рекламы",
+   "img_covers_page": 0.082,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 26,
+   "text_bbox": [
+    105.1,
+    207.2,
+    227.7,
+    222.4
+   ],
+   "img_bbox": [
+    96.0,
+    206.1,
+    329.9,
+    360.1
+   ],
+   "text": "Эффективность рекламы",
+   "img_covers_page": 0.072,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 0.94,
+   "text_block_idx": 28,
+   "img_block_idx": 27,
+   "text_bbox": [
+    105.1,
+    207.2,
+    227.7,
+    222.4
+   ],
+   "img_bbox": [
+    98.0,
+    208.1,
+    323.8,
+    353.9
+   ],
+   "text": "Эффективность рекламы",
+   "img_covers_page": 0.066,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 25,
+   "text_bbox": [
+    105.1,
+    230.3,
+    316.5,
+    346.7
+   ],
+   "img_bbox": [
+    91.8,
+    198.4,
+    332.9,
+    367.9
+   ],
+   "text": "• Рост эффективности рекламных  продуктов за счёт технологий  искусственного интеллекта, к",
+   "img_covers_page": 0.082,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 26,
+   "text_bbox": [
+    105.1,
+    230.3,
+    316.5,
+    346.7
+   ],
+   "img_bbox": [
+    96.0,
+    206.1,
+    329.9,
+    360.1
+   ],
+   "text": "• Рост эффективности рекламных  продуктов за счёт технологий  искусственного интеллекта, к",
+   "img_covers_page": 0.072,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 27,
+   "text_bbox": [
+    105.1,
+    230.3,
+    316.5,
+    346.7
+   ],
+   "img_bbox": [
+    98.0,
+    208.1,
+    323.8,
+    353.9
+   ],
+   "text": "• Рост эффективности рекламных  продуктов за счёт технологий  искусственного интеллекта, к",
+   "img_covers_page": 0.066,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 33,
+   "img_block_idx": 30,
+   "text_bbox": [
+    353.0,
+    207.2,
+    502.5,
+    222.4
+   ],
+   "img_bbox": [
+    339.7,
+    198.4,
+    558.9,
+    367.8
+   ],
+   "text": "Новые форматы и технологии",
+   "img_covers_page": 0.074,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 33,
+   "img_block_idx": 31,
+   "text_bbox": [
+    353.0,
+    207.2,
+    502.5,
+    222.4
+   ],
+   "img_bbox": [
+    343.8,
+    206.1,
+    554.8,
+    360.1
+   ],
+   "text": "Новые форматы и технологии",
+   "img_covers_page": 0.065,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 0.94,
+   "text_block_idx": 33,
+   "img_block_idx": 32,
+   "text_bbox": [
+    353.0,
+    207.2,
+    502.5,
+    222.4
+   ],
+   "img_bbox": [
+    345.8,
+    208.1,
+    548.6,
+    353.9
+   ],
+   "text": "Новые форматы и технологии",
+   "img_covers_page": 0.059,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 34,
+   "img_block_idx": 30,
+   "text_bbox": [
+    353.0,
+    230.3,
+    520.0,
+    304.6
+   ],
+   "img_bbox": [
+    339.7,
+    198.4,
+    558.9,
+    367.8
+   ],
+   "text": "• Рекламная платформа для  ритейлеров и производителей   • Рекламная сеть для блогеров  • ",
+   "img_covers_page": 0.074,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 34,
+   "img_block_idx": 31,
+   "text_bbox": [
+    353.0,
+    230.3,
+    520.0,
+    304.6
+   ],
+   "img_bbox": [
+    343.8,
+    206.1,
+    554.8,
+    360.1
+   ],
+   "text": "• Рекламная платформа для  ритейлеров и производителей   • Рекламная сеть для блогеров  • ",
+   "img_covers_page": 0.065,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 34,
+   "img_block_idx": 32,
+   "text_bbox": [
+    353.0,
+    230.3,
+    520.0,
+    304.6
+   ],
+   "img_bbox": [
+    345.8,
+    208.1,
+    548.6,
+    353.9
+   ],
+   "text": "• Рекламная платформа для  ритейлеров и производителей   • Рекламная сеть для блогеров  • ",
+   "img_covers_page": 0.059,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 38,
+   "img_block_idx": 35,
+   "text_bbox": [
+    393.8,
+    432.9,
+    532.9,
+    476.5
+   ],
+   "img_bbox": [
+    360.3,
+    408.1,
+    568.3,
+    514.9
+   ],
+   "text": "Наш стратегический фокус —  рост поисковой доли и  рекламной выручки.",
+   "img_covers_page": 0.044,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 38,
+   "img_block_idx": 36,
+   "text_bbox": [
+    393.8,
+    432.9,
+    532.9,
+    476.5
+   ],
+   "img_bbox": [
+    361.4,
+    412.8,
+    567.1,
+    510.1
+   ],
+   "text": "Наш стратегический фокус —  рост поисковой доли и  рекламной выручки.",
+   "img_covers_page": 0.04,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 29,
+   "frac": 1.0,
+   "text_block_idx": 38,
+   "img_block_idx": 37,
+   "text_bbox": [
+    393.8,
+    432.9,
+    532.9,
+    476.5
+   ],
+   "img_bbox": [
+    372.4,
+    423.8,
+    551.9,
+    494.9
+   ],
+   "text": "Наш стратегический фокус —  рост поисковой доли и  рекламной выручки.",
+   "img_covers_page": 0.025,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 33,
+   "frac": 1.0,
+   "text_block_idx": 11,
+   "img_block_idx": 8,
+   "text_bbox": [
+    377.8,
+    92.5,
+    542.3,
+    184.3
+   ],
+   "img_bbox": [
+    358.1,
+    65.2,
+    569.0,
+    207.1
+   ],
+   "text": "Алиса Про  — сервис для создания  корпоративной базы знаний и  повышения продуктивности,  ",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 33,
+   "frac": 1.0,
+   "text_block_idx": 11,
+   "img_block_idx": 9,
+   "text_bbox": [
+    377.8,
+    92.5,
+    542.3,
+    184.3
+   ],
+   "img_bbox": [
+    359.6,
+    70.4,
+    567.4,
+    201.9
+   ],
+   "text": "Алиса Про  — сервис для создания  корпоративной базы знаний и  повышения продуктивности,  ",
+   "img_covers_page": 0.054,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 33,
+   "frac": 1.0,
+   "text_block_idx": 11,
+   "img_block_idx": 10,
+   "text_bbox": [
+    377.8,
+    92.5,
+    542.3,
+    184.3
+   ],
+   "img_bbox": [
+    370.6,
+    81.4,
+    552.2,
+    186.7
+   ],
+   "text": "Алиса Про  — сервис для создания  корпоративной базы знаний и  повышения продуктивности,  ",
+   "img_covers_page": 0.038,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 33,
+   "frac": 1.0,
+   "text_block_idx": 15,
+   "img_block_idx": 12,
+   "text_bbox": [
+    93.8,
+    339.7,
+    544.7,
+    431.5
+   ],
+   "img_bbox": [
+    74.1,
+    312.5,
+    569.0,
+    454.0
+   ],
+   "text": "Нейроюрист  — ИИ-помощник для юристов. Он помогает юристам решать рутинные задачи и  эконо",
+   "img_covers_page": 0.14,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 33,
+   "frac": 1.0,
+   "text_block_idx": 15,
+   "img_block_idx": 13,
+   "text_bbox": [
+    93.8,
+    339.7,
+    544.7,
+    431.5
+   ],
+   "img_bbox": [
+    75.7,
+    317.6,
+    567.4,
+    448.7
+   ],
+   "text": "Нейроюрист  — ИИ-помощник для юристов. Он помогает юристам решать рутинные задачи и  эконо",
+   "img_covers_page": 0.129,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 33,
+   "frac": 1.0,
+   "text_block_idx": 15,
+   "img_block_idx": 14,
+   "text_bbox": [
+    93.8,
+    339.7,
+    544.7,
+    431.5
+   ],
+   "img_bbox": [
+    86.6,
+    328.6,
+    552.2,
+    433.5
+   ],
+   "text": "Нейроюрист  — ИИ-помощник для юристов. Он помогает юристам решать рутинные задачи и  эконо",
+   "img_covers_page": 0.097,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 33,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 16,
+   "text_bbox": [
+    93.7,
+    617.2,
+    548.1,
+    662.8
+   ],
+   "img_bbox": [
+    74.3,
+    590.2,
+    569.3,
+    706.4
+   ],
+   "text": "Нейросаппорт  — ИИ-агент, призванный оптимизировать работу контакт-центров, оперативно  ан",
+   "img_covers_page": 0.115,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 33,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 17,
+   "text_bbox": [
+    93.7,
+    617.2,
+    548.1,
+    662.8
+   ],
+   "img_bbox": [
+    75.5,
+    595.1,
+    568.0,
+    701.5
+   ],
+   "text": "Нейросаппорт  — ИИ-агент, призванный оптимизировать работу контакт-центров, оперативно  ан",
+   "img_covers_page": 0.105,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 33,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 18,
+   "text_bbox": [
+    93.7,
+    617.2,
+    548.1,
+    662.8
+   ],
+   "img_bbox": [
+    86.5,
+    606.1,
+    552.8,
+    686.3
+   ],
+   "text": "Нейросаппорт  — ИИ-агент, призванный оптимизировать работу контакт-центров, оперативно  ан",
+   "img_covers_page": 0.075,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 33,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 16,
+   "text_bbox": [
+    93.7,
+    663.4,
+    539.5,
+    678.1
+   ],
+   "img_bbox": [
+    74.3,
+    590.2,
+    569.3,
+    706.4
+   ],
+   "text": "развёртывания на инфраструктуре заказчика. Воспользоваться сервисом можно  по ссылке .",
+   "img_covers_page": 0.115,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 33,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 17,
+   "text_bbox": [
+    93.7,
+    663.4,
+    539.5,
+    678.1
+   ],
+   "img_bbox": [
+    75.5,
+    595.1,
+    568.0,
+    701.5
+   ],
+   "text": "развёртывания на инфраструктуре заказчика. Воспользоваться сервисом можно  по ссылке .",
+   "img_covers_page": 0.105,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 33,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 18,
+   "text_bbox": [
+    93.7,
+    663.4,
+    539.5,
+    678.1
+   ],
+   "img_bbox": [
+    86.5,
+    606.1,
+    552.8,
+    686.3
+   ],
+   "text": "развёртывания на инфраструктуре заказчика. Воспользоваться сервисом можно  по ссылке .",
+   "img_covers_page": 0.075,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 0.877,
+   "text_block_idx": 22,
+   "img_block_idx": 17,
+   "text_bbox": [
+    103.7,
+    121.0,
+    145.0,
+    136.3
+   ],
+   "img_bbox": [
+    93.8,
+    122.9,
+    547.8,
+    324.3
+   ],
+   "text": "Авто.ру",
+   "img_covers_page": 0.182,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 22,
+   "img_block_idx": 19,
+   "text_bbox": [
+    103.7,
+    121.0,
+    145.0,
+    136.3
+   ],
+   "img_bbox": [
+    91.8,
+    113.6,
+    329.0,
+    226.7
+   ],
+   "text": "Авто.ру",
+   "img_covers_page": 0.054,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 22,
+   "img_block_idx": 20,
+   "text_bbox": [
+    103.7,
+    121.0,
+    145.0,
+    136.3
+   ],
+   "img_bbox": [
+    94.5,
+    119.9,
+    326.2,
+    220.4
+   ],
+   "text": "Авто.ру",
+   "img_covers_page": 0.046,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 0.936,
+   "text_block_idx": 22,
+   "img_block_idx": 21,
+   "text_bbox": [
+    103.7,
+    121.0,
+    145.0,
+    136.3
+   ],
+   "img_bbox": [
+    96.5,
+    122.0,
+    320.0,
+    214.3
+   ],
+   "text": "Авто.ру",
+   "img_covers_page": 0.041,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 23,
+   "img_block_idx": 17,
+   "text_bbox": [
+    103.7,
+    143.6,
+    302.0,
+    187.2
+   ],
+   "img_bbox": [
+    93.8,
+    122.9,
+    547.8,
+    324.3
+   ],
+   "text": "Сервис объявлений о продаже  подержанных и новых автомобилей,  мотоциклов и коммерческого ",
+   "img_covers_page": 0.182,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 23,
+   "img_block_idx": 19,
+   "text_bbox": [
+    103.7,
+    143.6,
+    302.0,
+    187.2
+   ],
+   "img_bbox": [
+    91.8,
+    113.6,
+    329.0,
+    226.7
+   ],
+   "text": "Сервис объявлений о продаже  подержанных и новых автомобилей,  мотоциклов и коммерческого ",
+   "img_covers_page": 0.054,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 23,
+   "img_block_idx": 20,
+   "text_bbox": [
+    103.7,
+    143.6,
+    302.0,
+    187.2
+   ],
+   "img_bbox": [
+    94.5,
+    119.9,
+    326.2,
+    220.4
+   ],
+   "text": "Сервис объявлений о продаже  подержанных и новых автомобилей,  мотоциклов и коммерческого ",
+   "img_covers_page": 0.046,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 23,
+   "img_block_idx": 21,
+   "text_bbox": [
+    103.7,
+    143.6,
+    302.0,
+    187.2
+   ],
+   "img_bbox": [
+    96.5,
+    122.0,
+    320.0,
+    214.3
+   ],
+   "text": "Сервис объявлений о продаже  подержанных и новых автомобилей,  мотоциклов и коммерческого ",
+   "img_covers_page": 0.041,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 0.877,
+   "text_block_idx": 27,
+   "img_block_idx": 17,
+   "text_bbox": [
+    341.9,
+    121.0,
+    456.4,
+    136.3
+   ],
+   "img_bbox": [
+    93.8,
+    122.9,
+    547.8,
+    324.3
+   ],
+   "text": "Яндекс Недвижимость",
+   "img_covers_page": 0.182,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 27,
+   "img_block_idx": 24,
+   "text_bbox": [
+    341.9,
+    121.0,
+    456.4,
+    136.3
+   ],
+   "img_bbox": [
+    330.1,
+    113.6,
+    559.3,
+    226.7
+   ],
+   "text": "Яндекс Недвижимость",
+   "img_covers_page": 0.052,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 27,
+   "img_block_idx": 25,
+   "text_bbox": [
+    341.9,
+    121.0,
+    456.4,
+    136.3
+   ],
+   "img_bbox": [
+    332.8,
+    119.9,
+    556.6,
+    220.4
+   ],
+   "text": "Яндекс Недвижимость",
+   "img_covers_page": 0.045,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 0.936,
+   "text_block_idx": 27,
+   "img_block_idx": 26,
+   "text_bbox": [
+    341.9,
+    121.0,
+    456.4,
+    136.3
+   ],
+   "img_bbox": [
+    334.7,
+    122.0,
+    550.4,
+    214.2
+   ],
+   "text": "Яндекс Недвижимость",
+   "img_covers_page": 0.04,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 17,
+   "text_bbox": [
+    341.9,
+    143.6,
+    535.2,
+    201.6
+   ],
+   "img_bbox": [
+    93.8,
+    122.9,
+    547.8,
+    324.3
+   ],
+   "text": "Сервис объявлений о покупке, продаже,  аренде квартир, домов и коммерческой  недвижимости ",
+   "img_covers_page": 0.182,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 24,
+   "text_bbox": [
+    341.9,
+    143.6,
+    535.2,
+    201.6
+   ],
+   "img_bbox": [
+    330.1,
+    113.6,
+    559.3,
+    226.7
+   ],
+   "text": "Сервис объявлений о покупке, продаже,  аренде квартир, домов и коммерческой  недвижимости ",
+   "img_covers_page": 0.052,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 25,
+   "text_bbox": [
+    341.9,
+    143.6,
+    535.2,
+    201.6
+   ],
+   "img_bbox": [
+    332.8,
+    119.9,
+    556.6,
+    220.4
+   ],
+   "text": "Сервис объявлений о покупке, продаже,  аренде квартир, домов и коммерческой  недвижимости ",
+   "img_covers_page": 0.045,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 26,
+   "text_bbox": [
+    341.9,
+    143.6,
+    535.2,
+    201.6
+   ],
+   "img_bbox": [
+    334.7,
+    122.0,
+    550.4,
+    214.2
+   ],
+   "text": "Сервис объявлений о покупке, продаже,  аренде квартир, домов и коммерческой  недвижимости ",
+   "img_covers_page": 0.04,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 32,
+   "img_block_idx": 17,
+   "text_bbox": [
+    103.7,
+    234.3,
+    181.5,
+    249.5
+   ],
+   "img_bbox": [
+    93.8,
+    122.9,
+    547.8,
+    324.3
+   ],
+   "text": "Яндекс Аренда",
+   "img_covers_page": 0.182,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 32,
+   "img_block_idx": 29,
+   "text_bbox": [
+    103.7,
+    234.3,
+    181.5,
+    249.5
+   ],
+   "img_bbox": [
+    91.8,
+    226.8,
+    329.0,
+    342.4
+   ],
+   "text": "Яндекс Аренда",
+   "img_covers_page": 0.055,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 32,
+   "img_block_idx": 30,
+   "text_bbox": [
+    103.7,
+    234.3,
+    181.5,
+    249.5
+   ],
+   "img_bbox": [
+    94.6,
+    233.2,
+    326.2,
+    336.0
+   ],
+   "text": "Яндекс Аренда",
+   "img_covers_page": 0.047,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 0.94,
+   "text_block_idx": 32,
+   "img_block_idx": 31,
+   "text_bbox": [
+    103.7,
+    234.3,
+    181.5,
+    249.5
+   ],
+   "img_bbox": [
+    96.5,
+    235.2,
+    320.0,
+    329.8
+   ],
+   "text": "Яндекс Аренда",
+   "img_covers_page": 0.042,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 33,
+   "img_block_idx": 17,
+   "text_bbox": [
+    103.7,
+    256.9,
+    312.1,
+    314.9
+   ],
+   "img_bbox": [
+    93.8,
+    122.9,
+    547.8,
+    324.3
+   ],
+   "text": "Сервис долгосрочной аренды и сдачи  квартир. Помогает быстро найти  арендаторов, сопровожд",
+   "img_covers_page": 0.182,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 33,
+   "img_block_idx": 29,
+   "text_bbox": [
+    103.7,
+    256.9,
+    312.1,
+    314.9
+   ],
+   "img_bbox": [
+    91.8,
+    226.8,
+    329.0,
+    342.4
+   ],
+   "text": "Сервис долгосрочной аренды и сдачи  квартир. Помогает быстро найти  арендаторов, сопровожд",
+   "img_covers_page": 0.055,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 33,
+   "img_block_idx": 30,
+   "text_bbox": [
+    103.7,
+    256.9,
+    312.1,
+    314.9
+   ],
+   "img_bbox": [
+    94.6,
+    233.2,
+    326.2,
+    336.0
+   ],
+   "text": "Сервис долгосрочной аренды и сдачи  квартир. Помогает быстро найти  арендаторов, сопровожд",
+   "img_covers_page": 0.047,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 33,
+   "img_block_idx": 31,
+   "text_bbox": [
+    103.7,
+    256.9,
+    312.1,
+    314.9
+   ],
+   "img_bbox": [
+    96.5,
+    235.2,
+    320.0,
+    329.8
+   ],
+   "text": "Сервис долгосрочной аренды и сдачи  квартир. Помогает быстро найти  арендаторов, сопровожд",
+   "img_covers_page": 0.042,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 37,
+   "img_block_idx": 17,
+   "text_bbox": [
+    342.0,
+    234.2,
+    445.6,
+    249.5
+   ],
+   "img_bbox": [
+    93.8,
+    122.9,
+    547.8,
+    324.3
+   ],
+   "text": "Яндекс Путешествия",
+   "img_covers_page": 0.182,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 37,
+   "img_block_idx": 34,
+   "text_bbox": [
+    342.0,
+    234.2,
+    445.6,
+    249.5
+   ],
+   "img_bbox": [
+    330.1,
+    226.8,
+    559.3,
+    342.5
+   ],
+   "text": "Яндекс Путешествия",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 37,
+   "img_block_idx": 35,
+   "text_bbox": [
+    342.0,
+    234.2,
+    445.6,
+    249.5
+   ],
+   "img_bbox": [
+    332.8,
+    233.2,
+    556.5,
+    336.1
+   ],
+   "text": "Яндекс Путешествия",
+   "img_covers_page": 0.046,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 0.94,
+   "text_block_idx": 37,
+   "img_block_idx": 36,
+   "text_bbox": [
+    342.0,
+    234.2,
+    445.6,
+    249.5
+   ],
+   "img_bbox": [
+    334.8,
+    235.1,
+    550.3,
+    329.9
+   ],
+   "text": "Яндекс Путешествия",
+   "img_covers_page": 0.041,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 38,
+   "img_block_idx": 17,
+   "text_bbox": [
+    342.0,
+    256.8,
+    526.1,
+    314.8
+   ],
+   "img_bbox": [
+    93.8,
+    122.9,
+    547.8,
+    324.3
+   ],
+   "text": "Сервис для планирования поездок по  России и миру. Здесь можно  забронировать отели и апар",
+   "img_covers_page": 0.182,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 38,
+   "img_block_idx": 34,
+   "text_bbox": [
+    342.0,
+    256.8,
+    526.1,
+    314.8
+   ],
+   "img_bbox": [
+    330.1,
+    226.8,
+    559.3,
+    342.5
+   ],
+   "text": "Сервис для планирования поездок по  России и миру. Здесь можно  забронировать отели и апар",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 38,
+   "img_block_idx": 35,
+   "text_bbox": [
+    342.0,
+    256.8,
+    526.1,
+    314.8
+   ],
+   "img_bbox": [
+    332.8,
+    233.2,
+    556.5,
+    336.1
+   ],
+   "text": "Сервис для планирования поездок по  России и миру. Здесь можно  забронировать отели и апар",
+   "img_covers_page": 0.046,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 34,
+   "frac": 1.0,
+   "text_block_idx": 38,
+   "img_block_idx": 36,
+   "text_bbox": [
+    342.0,
+    256.8,
+    526.1,
+    314.8
+   ],
+   "img_bbox": [
+    334.8,
+    235.1,
+    550.3,
+    329.9
+   ],
+   "text": "Сервис для планирования поездок по  России и миру. Здесь можно  забронировать отели и апар",
+   "img_covers_page": 0.041,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 0.968,
+   "text_block_idx": 14,
+   "img_block_idx": 9,
+   "text_bbox": [
+    102.1,
+    381.3,
+    147.0,
+    398.0
+   ],
+   "img_bbox": [
+    91.3,
+    381.8,
+    548.0,
+    532.8
+   ],
+   "text": "Райдтех",
+   "img_covers_page": 0.138,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 11,
+   "text_bbox": [
+    102.1,
+    381.3,
+    147.0,
+    398.0
+   ],
+   "img_bbox": [
+    89.3,
+    373.3,
+    235.1,
+    608.2
+   ],
+   "text": "Райдтех",
+   "img_covers_page": 0.068,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 12,
+   "text_bbox": [
+    102.1,
+    381.3,
+    147.0,
+    398.0
+   ],
+   "img_bbox": [
+    91.4,
+    380.4,
+    233.0,
+    601.0
+   ],
+   "text": "Райдтех",
+   "img_covers_page": 0.062,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 0.936,
+   "text_block_idx": 14,
+   "img_block_idx": 13,
+   "text_bbox": [
+    102.1,
+    381.3,
+    147.0,
+    398.0
+   ],
+   "img_bbox": [
+    93.4,
+    382.4,
+    226.9,
+    594.8
+   ],
+   "text": "Райдтех",
+   "img_covers_page": 0.057,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 15,
+   "img_block_idx": 9,
+   "text_bbox": [
+    102.1,
+    405.3,
+    200.6,
+    447.2
+   ],
+   "img_bbox": [
+    91.3,
+    381.8,
+    548.0,
+    532.8
+   ],
+   "text": "• Сервисы онлайн- заказа такси",
+   "img_covers_page": 0.138,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 15,
+   "img_block_idx": 11,
+   "text_bbox": [
+    102.1,
+    405.3,
+    200.6,
+    447.2
+   ],
+   "img_bbox": [
+    89.3,
+    373.3,
+    235.1,
+    608.2
+   ],
+   "text": "• Сервисы онлайн- заказа такси",
+   "img_covers_page": 0.068,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 15,
+   "img_block_idx": 12,
+   "text_bbox": [
+    102.1,
+    405.3,
+    200.6,
+    447.2
+   ],
+   "img_bbox": [
+    91.4,
+    380.4,
+    233.0,
+    601.0
+   ],
+   "text": "• Сервисы онлайн- заказа такси",
+   "img_covers_page": 0.062,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 15,
+   "img_block_idx": 13,
+   "text_bbox": [
+    102.1,
+    405.3,
+    200.6,
+    447.2
+   ],
+   "img_bbox": [
+    93.4,
+    382.4,
+    226.9,
+    594.8
+   ],
+   "text": "• Сервисы онлайн- заказа такси",
+   "img_covers_page": 0.057,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 16,
+   "img_block_idx": 9,
+   "text_bbox": [
+    102.1,
+    454.5,
+    214.3,
+    482.6
+   ],
+   "img_bbox": [
+    91.3,
+    381.8,
+    548.0,
+    532.8
+   ],
+   "text": "• Сервис каршеринга  Яндекс Драйв",
+   "img_covers_page": 0.138,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 16,
+   "img_block_idx": 11,
+   "text_bbox": [
+    102.1,
+    454.5,
+    214.3,
+    482.6
+   ],
+   "img_bbox": [
+    89.3,
+    373.3,
+    235.1,
+    608.2
+   ],
+   "text": "• Сервис каршеринга  Яндекс Драйв",
+   "img_covers_page": 0.068,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 16,
+   "img_block_idx": 12,
+   "text_bbox": [
+    102.1,
+    454.5,
+    214.3,
+    482.6
+   ],
+   "img_bbox": [
+    91.4,
+    380.4,
+    233.0,
+    601.0
+   ],
+   "text": "• Сервис каршеринга  Яндекс Драйв",
+   "img_covers_page": 0.062,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 16,
+   "img_block_idx": 13,
+   "text_bbox": [
+    102.1,
+    454.5,
+    214.3,
+    482.6
+   ],
+   "img_bbox": [
+    93.4,
+    382.4,
+    226.9,
+    594.8
+   ],
+   "text": "• Сервис каршеринга  Яндекс Драйв",
+   "img_covers_page": 0.057,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 17,
+   "img_block_idx": 9,
+   "text_bbox": [
+    102.1,
+    489.9,
+    193.9,
+    518.0
+   ],
+   "img_bbox": [
+    91.3,
+    381.8,
+    548.0,
+    532.8
+   ],
+   "text": "• Сервис аренды  самокатов",
+   "img_covers_page": 0.138,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 17,
+   "img_block_idx": 11,
+   "text_bbox": [
+    102.1,
+    489.9,
+    193.9,
+    518.0
+   ],
+   "img_bbox": [
+    89.3,
+    373.3,
+    235.1,
+    608.2
+   ],
+   "text": "• Сервис аренды  самокатов",
+   "img_covers_page": 0.068,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 17,
+   "img_block_idx": 12,
+   "text_bbox": [
+    102.1,
+    489.9,
+    193.9,
+    518.0
+   ],
+   "img_bbox": [
+    91.4,
+    380.4,
+    233.0,
+    601.0
+   ],
+   "text": "• Сервис аренды  самокатов",
+   "img_covers_page": 0.062,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 17,
+   "img_block_idx": 13,
+   "text_bbox": [
+    102.1,
+    489.9,
+    193.9,
+    518.0
+   ],
+   "img_bbox": [
+    93.4,
+    382.4,
+    226.9,
+    594.8
+   ],
+   "text": "• Сервис аренды  самокатов",
+   "img_covers_page": 0.057,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 18,
+   "img_block_idx": 11,
+   "text_bbox": [
+    102.1,
+    525.4,
+    207.9,
+    566.9
+   ],
+   "img_bbox": [
+    89.3,
+    373.3,
+    235.1,
+    608.2
+   ],
+   "text": "• Сервис аренды  пауэрбанков Бери  Заряд",
+   "img_covers_page": 0.068,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 18,
+   "img_block_idx": 12,
+   "text_bbox": [
+    102.1,
+    525.4,
+    207.9,
+    566.9
+   ],
+   "img_bbox": [
+    91.4,
+    380.4,
+    233.0,
+    601.0
+   ],
+   "text": "• Сервис аренды  пауэрбанков Бери  Заряд",
+   "img_covers_page": 0.062,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 18,
+   "img_block_idx": 13,
+   "text_bbox": [
+    102.1,
+    525.4,
+    207.9,
+    566.9
+   ],
+   "img_bbox": [
+    93.4,
+    382.4,
+    226.9,
+    594.8
+   ],
+   "text": "• Сервис аренды  пауэрбанков Бери  Заряд",
+   "img_covers_page": 0.057,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 0.968,
+   "text_block_idx": 22,
+   "img_block_idx": 9,
+   "text_bbox": [
+    246.5,
+    381.4,
+    369.4,
+    396.6
+   ],
+   "img_bbox": [
+    91.3,
+    381.8,
+    548.0,
+    532.8
+   ],
+   "text": "Электронная коммерция",
+   "img_covers_page": 0.138,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 22,
+   "img_block_idx": 19,
+   "text_bbox": [
+    246.5,
+    381.4,
+    369.4,
+    396.6
+   ],
+   "img_bbox": [
+    233.3,
+    372.7,
+    395.8,
+    607.7
+   ],
+   "text": "Электронная коммерция",
+   "img_covers_page": 0.076,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 22,
+   "img_block_idx": 20,
+   "text_bbox": [
+    246.5,
+    381.4,
+    369.4,
+    396.6
+   ],
+   "img_bbox": [
+    237.3,
+    380.3,
+    391.9,
+    600.0
+   ],
+   "text": "Электронная коммерция",
+   "img_covers_page": 0.068,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 0.94,
+   "text_block_idx": 22,
+   "img_block_idx": 21,
+   "text_bbox": [
+    246.5,
+    381.4,
+    369.4,
+    396.6
+   ],
+   "img_bbox": [
+    239.3,
+    382.3,
+    385.7,
+    593.8
+   ],
+   "text": "Электронная коммерция",
+   "img_covers_page": 0.062,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 0.757,
+   "text_block_idx": 24,
+   "img_block_idx": 9,
+   "text_bbox": [
+    246.5,
+    419.1,
+    379.3,
+    569.2
+   ],
+   "img_bbox": [
+    91.3,
+    381.8,
+    548.0,
+    532.8
+   ],
+   "text": "• Мультикатегорийная  торговая платформа  Яндекс Маркет   • Сервис гиперлокальной  доставк",
+   "img_covers_page": 0.138,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 19,
+   "text_bbox": [
+    246.5,
+    419.1,
+    379.3,
+    569.2
+   ],
+   "img_bbox": [
+    233.3,
+    372.7,
+    395.8,
+    607.7
+   ],
+   "text": "• Мультикатегорийная  торговая платформа  Яндекс Маркет   • Сервис гиперлокальной  доставк",
+   "img_covers_page": 0.076,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 20,
+   "text_bbox": [
+    246.5,
+    419.1,
+    379.3,
+    569.2
+   ],
+   "img_bbox": [
+    237.3,
+    380.3,
+    391.9,
+    600.0
+   ],
+   "text": "• Мультикатегорийная  торговая платформа  Яндекс Маркет   • Сервис гиперлокальной  доставк",
+   "img_covers_page": 0.068,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 21,
+   "text_bbox": [
+    246.5,
+    419.1,
+    379.3,
+    569.2
+   ],
+   "img_bbox": [
+    239.3,
+    382.3,
+    385.7,
+    593.8
+   ],
+   "text": "• Мультикатегорийная  торговая платформа  Яндекс Маркет   • Сервис гиперлокальной  доставк",
+   "img_covers_page": 0.062,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 0.982,
+   "text_block_idx": 28,
+   "img_block_idx": 9,
+   "text_bbox": [
+    406.6,
+    381.3,
+    520.9,
+    411.0
+   ],
+   "img_bbox": [
+    91.3,
+    381.8,
+    548.0,
+    532.8
+   ],
+   "text": "Доставка и другие О2О- сервисы",
+   "img_covers_page": 0.138,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 25,
+   "text_bbox": [
+    406.6,
+    381.3,
+    520.9,
+    411.0
+   ],
+   "img_bbox": [
+    393.4,
+    372.7,
+    554.1,
+    607.7
+   ],
+   "text": "Доставка и другие О2О- сервисы",
+   "img_covers_page": 0.075,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 26,
+   "text_bbox": [
+    406.6,
+    381.3,
+    520.9,
+    411.0
+   ],
+   "img_bbox": [
+    397.4,
+    380.2,
+    550.2,
+    600.1
+   ],
+   "text": "Доставка и другие О2О- сервисы",
+   "img_covers_page": 0.067,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 0.969,
+   "text_block_idx": 28,
+   "img_block_idx": 27,
+   "text_bbox": [
+    406.6,
+    381.3,
+    520.9,
+    411.0
+   ],
+   "img_bbox": [
+    399.4,
+    382.2,
+    544.0,
+    593.9
+   ],
+   "text": "Доставка и другие О2О- сервисы",
+   "img_covers_page": 0.061,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 0.696,
+   "text_block_idx": 29,
+   "img_block_idx": 9,
+   "text_bbox": [
+    406.6,
+    418.9,
+    534.3,
+    582.5
+   ],
+   "img_bbox": [
+    91.3,
+    381.8,
+    548.0,
+    532.8
+   ],
+   "text": "• Сервис доставки  средней и последней  мили, а также  гиперлокальной  доставки Яндекс  До",
+   "img_covers_page": 0.138,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 25,
+   "text_bbox": [
+    406.6,
+    418.9,
+    534.3,
+    582.5
+   ],
+   "img_bbox": [
+    393.4,
+    372.7,
+    554.1,
+    607.7
+   ],
+   "text": "• Сервис доставки  средней и последней  мили, а также  гиперлокальной  доставки Яндекс  До",
+   "img_covers_page": 0.075,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 26,
+   "text_bbox": [
+    406.6,
+    418.9,
+    534.3,
+    582.5
+   ],
+   "img_bbox": [
+    397.4,
+    380.2,
+    550.2,
+    600.1
+   ],
+   "text": "• Сервис доставки  средней и последней  мили, а также  гиперлокальной  доставки Яндекс  До",
+   "img_covers_page": 0.067,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 38,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 27,
+   "text_bbox": [
+    406.6,
+    418.9,
+    534.3,
+    582.5
+   ],
+   "img_bbox": [
+    399.4,
+    382.2,
+    544.0,
+    593.9
+   ],
+   "text": "• Сервис доставки  средней и последней  мили, а также  гиперлокальной  доставки Яндекс  До",
+   "img_covers_page": 0.061,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 10,
+   "img_block_idx": 7,
+   "text_bbox": [
+    95.6,
+    593.7,
+    249.0,
+    631.9
+   ],
+   "img_bbox": [
+    85.5,
+    590.0,
+    541.1,
+    686.8
+   ],
+   "text": "62,3   млн пользователей",
+   "img_covers_page": 0.088,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 10,
+   "img_block_idx": 9,
+   "text_bbox": [
+    95.6,
+    593.7,
+    249.0,
+    631.9
+   ],
+   "img_bbox": [
+    88.4,
+    589.2,
+    284.2,
+    687.5
+   ],
+   "text": "62,3   млн пользователей",
+   "img_covers_page": 0.038,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 11,
+   "img_block_idx": 7,
+   "text_bbox": [
+    95.6,
+    628.3,
+    235.6,
+    666.5
+   ],
+   "img_bbox": [
+    85.5,
+    590.0,
+    541.1,
+    686.8
+   ],
+   "text": "( +17%  год к году)",
+   "img_covers_page": 0.088,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 11,
+   "img_block_idx": 9,
+   "text_bbox": [
+    95.6,
+    628.3,
+    235.6,
+    666.5
+   ],
+   "img_bbox": [
+    88.4,
+    589.2,
+    284.2,
+    687.5
+   ],
+   "text": "( +17%  год к году)",
+   "img_covers_page": 0.038,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 12,
+   "img_block_idx": 7,
+   "text_bbox": [
+    95.6,
+    665.0,
+    217.4,
+    679.7
+   ],
+   "img_bbox": [
+    85.5,
+    590.0,
+    541.1,
+    686.8
+   ],
+   "text": "MAU Городских  с ервисов",
+   "img_covers_page": 0.088,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 12,
+   "img_block_idx": 9,
+   "text_bbox": [
+    95.6,
+    665.0,
+    217.4,
+    679.7
+   ],
+   "img_bbox": [
+    88.4,
+    589.2,
+    284.2,
+    687.5
+   ],
+   "text": "MAU Городских  с ервисов",
+   "img_covers_page": 0.038,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 7,
+   "text_bbox": [
+    307.1,
+    593.7,
+    411.3,
+    631.9
+   ],
+   "img_bbox": [
+    85.5,
+    590.0,
+    541.1,
+    686.8
+   ],
+   "text": "21  млрд рублей",
+   "img_covers_page": 0.088,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 13,
+   "text_bbox": [
+    307.1,
+    593.7,
+    411.3,
+    631.9
+   ],
+   "img_bbox": [
+    299.9,
+    589.2,
+    547.3,
+    687.5
+   ],
+   "text": "21  млрд рублей",
+   "img_covers_page": 0.049,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 0.994,
+   "text_block_idx": 15,
+   "img_block_idx": 7,
+   "text_bbox": [
+    307.1,
+    628.3,
+    542.6,
+    666.5
+   ],
+   "img_bbox": [
+    85.5,
+    590.0,
+    541.1,
+    686.8
+   ],
+   "text": "( +31%   год к году) —  доходы от",
+   "img_covers_page": 0.088,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 15,
+   "img_block_idx": 13,
+   "text_bbox": [
+    307.1,
+    628.3,
+    542.6,
+    666.5
+   ],
+   "img_bbox": [
+    299.9,
+    589.2,
+    547.3,
+    687.5
+   ],
+   "text": "( +31%   год к году) —  доходы от",
+   "img_covers_page": 0.049,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 16,
+   "img_block_idx": 7,
+   "text_bbox": [
+    307.1,
+    665.0,
+    454.8,
+    679.7
+   ],
+   "img_bbox": [
+    85.5,
+    590.0,
+    541.1,
+    686.8
+   ],
+   "text": "рекламы в Городских сервисах",
+   "img_covers_page": 0.088,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 16,
+   "img_block_idx": 13,
+   "text_bbox": [
+    307.1,
+    665.0,
+    454.8,
+    679.7
+   ],
+   "img_bbox": [
+    299.9,
+    589.2,
+    547.3,
+    687.5
+   ],
+   "text": "рекламы в Городских сервисах",
+   "img_covers_page": 0.049,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 20,
+   "img_block_idx": 17,
+   "text_bbox": [
+    337.4,
+    88.4,
+    417.3,
+    103.6
+   ],
+   "img_bbox": [
+    325.8,
+    81.4,
+    556.4,
+    179.6
+   ],
+   "text": "Финтех сервисы",
+   "img_covers_page": 0.045,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 20,
+   "img_block_idx": 18,
+   "text_bbox": [
+    337.4,
+    88.4,
+    417.3,
+    103.6
+   ],
+   "img_bbox": [
+    326.7,
+    87.3,
+    555.6,
+    173.6
+   ],
+   "text": "Финтех сервисы",
+   "img_covers_page": 0.039,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 0.94,
+   "text_block_idx": 20,
+   "img_block_idx": 19,
+   "text_bbox": [
+    337.4,
+    88.4,
+    417.3,
+    103.6
+   ],
+   "img_bbox": [
+    328.7,
+    89.3,
+    549.4,
+    167.4
+   ],
+   "text": "Финтех сервисы",
+   "img_covers_page": 0.034,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 17,
+   "text_bbox": [
+    337.4,
+    111.5,
+    541.7,
+    153.1
+   ],
+   "img_bbox": [
+    325.8,
+    81.4,
+    556.4,
+    179.6
+   ],
+   "text": "• Внедрение финтех-сервисов в бизнесы  Яндекса (например, «Сплит» в  Маркете, Еде и Деливе",
+   "img_covers_page": 0.045,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 18,
+   "text_bbox": [
+    337.4,
+    111.5,
+    541.7,
+    153.1
+   ],
+   "img_bbox": [
+    326.7,
+    87.3,
+    555.6,
+    173.6
+   ],
+   "text": "• Внедрение финтех-сервисов в бизнесы  Яндекса (например, «Сплит» в  Маркете, Еде и Деливе",
+   "img_covers_page": 0.039,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 19,
+   "text_bbox": [
+    337.4,
+    111.5,
+    541.7,
+    153.1
+   ],
+   "img_bbox": [
+    328.7,
+    89.3,
+    549.4,
+    167.4
+   ],
+   "text": "• Внедрение финтех-сервисов в бизнесы  Яндекса (например, «Сплит» в  Маркете, Еде и Деливе",
+   "img_covers_page": 0.034,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 22,
+   "text_bbox": [
+    104.9,
+    90.2,
+    228.1,
+    105.5
+   ],
+   "img_bbox": [
+    92.0,
+    81.9,
+    325.0,
+    234.2
+   ],
+   "text": "Собственные геосервисы",
+   "img_covers_page": 0.071,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 23,
+   "text_bbox": [
+    104.9,
+    90.2,
+    228.1,
+    105.5
+   ],
+   "img_bbox": [
+    94.3,
+    89.2,
+    322.7,
+    226.9
+   ],
+   "text": "Собственные геосервисы",
+   "img_covers_page": 0.063,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 0.94,
+   "text_block_idx": 25,
+   "img_block_idx": 24,
+   "text_bbox": [
+    104.9,
+    90.2,
+    228.1,
+    105.5
+   ],
+   "img_bbox": [
+    96.2,
+    91.1,
+    316.6,
+    220.7
+   ],
+   "text": "Собственные геосервисы",
+   "img_covers_page": 0.057,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 26,
+   "img_block_idx": 22,
+   "text_bbox": [
+    104.9,
+    113.4,
+    309.4,
+    141.5
+   ],
+   "img_bbox": [
+    92.0,
+    81.9,
+    325.0,
+    234.2
+   ],
+   "text": "• Уникальные картографические данные  и алгоритмы",
+   "img_covers_page": 0.071,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 26,
+   "img_block_idx": 23,
+   "text_bbox": [
+    104.9,
+    113.4,
+    309.4,
+    141.5
+   ],
+   "img_bbox": [
+    94.3,
+    89.2,
+    322.7,
+    226.9
+   ],
+   "text": "• Уникальные картографические данные  и алгоритмы",
+   "img_covers_page": 0.063,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 26,
+   "img_block_idx": 24,
+   "text_bbox": [
+    104.9,
+    113.4,
+    309.4,
+    141.5
+   ],
+   "img_bbox": [
+    96.2,
+    91.1,
+    316.6,
+    220.7
+   ],
+   "text": "• Уникальные картографические данные  и алгоритмы",
+   "img_covers_page": 0.057,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 27,
+   "img_block_idx": 22,
+   "text_bbox": [
+    104.9,
+    148.8,
+    265.3,
+    176.9
+   ],
+   "img_bbox": [
+    92.0,
+    81.9,
+    325.0,
+    234.2
+   ],
+   "text": "• Оптимальная маршрутизация  водителей и курьеров",
+   "img_covers_page": 0.071,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 27,
+   "img_block_idx": 23,
+   "text_bbox": [
+    104.9,
+    148.8,
+    265.3,
+    176.9
+   ],
+   "img_bbox": [
+    94.3,
+    89.2,
+    322.7,
+    226.9
+   ],
+   "text": "• Оптимальная маршрутизация  водителей и курьеров",
+   "img_covers_page": 0.063,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 27,
+   "img_block_idx": 24,
+   "text_bbox": [
+    104.9,
+    148.8,
+    265.3,
+    176.9
+   ],
+   "img_bbox": [
+    96.2,
+    91.1,
+    316.6,
+    220.7
+   ],
+   "text": "• Оптимальная маршрутизация  водителей и курьеров",
+   "img_covers_page": 0.057,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 22,
+   "text_bbox": [
+    104.9,
+    184.3,
+    294.8,
+    212.4
+   ],
+   "img_bbox": [
+    92.0,
+    81.9,
+    325.0,
+    234.2
+   ],
+   "text": "• Определение ожидаемого времени  выполнения заказа",
+   "img_covers_page": 0.071,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 23,
+   "text_bbox": [
+    104.9,
+    184.3,
+    294.8,
+    212.4
+   ],
+   "img_bbox": [
+    94.3,
+    89.2,
+    322.7,
+    226.9
+   ],
+   "text": "• Определение ожидаемого времени  выполнения заказа",
+   "img_covers_page": 0.063,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 24,
+   "text_bbox": [
+    104.9,
+    184.3,
+    294.8,
+    212.4
+   ],
+   "img_bbox": [
+    96.2,
+    91.1,
+    316.6,
+    220.7
+   ],
+   "text": "• Определение ожидаемого времени  выполнения заказа",
+   "img_covers_page": 0.057,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 32,
+   "img_block_idx": 29,
+   "text_bbox": [
+    337.9,
+    287.8,
+    419.4,
+    303.0
+   ],
+   "img_bbox": [
+    325.6,
+    280.1,
+    557.2,
+    404.9
+   ],
+   "text": "Экосистемность",
+   "img_covers_page": 0.058,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 32,
+   "img_block_idx": 30,
+   "text_bbox": [
+    337.9,
+    287.8,
+    419.4,
+    303.0
+   ],
+   "img_bbox": [
+    327.2,
+    286.7,
+    555.7,
+    398.3
+   ],
+   "text": "Экосистемность",
+   "img_covers_page": 0.051,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 0.94,
+   "text_block_idx": 32,
+   "img_block_idx": 31,
+   "text_bbox": [
+    337.9,
+    287.8,
+    419.4,
+    303.0
+   ],
+   "img_bbox": [
+    329.2,
+    288.7,
+    549.5,
+    392.1
+   ],
+   "text": "Экосистемность",
+   "img_covers_page": 0.045,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 33,
+   "img_block_idx": 29,
+   "text_bbox": [
+    337.9,
+    310.9,
+    537.7,
+    379.3
+   ],
+   "img_bbox": [
+    325.6,
+    280.1,
+    557.2,
+    404.9
+   ],
+   "text": "• Единая инфраструктура по обработке  данных сервисов, создающая  возможности по их максим",
+   "img_covers_page": 0.058,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 33,
+   "img_block_idx": 30,
+   "text_bbox": [
+    337.9,
+    310.9,
+    537.7,
+    379.3
+   ],
+   "img_bbox": [
+    327.2,
+    286.7,
+    555.7,
+    398.3
+   ],
+   "text": "• Единая инфраструктура по обработке  данных сервисов, создающая  возможности по их максим",
+   "img_covers_page": 0.051,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 33,
+   "img_block_idx": 31,
+   "text_bbox": [
+    337.9,
+    310.9,
+    537.7,
+    379.3
+   ],
+   "img_bbox": [
+    329.2,
+    288.7,
+    549.5,
+    392.1
+   ],
+   "text": "• Единая инфраструктура по обработке  данных сервисов, создающая  возможности по их максим",
+   "img_covers_page": 0.045,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 37,
+   "img_block_idx": 34,
+   "text_bbox": [
+    105.4,
+    243.8,
+    281.7,
+    259.1
+   ],
+   "img_bbox": [
+    92.0,
+    235.0,
+    324.8,
+    404.9
+   ],
+   "text": "Уникальные продуктовые решения",
+   "img_covers_page": 0.079,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 37,
+   "img_block_idx": 35,
+   "text_bbox": [
+    105.4,
+    243.8,
+    281.7,
+    259.1
+   ],
+   "img_bbox": [
+    94.8,
+    242.8,
+    322.1,
+    397.1
+   ],
+   "text": "Уникальные продуктовые решения",
+   "img_covers_page": 0.07,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 0.94,
+   "text_block_idx": 37,
+   "img_block_idx": 36,
+   "text_bbox": [
+    105.4,
+    243.8,
+    281.7,
+    259.1
+   ],
+   "img_bbox": [
+    96.8,
+    244.7,
+    316.0,
+    390.9
+   ],
+   "text": "Уникальные продуктовые решения",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 38,
+   "img_block_idx": 34,
+   "text_bbox": [
+    105.4,
+    267.0,
+    304.1,
+    322.0
+   ],
+   "img_bbox": [
+    92.0,
+    235.0,
+    324.8,
+    404.9
+   ],
+   "text": "• Сценарий с «заездом по пути» —  курьер заезжает по пути из даркстора  к клиенту в магази",
+   "img_covers_page": 0.079,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 38,
+   "img_block_idx": 35,
+   "text_bbox": [
+    105.4,
+    267.0,
+    304.1,
+    322.0
+   ],
+   "img_bbox": [
+    94.8,
+    242.8,
+    322.1,
+    397.1
+   ],
+   "text": "• Сценарий с «заездом по пути» —  курьер заезжает по пути из даркстора  к клиенту в магази",
+   "img_covers_page": 0.07,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 38,
+   "img_block_idx": 36,
+   "text_bbox": [
+    105.4,
+    267.0,
+    304.1,
+    322.0
+   ],
+   "img_bbox": [
+    96.8,
+    244.7,
+    316.0,
+    390.9
+   ],
+   "text": "• Сценарий с «заездом по пути» —  курьер заезжает по пути из даркстора  к клиенту в магази",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 39,
+   "img_block_idx": 34,
+   "text_bbox": [
+    105.4,
+    329.3,
+    290.5,
+    384.2
+   ],
+   "img_bbox": [
+    92.0,
+    235.0,
+    324.8,
+    404.9
+   ],
+   "text": "• Например, доставка по клику —  посылку из Маркета доставят за 15  минут из ближайшего да",
+   "img_covers_page": 0.079,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 39,
+   "img_block_idx": 35,
+   "text_bbox": [
+    105.4,
+    329.3,
+    290.5,
+    384.2
+   ],
+   "img_bbox": [
+    94.8,
+    242.8,
+    322.1,
+    397.1
+   ],
+   "text": "• Например, доставка по клику —  посылку из Маркета доставят за 15  минут из ближайшего да",
+   "img_covers_page": 0.07,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 39,
+   "img_block_idx": 36,
+   "text_bbox": [
+    105.4,
+    329.3,
+    290.5,
+    384.2
+   ],
+   "img_bbox": [
+    96.8,
+    244.7,
+    316.0,
+    390.9
+   ],
+   "text": "• Например, доставка по клику —  посылку из Маркета доставят за 15  минут из ближайшего да",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 43,
+   "img_block_idx": 40,
+   "text_bbox": [
+    337.3,
+    188.1,
+    513.1,
+    203.3
+   ],
+   "img_bbox": [
+    325.8,
+    181.1,
+    557.2,
+    279.3
+   ],
+   "text": "Оригинальные технологии Яндекса",
+   "img_covers_page": 0.045,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 43,
+   "img_block_idx": 41,
+   "text_bbox": [
+    337.3,
+    188.1,
+    513.1,
+    203.3
+   ],
+   "img_bbox": [
+    326.6,
+    187.0,
+    556.3,
+    273.4
+   ],
+   "text": "Оригинальные технологии Яндекса",
+   "img_covers_page": 0.04,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 0.94,
+   "text_block_idx": 43,
+   "img_block_idx": 42,
+   "text_bbox": [
+    337.3,
+    188.1,
+    513.1,
+    203.3
+   ],
+   "img_bbox": [
+    328.6,
+    189.0,
+    550.1,
+    267.2
+   ],
+   "text": "Оригинальные технологии Яндекса",
+   "img_covers_page": 0.035,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 44,
+   "img_block_idx": 40,
+   "text_bbox": [
+    337.3,
+    211.2,
+    537.1,
+    266.2
+   ],
+   "img_bbox": [
+    325.8,
+    181.1,
+    557.2,
+    279.3
+   ],
+   "text": "• Интеграция ИИ в продукты и сервисы.  Огромный опыт в сфере рекламных  технологий, поиско",
+   "img_covers_page": 0.045,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 44,
+   "img_block_idx": 41,
+   "text_bbox": [
+    337.3,
+    211.2,
+    537.1,
+    266.2
+   ],
+   "img_bbox": [
+    326.6,
+    187.0,
+    556.3,
+    273.4
+   ],
+   "text": "• Интеграция ИИ в продукты и сервисы.  Огромный опыт в сфере рекламных  технологий, поиско",
+   "img_covers_page": 0.04,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 39,
+   "frac": 1.0,
+   "text_block_idx": 44,
+   "img_block_idx": 42,
+   "text_bbox": [
+    337.3,
+    211.2,
+    537.1,
+    266.2
+   ],
+   "img_bbox": [
+    328.6,
+    189.0,
+    550.1,
+    267.2
+   ],
+   "text": "• Интеграция ИИ в продукты и сервисы.  Огромный опыт в сфере рекламных  технологий, поиско",
+   "img_covers_page": 0.035,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 11,
+   "img_block_idx": 8,
+   "text_bbox": [
+    104.5,
+    412.4,
+    210.4,
+    442.1
+   ],
+   "img_bbox": [
+    91.8,
+    404.2,
+    233.6,
+    610.8
+   ],
+   "text": "Финансовые сервисы",
+   "img_covers_page": 0.058,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 11,
+   "img_block_idx": 9,
+   "text_bbox": [
+    104.5,
+    412.4,
+    210.4,
+    442.1
+   ],
+   "img_bbox": [
+    93.8,
+    411.3,
+    233.6,
+    603.7
+   ],
+   "text": "Финансовые сервисы",
+   "img_covers_page": 0.054,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 0.969,
+   "text_block_idx": 11,
+   "img_block_idx": 10,
+   "text_bbox": [
+    104.5,
+    412.4,
+    210.4,
+    442.1
+   ],
+   "img_bbox": [
+    95.8,
+    413.3,
+    227.9,
+    597.5
+   ],
+   "text": "Финансовые сервисы",
+   "img_covers_page": 0.049,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 12,
+   "img_block_idx": 8,
+   "text_bbox": [
+    104.5,
+    450.1,
+    181.0,
+    464.8
+   ],
+   "img_bbox": [
+    91.8,
+    404.2,
+    233.6,
+    610.8
+   ],
+   "text": "• Яндекс Пэй",
+   "img_covers_page": 0.058,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 12,
+   "img_block_idx": 9,
+   "text_bbox": [
+    104.5,
+    450.1,
+    181.0,
+    464.8
+   ],
+   "img_bbox": [
+    93.8,
+    411.3,
+    233.6,
+    603.7
+   ],
+   "text": "• Яндекс Пэй",
+   "img_covers_page": 0.054,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 12,
+   "img_block_idx": 10,
+   "text_bbox": [
+    104.5,
+    450.1,
+    181.0,
+    464.8
+   ],
+   "img_bbox": [
+    95.8,
+    413.3,
+    227.9,
+    597.5
+   ],
+   "text": "• Яндекс Пэй",
+   "img_covers_page": 0.049,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 8,
+   "text_bbox": [
+    104.5,
+    472.2,
+    223.5,
+    486.8
+   ],
+   "img_bbox": [
+    91.8,
+    404.2,
+    233.6,
+    610.8
+   ],
+   "text": "• Сплит и Супер Сплит",
+   "img_covers_page": 0.058,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 9,
+   "text_bbox": [
+    104.5,
+    472.2,
+    223.5,
+    486.8
+   ],
+   "img_bbox": [
+    93.8,
+    411.3,
+    233.6,
+    603.7
+   ],
+   "text": "• Сплит и Супер Сплит",
+   "img_covers_page": 0.054,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 10,
+   "text_bbox": [
+    104.5,
+    472.2,
+    223.5,
+    486.8
+   ],
+   "img_bbox": [
+    95.8,
+    413.3,
+    227.9,
+    597.5
+   ],
+   "text": "• Сплит и Супер Сплит",
+   "img_covers_page": 0.049,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 8,
+   "text_bbox": [
+    104.5,
+    494.1,
+    157.3,
+    508.8
+   ],
+   "img_bbox": [
+    91.8,
+    404.2,
+    233.6,
+    610.8
+   ],
+   "text": "• Сейвы",
+   "img_covers_page": 0.058,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 9,
+   "text_bbox": [
+    104.5,
+    494.1,
+    157.3,
+    508.8
+   ],
+   "img_bbox": [
+    93.8,
+    411.3,
+    233.6,
+    603.7
+   ],
+   "text": "• Сейвы",
+   "img_covers_page": 0.054,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 10,
+   "text_bbox": [
+    104.5,
+    494.1,
+    157.3,
+    508.8
+   ],
+   "img_bbox": [
+    95.8,
+    413.3,
+    227.9,
+    597.5
+   ],
+   "text": "• Сейвы",
+   "img_covers_page": 0.049,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 15,
+   "img_block_idx": 8,
+   "text_bbox": [
+    104.5,
+    516.1,
+    218.0,
+    557.7
+   ],
+   "img_bbox": [
+    91.8,
+    404.2,
+    233.6,
+    610.8
+   ],
+   "text": "• Яндекс ID — крупнейший сервис  авторизации",
+   "img_covers_page": 0.058,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 15,
+   "img_block_idx": 9,
+   "text_bbox": [
+    104.5,
+    516.1,
+    218.0,
+    557.7
+   ],
+   "img_bbox": [
+    93.8,
+    411.3,
+    233.6,
+    603.7
+   ],
+   "text": "• Яндекс ID — крупнейший сервис  авторизации",
+   "img_covers_page": 0.054,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 15,
+   "img_block_idx": 10,
+   "text_bbox": [
+    104.5,
+    516.1,
+    218.0,
+    557.7
+   ],
+   "img_bbox": [
+    95.8,
+    413.3,
+    227.9,
+    597.5
+   ],
+   "text": "• Яндекс ID — крупнейший сервис  авторизации",
+   "img_covers_page": 0.049,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 16,
+   "img_block_idx": 8,
+   "text_bbox": [
+    104.5,
+    565.0,
+    202.3,
+    579.7
+   ],
+   "img_bbox": [
+    91.8,
+    404.2,
+    233.6,
+    610.8
+   ],
+   "text": "• Пэй для бизнеса",
+   "img_covers_page": 0.058,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 16,
+   "img_block_idx": 9,
+   "text_bbox": [
+    104.5,
+    565.0,
+    202.3,
+    579.7
+   ],
+   "img_bbox": [
+    93.8,
+    411.3,
+    233.6,
+    603.7
+   ],
+   "text": "• Пэй для бизнеса",
+   "img_covers_page": 0.054,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 16,
+   "img_block_idx": 10,
+   "text_bbox": [
+    104.5,
+    565.0,
+    202.3,
+    579.7
+   ],
+   "img_bbox": [
+    95.8,
+    413.3,
+    227.9,
+    597.5
+   ],
+   "text": "• Пэй для бизнеса",
+   "img_covers_page": 0.049,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 20,
+   "img_block_idx": 17,
+   "text_bbox": [
+    253.5,
+    412.8,
+    376.7,
+    442.6
+   ],
+   "img_bbox": [
+    240.4,
+    404.2,
+    396.8,
+    610.8
+   ],
+   "text": "Плюс и развлекательные  сервисы",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 20,
+   "img_block_idx": 18,
+   "text_bbox": [
+    253.5,
+    412.8,
+    376.7,
+    442.6
+   ],
+   "img_bbox": [
+    242.8,
+    411.7,
+    396.8,
+    603.3
+   ],
+   "text": "Плюс и развлекательные  сервисы",
+   "img_covers_page": 0.059,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 0.969,
+   "text_block_idx": 20,
+   "img_block_idx": 19,
+   "text_bbox": [
+    253.5,
+    412.8,
+    376.7,
+    442.6
+   ],
+   "img_bbox": [
+    244.8,
+    413.7,
+    391.3,
+    597.1
+   ],
+   "text": "Плюс и развлекательные  сервисы",
+   "img_covers_page": 0.054,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 17,
+   "text_bbox": [
+    253.5,
+    450.5,
+    353.7,
+    478.6
+   ],
+   "img_bbox": [
+    240.4,
+    404.2,
+    396.8,
+    610.8
+   ],
+   "text": "• Мультиподписка  Яндекс Плюс",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 18,
+   "text_bbox": [
+    253.5,
+    450.5,
+    353.7,
+    478.6
+   ],
+   "img_bbox": [
+    242.8,
+    411.7,
+    396.8,
+    603.3
+   ],
+   "text": "• Мультиподписка  Яндекс Плюс",
+   "img_covers_page": 0.059,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 19,
+   "text_bbox": [
+    253.5,
+    450.5,
+    353.7,
+    478.6
+   ],
+   "img_bbox": [
+    244.8,
+    413.7,
+    391.3,
+    597.1
+   ],
+   "text": "• Мультиподписка  Яндекс Плюс",
+   "img_covers_page": 0.054,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 22,
+   "img_block_idx": 17,
+   "text_bbox": [
+    253.5,
+    485.9,
+    349.0,
+    500.6
+   ],
+   "img_bbox": [
+    240.4,
+    404.2,
+    396.8,
+    610.8
+   ],
+   "text": "• Яндекс Музыка",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 22,
+   "img_block_idx": 18,
+   "text_bbox": [
+    253.5,
+    485.9,
+    349.0,
+    500.6
+   ],
+   "img_bbox": [
+    242.8,
+    411.7,
+    396.8,
+    603.3
+   ],
+   "text": "• Яндекс Музыка",
+   "img_covers_page": 0.059,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 22,
+   "img_block_idx": 19,
+   "text_bbox": [
+    253.5,
+    485.9,
+    349.0,
+    500.6
+   ],
+   "img_bbox": [
+    244.8,
+    413.7,
+    391.3,
+    597.1
+   ],
+   "text": "• Яндекс Музыка",
+   "img_covers_page": 0.054,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 23,
+   "img_block_idx": 17,
+   "text_bbox": [
+    253.5,
+    508.0,
+    327.3,
+    522.7
+   ],
+   "img_bbox": [
+    240.4,
+    404.2,
+    396.8,
+    610.8
+   ],
+   "text": "• Кинопоиск",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 23,
+   "img_block_idx": 18,
+   "text_bbox": [
+    253.5,
+    508.0,
+    327.3,
+    522.7
+   ],
+   "img_bbox": [
+    242.8,
+    411.7,
+    396.8,
+    603.3
+   ],
+   "text": "• Кинопоиск",
+   "img_covers_page": 0.059,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 23,
+   "img_block_idx": 19,
+   "text_bbox": [
+    253.5,
+    508.0,
+    327.3,
+    522.7
+   ],
+   "img_bbox": [
+    244.8,
+    413.7,
+    391.3,
+    597.1
+   ],
+   "text": "• Кинопоиск",
+   "img_covers_page": 0.054,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 17,
+   "text_bbox": [
+    253.5,
+    530.0,
+    339.9,
+    544.7
+   ],
+   "img_bbox": [
+    240.4,
+    404.2,
+    396.8,
+    610.8
+   ],
+   "text": "• Яндекс Книги",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 18,
+   "text_bbox": [
+    253.5,
+    530.0,
+    339.9,
+    544.7
+   ],
+   "img_bbox": [
+    242.8,
+    411.7,
+    396.8,
+    603.3
+   ],
+   "text": "• Яндекс Книги",
+   "img_covers_page": 0.059,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 19,
+   "text_bbox": [
+    253.5,
+    530.0,
+    339.9,
+    544.7
+   ],
+   "img_bbox": [
+    244.8,
+    413.7,
+    391.3,
+    597.1
+   ],
+   "text": "• Яндекс Книги",
+   "img_covers_page": 0.054,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 17,
+   "text_bbox": [
+    253.5,
+    552.0,
+    344.8,
+    566.7
+   ],
+   "img_bbox": [
+    240.4,
+    404.2,
+    396.8,
+    610.8
+   ],
+   "text": "• Яндекс Афиша",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 18,
+   "text_bbox": [
+    253.5,
+    552.0,
+    344.8,
+    566.7
+   ],
+   "img_bbox": [
+    242.8,
+    411.7,
+    396.8,
+    603.3
+   ],
+   "text": "• Яндекс Афиша",
+   "img_covers_page": 0.059,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 19,
+   "text_bbox": [
+    253.5,
+    552.0,
+    344.8,
+    566.7
+   ],
+   "img_bbox": [
+    244.8,
+    413.7,
+    391.3,
+    597.1
+   ],
+   "text": "• Яндекс Афиша",
+   "img_covers_page": 0.054,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 26,
+   "img_block_idx": 17,
+   "text_bbox": [
+    253.5,
+    574.0,
+    332.7,
+    588.6
+   ],
+   "img_bbox": [
+    240.4,
+    404.2,
+    396.8,
+    610.8
+   ],
+   "text": "• Плюс студия",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 26,
+   "img_block_idx": 18,
+   "text_bbox": [
+    253.5,
+    574.0,
+    332.7,
+    588.6
+   ],
+   "img_bbox": [
+    242.8,
+    411.7,
+    396.8,
+    603.3
+   ],
+   "text": "• Плюс студия",
+   "img_covers_page": 0.059,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 26,
+   "img_block_idx": 19,
+   "text_bbox": [
+    253.5,
+    574.0,
+    332.7,
+    588.6
+   ],
+   "img_bbox": [
+    244.8,
+    413.7,
+    391.3,
+    597.1
+   ],
+   "text": "• Плюс студия",
+   "img_covers_page": 0.054,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 30,
+   "img_block_idx": 27,
+   "text_bbox": [
+    416.5,
+    412.7,
+    522.4,
+    442.4
+   ],
+   "img_bbox": [
+    403.5,
+    404.2,
+    559.0,
+    610.8
+   ],
+   "text": "Свои Плюсы и другие  сервисы",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 30,
+   "img_block_idx": 28,
+   "text_bbox": [
+    416.5,
+    412.7,
+    522.4,
+    442.4
+   ],
+   "img_bbox": [
+    405.8,
+    411.6,
+    556.7,
+    603.4
+   ],
+   "text": "Свои Плюсы и другие  сервисы",
+   "img_covers_page": 0.058,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 0.969,
+   "text_block_idx": 30,
+   "img_block_idx": 29,
+   "text_bbox": [
+    416.5,
+    412.7,
+    522.4,
+    442.4
+   ],
+   "img_bbox": [
+    407.8,
+    413.6,
+    550.5,
+    597.2
+   ],
+   "text": "Свои Плюсы и другие  сервисы",
+   "img_covers_page": 0.052,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 31,
+   "img_block_idx": 27,
+   "text_bbox": [
+    416.5,
+    450.4,
+    526.1,
+    491.9
+   ],
+   "img_bbox": [
+    403.5,
+    404.2,
+    559.0,
+    610.8
+   ],
+   "text": "• Рекламные  технологии бизнес- группы",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 31,
+   "img_block_idx": 28,
+   "text_bbox": [
+    416.5,
+    450.4,
+    526.1,
+    491.9
+   ],
+   "img_bbox": [
+    405.8,
+    411.6,
+    556.7,
+    603.4
+   ],
+   "text": "• Рекламные  технологии бизнес- группы",
+   "img_covers_page": 0.058,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 31,
+   "img_block_idx": 29,
+   "text_bbox": [
+    416.5,
+    450.4,
+    526.1,
+    491.9
+   ],
+   "img_bbox": [
+    407.8,
+    413.6,
+    550.5,
+    597.2
+   ],
+   "text": "• Рекламные  технологии бизнес- группы",
+   "img_covers_page": 0.052,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 32,
+   "img_block_idx": 27,
+   "text_bbox": [
+    416.5,
+    499.3,
+    532.0,
+    540.8
+   ],
+   "img_bbox": [
+    403.5,
+    404.2,
+    559.0,
+    610.8
+   ],
+   "text": "• Программа  лояльности Яндекса  Свои Плюсы",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 32,
+   "img_block_idx": 28,
+   "text_bbox": [
+    416.5,
+    499.3,
+    532.0,
+    540.8
+   ],
+   "img_bbox": [
+    405.8,
+    411.6,
+    556.7,
+    603.4
+   ],
+   "text": "• Программа  лояльности Яндекса  Свои Плюсы",
+   "img_covers_page": 0.058,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 32,
+   "img_block_idx": 29,
+   "text_bbox": [
+    416.5,
+    499.3,
+    532.0,
+    540.8
+   ],
+   "img_bbox": [
+    407.8,
+    413.6,
+    550.5,
+    597.2
+   ],
+   "text": "• Программа  лояльности Яндекса  Свои Плюсы",
+   "img_covers_page": 0.052,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 33,
+   "img_block_idx": 27,
+   "text_bbox": [
+    416.5,
+    548.1,
+    538.7,
+    589.7
+   ],
+   "img_bbox": [
+    403.5,
+    404.2,
+    559.0,
+    610.8
+   ],
+   "text": "• Домиленд — одна из  крупнейших proptech- платформ",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 33,
+   "img_block_idx": 28,
+   "text_bbox": [
+    416.5,
+    548.1,
+    538.7,
+    589.7
+   ],
+   "img_bbox": [
+    405.8,
+    411.6,
+    556.7,
+    603.4
+   ],
+   "text": "• Домиленд — одна из  крупнейших proptech- платформ",
+   "img_covers_page": 0.058,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 47,
+   "frac": 1.0,
+   "text_block_idx": 33,
+   "img_block_idx": 29,
+   "text_bbox": [
+    416.5,
+    548.1,
+    538.7,
+    589.7
+   ],
+   "img_bbox": [
+    407.8,
+    413.6,
+    550.5,
+    597.2
+   ],
+   "text": "• Домиленд — одна из  крупнейших proptech- платформ",
+   "img_covers_page": 0.052,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 14,
+   "text_bbox": [
+    102.7,
+    92.1,
+    173.2,
+    108.7
+   ],
+   "img_bbox": [
+    91.4,
+    86.0,
+    560.6,
+    535.9
+   ],
+   "text": "Яндекс Плюс",
+   "img_covers_page": 0.421,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 16,
+   "text_bbox": [
+    102.7,
+    92.1,
+    173.2,
+    108.7
+   ],
+   "img_bbox": [
+    89.5,
+    77.6,
+    253.3,
+    361.8
+   ],
+   "text": "Яндекс Плюс",
+   "img_covers_page": 0.093,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 17,
+   "text_bbox": [
+    102.7,
+    92.1,
+    173.2,
+    108.7
+   ],
+   "img_bbox": [
+    93.5,
+    85.2,
+    249.3,
+    354.1
+   ],
+   "text": "Яндекс Плюс",
+   "img_covers_page": 0.084,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 18,
+   "text_bbox": [
+    102.7,
+    92.1,
+    173.2,
+    108.7
+   ],
+   "img_bbox": [
+    95.5,
+    87.2,
+    243.1,
+    347.9
+   ],
+   "text": "Яндекс Плюс",
+   "img_covers_page": 0.077,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 20,
+   "img_block_idx": 14,
+   "text_bbox": [
+    102.7,
+    113.1,
+    238.3,
+    330.6
+   ],
+   "img_bbox": [
+    91.4,
+    86.0,
+    560.6,
+    535.9
+   ],
+   "text": "Яндекс Плюс — лидер* по  числу подписчиков среди  комбинированных  подписок. В подписку  в",
+   "img_covers_page": 0.421,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 20,
+   "img_block_idx": 16,
+   "text_bbox": [
+    102.7,
+    113.1,
+    238.3,
+    330.6
+   ],
+   "img_bbox": [
+    89.5,
+    77.6,
+    253.3,
+    361.8
+   ],
+   "text": "Яндекс Плюс — лидер* по  числу подписчиков среди  комбинированных  подписок. В подписку  в",
+   "img_covers_page": 0.093,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 20,
+   "img_block_idx": 17,
+   "text_bbox": [
+    102.7,
+    113.1,
+    238.3,
+    330.6
+   ],
+   "img_bbox": [
+    93.5,
+    85.2,
+    249.3,
+    354.1
+   ],
+   "text": "Яндекс Плюс — лидер* по  числу подписчиков среди  комбинированных  подписок. В подписку  в",
+   "img_covers_page": 0.084,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 20,
+   "img_block_idx": 18,
+   "text_bbox": [
+    102.7,
+    113.1,
+    238.3,
+    330.6
+   ],
+   "img_bbox": [
+    95.5,
+    87.2,
+    243.1,
+    347.9
+   ],
+   "text": "Яндекс Плюс — лидер* по  числу подписчиков среди  комбинированных  подписок. В подписку  в",
+   "img_covers_page": 0.077,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 14,
+   "text_bbox": [
+    267.1,
+    91.0,
+    351.4,
+    107.7
+   ],
+   "img_bbox": [
+    91.4,
+    86.0,
+    560.6,
+    535.9
+   ],
+   "text": "Яндекс Музыка",
+   "img_covers_page": 0.421,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 21,
+   "text_bbox": [
+    267.1,
+    91.0,
+    351.4,
+    107.7
+   ],
+   "img_bbox": [
+    254.2,
+    76.9,
+    406.3,
+    252.2
+   ],
+   "text": "Яндекс Музыка",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 22,
+   "text_bbox": [
+    267.1,
+    91.0,
+    351.4,
+    107.7
+   ],
+   "img_bbox": [
+    257.9,
+    84.1,
+    402.6,
+    244.9
+   ],
+   "text": "Яндекс Музыка",
+   "img_covers_page": 0.046,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 23,
+   "text_bbox": [
+    267.1,
+    91.0,
+    351.4,
+    107.7
+   ],
+   "img_bbox": [
+    259.9,
+    86.1,
+    396.4,
+    238.7
+   ],
+   "text": "Яндекс Музыка",
+   "img_covers_page": 0.042,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 14,
+   "text_bbox": [
+    267.1,
+    112.0,
+    389.5,
+    213.6
+   ],
+   "img_bbox": [
+    91.4,
+    86.0,
+    560.6,
+    535.9
+   ],
+   "text": "Подписной музыкальный  сервис* с треками,  подкастами,  аудиокнигами, а также с  детским р",
+   "img_covers_page": 0.421,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 21,
+   "text_bbox": [
+    267.1,
+    112.0,
+    389.5,
+    213.6
+   ],
+   "img_bbox": [
+    254.2,
+    76.9,
+    406.3,
+    252.2
+   ],
+   "text": "Подписной музыкальный  сервис* с треками,  подкастами,  аудиокнигами, а также с  детским р",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 22,
+   "text_bbox": [
+    267.1,
+    112.0,
+    389.5,
+    213.6
+   ],
+   "img_bbox": [
+    257.9,
+    84.1,
+    402.6,
+    244.9
+   ],
+   "text": "Подписной музыкальный  сервис* с треками,  подкастами,  аудиокнигами, а также с  детским р",
+   "img_covers_page": 0.046,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 23,
+   "text_bbox": [
+    267.1,
+    112.0,
+    389.5,
+    213.6
+   ],
+   "img_bbox": [
+    259.9,
+    86.1,
+    396.4,
+    238.7
+   ],
+   "text": "Подписной музыкальный  сервис* с треками,  подкастами,  аудиокнигами, а также с  детским р",
+   "img_covers_page": 0.042,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 14,
+   "text_bbox": [
+    420.4,
+    91.0,
+    482.5,
+    107.7
+   ],
+   "img_bbox": [
+    91.4,
+    86.0,
+    560.6,
+    535.9
+   ],
+   "text": "Кинопоиск",
+   "img_covers_page": 0.421,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 26,
+   "text_bbox": [
+    420.4,
+    91.0,
+    482.5,
+    107.7
+   ],
+   "img_bbox": [
+    407.5,
+    76.9,
+    559.6,
+    332.9
+   ],
+   "text": "Кинопоиск",
+   "img_covers_page": 0.078,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 27,
+   "text_bbox": [
+    420.4,
+    91.0,
+    482.5,
+    107.7
+   ],
+   "img_bbox": [
+    411.2,
+    84.1,
+    555.8,
+    325.6
+   ],
+   "text": "Кинопоиск",
+   "img_covers_page": 0.07,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 28,
+   "text_bbox": [
+    420.4,
+    91.0,
+    482.5,
+    107.7
+   ],
+   "img_bbox": [
+    413.2,
+    86.1,
+    549.7,
+    319.4
+   ],
+   "text": "Кинопоиск",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 30,
+   "img_block_idx": 14,
+   "text_bbox": [
+    420.4,
+    112.0,
+    542.9,
+    315.0
+   ],
+   "img_bbox": [
+    91.4,
+    86.0,
+    560.6,
+    535.9
+   ],
+   "text": "Развлекательная  платформа о кино. Она  объединяет крупнейший  онлайн-кинотеатр*,  сервис ",
+   "img_covers_page": 0.421,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 30,
+   "img_block_idx": 26,
+   "text_bbox": [
+    420.4,
+    112.0,
+    542.9,
+    315.0
+   ],
+   "img_bbox": [
+    407.5,
+    76.9,
+    559.6,
+    332.9
+   ],
+   "text": "Развлекательная  платформа о кино. Она  объединяет крупнейший  онлайн-кинотеатр*,  сервис ",
+   "img_covers_page": 0.078,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 30,
+   "img_block_idx": 27,
+   "text_bbox": [
+    420.4,
+    112.0,
+    542.9,
+    315.0
+   ],
+   "img_bbox": [
+    411.2,
+    84.1,
+    555.8,
+    325.6
+   ],
+   "text": "Развлекательная  платформа о кино. Она  объединяет крупнейший  онлайн-кинотеатр*,  сервис ",
+   "img_covers_page": 0.07,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 30,
+   "img_block_idx": 28,
+   "text_bbox": [
+    420.4,
+    112.0,
+    542.9,
+    315.0
+   ],
+   "img_bbox": [
+    413.2,
+    86.1,
+    549.7,
+    319.4
+   ],
+   "text": "Развлекательная  платформа о кино. Она  объединяет крупнейший  онлайн-кинотеатр*,  сервис ",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 34,
+   "img_block_idx": 14,
+   "text_bbox": [
+    102.7,
+    377.4,
+    178.9,
+    394.1
+   ],
+   "img_bbox": [
+    91.4,
+    86.0,
+    560.6,
+    535.9
+   ],
+   "text": "Яндекс Книги",
+   "img_covers_page": 0.421,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 34,
+   "img_block_idx": 31,
+   "text_bbox": [
+    102.7,
+    377.4,
+    178.9,
+    394.1
+   ],
+   "img_bbox": [
+    89.5,
+    363.0,
+    253.3,
+    593.8
+   ],
+   "text": "Яндекс Книги",
+   "img_covers_page": 0.075,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 34,
+   "img_block_idx": 32,
+   "text_bbox": [
+    102.7,
+    377.4,
+    178.9,
+    394.1
+   ],
+   "img_bbox": [
+    93.5,
+    370.5,
+    249.3,
+    586.1
+   ],
+   "text": "Яндекс Книги",
+   "img_covers_page": 0.067,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 34,
+   "img_block_idx": 33,
+   "text_bbox": [
+    102.7,
+    377.4,
+    178.9,
+    394.1
+   ],
+   "img_bbox": [
+    95.5,
+    372.5,
+    243.1,
+    580.0
+   ],
+   "text": "Яндекс Книги",
+   "img_covers_page": 0.061,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 35,
+   "img_block_idx": 14,
+   "text_bbox": [
+    102.7,
+    398.4,
+    237.3,
+    529.0
+   ],
+   "img_bbox": [
+    91.4,
+    86.0,
+    560.6,
+    535.9
+   ],
+   "text": "Подписной книжный  сервис. В его каталоге  более 250 тыс. электронных  и аудиокниг: от кла",
+   "img_covers_page": 0.421,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 35,
+   "img_block_idx": 31,
+   "text_bbox": [
+    102.7,
+    398.4,
+    237.3,
+    529.0
+   ],
+   "img_bbox": [
+    89.5,
+    363.0,
+    253.3,
+    593.8
+   ],
+   "text": "Подписной книжный  сервис. В его каталоге  более 250 тыс. электронных  и аудиокниг: от кла",
+   "img_covers_page": 0.075,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 35,
+   "img_block_idx": 32,
+   "text_bbox": [
+    102.7,
+    398.4,
+    237.3,
+    529.0
+   ],
+   "img_bbox": [
+    93.5,
+    370.5,
+    249.3,
+    586.1
+   ],
+   "text": "Подписной книжный  сервис. В его каталоге  более 250 тыс. электронных  и аудиокниг: от кла",
+   "img_covers_page": 0.067,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 35,
+   "img_block_idx": 33,
+   "text_bbox": [
+    102.7,
+    398.4,
+    237.3,
+    529.0
+   ],
+   "img_bbox": [
+    95.5,
+    372.5,
+    243.1,
+    580.0
+   ],
+   "text": "Подписной книжный  сервис. В его каталоге  более 250 тыс. электронных  и аудиокниг: от кла",
+   "img_covers_page": 0.061,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 39,
+   "img_block_idx": 14,
+   "text_bbox": [
+    267.0,
+    265.3,
+    349.5,
+    282.0
+   ],
+   "img_bbox": [
+    91.4,
+    86.0,
+    560.6,
+    535.9
+   ],
+   "text": "Яндекс Афиша",
+   "img_covers_page": 0.421,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 39,
+   "img_block_idx": 36,
+   "text_bbox": [
+    267.0,
+    265.3,
+    349.5,
+    282.0
+   ],
+   "img_bbox": [
+    254.2,
+    251.2,
+    406.3,
+    593.8
+   ],
+   "text": "Яндекс Афиша",
+   "img_covers_page": 0.104,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 39,
+   "img_block_idx": 37,
+   "text_bbox": [
+    267.0,
+    265.3,
+    349.5,
+    282.0
+   ],
+   "img_bbox": [
+    257.8,
+    258.4,
+    402.5,
+    586.5
+   ],
+   "text": "Яндекс Афиша",
+   "img_covers_page": 0.095,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 39,
+   "img_block_idx": 38,
+   "text_bbox": [
+    267.0,
+    265.3,
+    349.5,
+    282.0
+   ],
+   "img_bbox": [
+    259.8,
+    260.4,
+    396.4,
+    580.3
+   ],
+   "text": "Яндекс Афиша",
+   "img_covers_page": 0.087,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 40,
+   "img_block_idx": 14,
+   "text_bbox": [
+    267.0,
+    286.3,
+    388.9,
+    474.8
+   ],
+   "img_bbox": [
+    91.4,
+    86.0,
+    560.6,
+    535.9
+   ],
+   "text": "Сервис по продаже  билетов на  развлекательные  мероприятия*. Яндекс  Афиша помогает узнат",
+   "img_covers_page": 0.421,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 40,
+   "img_block_idx": 36,
+   "text_bbox": [
+    267.0,
+    286.3,
+    388.9,
+    474.8
+   ],
+   "img_bbox": [
+    254.2,
+    251.2,
+    406.3,
+    593.8
+   ],
+   "text": "Сервис по продаже  билетов на  развлекательные  мероприятия*. Яндекс  Афиша помогает узнат",
+   "img_covers_page": 0.104,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 40,
+   "img_block_idx": 37,
+   "text_bbox": [
+    267.0,
+    286.3,
+    388.9,
+    474.8
+   ],
+   "img_bbox": [
+    257.8,
+    258.4,
+    402.5,
+    586.5
+   ],
+   "text": "Сервис по продаже  билетов на  развлекательные  мероприятия*. Яндекс  Афиша помогает узнат",
+   "img_covers_page": 0.095,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 40,
+   "img_block_idx": 38,
+   "text_bbox": [
+    267.0,
+    286.3,
+    388.9,
+    474.8
+   ],
+   "img_bbox": [
+    259.8,
+    260.4,
+    396.4,
+    580.3
+   ],
+   "text": "Сервис по продаже  билетов на  развлекательные  мероприятия*. Яндекс  Афиша помогает узнат",
+   "img_covers_page": 0.087,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 44,
+   "img_block_idx": 14,
+   "text_bbox": [
+    419.9,
+    342.0,
+    489.6,
+    358.7
+   ],
+   "img_bbox": [
+    91.4,
+    86.0,
+    560.6,
+    535.9
+   ],
+   "text": "Плюс Студия",
+   "img_covers_page": 0.421,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 44,
+   "img_block_idx": 41,
+   "text_bbox": [
+    419.9,
+    342.0,
+    489.6,
+    358.7
+   ],
+   "img_bbox": [
+    407.0,
+    333.8,
+    559.2,
+    594.0
+   ],
+   "text": "Плюс Студия",
+   "img_covers_page": 0.079,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 44,
+   "img_block_idx": 42,
+   "text_bbox": [
+    419.9,
+    342.0,
+    489.6,
+    358.7
+   ],
+   "img_bbox": [
+    410.7,
+    341.1,
+    555.5,
+    586.7
+   ],
+   "text": "Плюс Студия",
+   "img_covers_page": 0.071,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 0.936,
+   "text_block_idx": 44,
+   "img_block_idx": 43,
+   "text_bbox": [
+    419.9,
+    342.0,
+    489.6,
+    358.7
+   ],
+   "img_bbox": [
+    412.7,
+    343.1,
+    549.3,
+    580.6
+   ],
+   "text": "Плюс Студия",
+   "img_covers_page": 0.065,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 0.836,
+   "text_block_idx": 45,
+   "img_block_idx": 14,
+   "text_bbox": [
+    419.9,
+    366.1,
+    542.1,
+    569.2
+   ],
+   "img_bbox": [
+    91.4,
+    86.0,
+    560.6,
+    535.9
+   ],
+   "text": "Продюсерский центр  Яндекса занимается  производством контента,  инвестирует в проекты  па",
+   "img_covers_page": 0.421,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 45,
+   "img_block_idx": 41,
+   "text_bbox": [
+    419.9,
+    366.1,
+    542.1,
+    569.2
+   ],
+   "img_bbox": [
+    407.0,
+    333.8,
+    559.2,
+    594.0
+   ],
+   "text": "Продюсерский центр  Яндекса занимается  производством контента,  инвестирует в проекты  па",
+   "img_covers_page": 0.079,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 45,
+   "img_block_idx": 42,
+   "text_bbox": [
+    419.9,
+    366.1,
+    542.1,
+    569.2
+   ],
+   "img_bbox": [
+    410.7,
+    341.1,
+    555.5,
+    586.7
+   ],
+   "text": "Продюсерский центр  Яндекса занимается  производством контента,  инвестирует в проекты  па",
+   "img_covers_page": 0.071,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 48,
+   "frac": 1.0,
+   "text_block_idx": 45,
+   "img_block_idx": 43,
+   "text_bbox": [
+    419.9,
+    366.1,
+    542.1,
+    569.2
+   ],
+   "img_bbox": [
+    412.7,
+    343.1,
+    549.3,
+    580.6
+   ],
+   "text": "Продюсерский центр  Яндекса занимается  производством контента,  инвестирует в проекты  па",
+   "img_covers_page": 0.065,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 49,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 13,
+   "text_bbox": [
+    285.0,
+    268.8,
+    498.0,
+    344.6
+   ],
+   "img_bbox": [
+    271.2,
+    252.7,
+    559.4,
+    439.6
+   ],
+   "text": "№1   на своих рынках",
+   "img_covers_page": 0.107,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 49,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 14,
+   "text_bbox": [
+    285.0,
+    268.8,
+    498.0,
+    344.6
+   ],
+   "img_bbox": [
+    275.8,
+    260.9,
+    556.3,
+    431.4
+   ],
+   "text": "№1   на своих рынках",
+   "img_covers_page": 0.095,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 49,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 15,
+   "text_bbox": [
+    285.0,
+    268.8,
+    498.0,
+    344.6
+   ],
+   "img_bbox": [
+    277.8,
+    262.9,
+    550.1,
+    425.2
+   ],
+   "text": "№1   на своих рынках",
+   "img_covers_page": 0.088,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 49,
+   "frac": 1.0,
+   "text_block_idx": 22,
+   "img_block_idx": 13,
+   "text_bbox": [
+    303.1,
+    351.1,
+    396.1,
+    421.7
+   ],
+   "img_bbox": [
+    271.2,
+    252.7,
+    559.4,
+    439.6
+   ],
+   "text": "• Яндекс Плюс   • Кинопоиск  • Яндекс Музыка  • Яндекс Афиша  • Яндекс Книги",
+   "img_covers_page": 0.107,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 49,
+   "frac": 1.0,
+   "text_block_idx": 22,
+   "img_block_idx": 14,
+   "text_bbox": [
+    303.1,
+    351.1,
+    396.1,
+    421.7
+   ],
+   "img_bbox": [
+    275.8,
+    260.9,
+    556.3,
+    431.4
+   ],
+   "text": "• Яндекс Плюс   • Кинопоиск  • Яндекс Музыка  • Яндекс Афиша  • Яндекс Книги",
+   "img_covers_page": 0.095,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 49,
+   "frac": 1.0,
+   "text_block_idx": 22,
+   "img_block_idx": 15,
+   "text_bbox": [
+    303.1,
+    351.1,
+    396.1,
+    421.7
+   ],
+   "img_bbox": [
+    277.8,
+    262.9,
+    550.1,
+    425.2
+   ],
+   "text": "• Яндекс Плюс   • Кинопоиск  • Яндекс Музыка  • Яндекс Афиша  • Яндекс Книги",
+   "img_covers_page": 0.088,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 49,
+   "frac": 1.0,
+   "text_block_idx": 27,
+   "img_block_idx": 24,
+   "text_bbox": [
+    92.9,
+    195.1,
+    547.8,
+    224.3
+   ],
+   "img_bbox": [
+    74.1,
+    180.7,
+    568.3,
+    251.3
+   ],
+   "text": "Развлекательные сервисы Яндекса — лидеры в основных категориях: онлайн-кинотеатры,  музыка",
+   "img_covers_page": 0.07,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 49,
+   "frac": 1.0,
+   "text_block_idx": 27,
+   "img_block_idx": 25,
+   "text_bbox": [
+    92.9,
+    195.1,
+    547.8,
+    224.3
+   ],
+   "img_bbox": [
+    74.7,
+    184.9,
+    567.7,
+    247.1
+   ],
+   "text": "Развлекательные сервисы Яндекса — лидеры в основных категориях: онлайн-кинотеатры,  музыка",
+   "img_covers_page": 0.061,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 49,
+   "frac": 0.974,
+   "text_block_idx": 27,
+   "img_block_idx": 26,
+   "text_bbox": [
+    92.9,
+    195.1,
+    547.8,
+    224.3
+   ],
+   "img_bbox": [
+    85.7,
+    195.9,
+    552.5,
+    231.9
+   ],
+   "text": "Развлекательные сервисы Яндекса — лидеры в основных категориях: онлайн-кинотеатры,  музыка",
+   "img_covers_page": 0.034,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 0.987,
+   "text_block_idx": 20,
+   "img_block_idx": 15,
+   "text_bbox": [
+    97.7,
+    279.4,
+    210.3,
+    294.6
+   ],
+   "img_bbox": [
+    99.1,
+    278.8,
+    571.4,
+    458.4
+   ],
+   "text": "Экосистемный эффект",
+   "img_covers_page": 0.169,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 20,
+   "img_block_idx": 17,
+   "text_bbox": [
+    97.7,
+    279.4,
+    210.3,
+    294.6
+   ],
+   "img_bbox": [
+    86.1,
+    272.2,
+    381.7,
+    375.2
+   ],
+   "text": "Экосистемный эффект",
+   "img_covers_page": 0.061,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 20,
+   "img_block_idx": 18,
+   "text_bbox": [
+    97.7,
+    279.4,
+    210.3,
+    294.6
+   ],
+   "img_bbox": [
+    88.5,
+    278.3,
+    379.1,
+    369.1
+   ],
+   "text": "Экосистемный эффект",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 0.94,
+   "text_block_idx": 20,
+   "img_block_idx": 19,
+   "text_bbox": [
+    97.7,
+    279.4,
+    210.3,
+    294.6
+   ],
+   "img_bbox": [
+    90.5,
+    280.3,
+    373.0,
+    362.9
+   ],
+   "text": "Экосистемный эффект",
+   "img_covers_page": 0.047,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 0.994,
+   "text_block_idx": 21,
+   "img_block_idx": 15,
+   "text_bbox": [
+    97.7,
+    301.9,
+    353.2,
+    360.1
+   ],
+   "img_bbox": [
+    99.1,
+    278.8,
+    571.4,
+    458.4
+   ],
+   "text": "Подписка Яндекс Плюс интегрирована с другими  сервисами Яндекса (Такси, Доставка, Маркет и",
+   "img_covers_page": 0.169,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 17,
+   "text_bbox": [
+    97.7,
+    301.9,
+    353.2,
+    360.1
+   ],
+   "img_bbox": [
+    86.1,
+    272.2,
+    381.7,
+    375.2
+   ],
+   "text": "Подписка Яндекс Плюс интегрирована с другими  сервисами Яндекса (Такси, Доставка, Маркет и",
+   "img_covers_page": 0.061,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 18,
+   "text_bbox": [
+    97.7,
+    301.9,
+    353.2,
+    360.1
+   ],
+   "img_bbox": [
+    88.5,
+    278.3,
+    379.1,
+    369.1
+   ],
+   "text": "Подписка Яндекс Плюс интегрирована с другими  сервисами Яндекса (Такси, Доставка, Маркет и",
+   "img_covers_page": 0.053,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 19,
+   "text_bbox": [
+    97.7,
+    301.9,
+    353.2,
+    360.1
+   ],
+   "img_bbox": [
+    90.5,
+    280.3,
+    373.0,
+    362.9
+   ],
+   "text": "Подписка Яндекс Плюс интегрирована с другими  сервисами Яндекса (Такси, Доставка, Маркет и",
+   "img_covers_page": 0.047,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 15,
+   "text_bbox": [
+    392.4,
+    382.4,
+    488.7,
+    397.6
+   ],
+   "img_bbox": [
+    99.1,
+    278.8,
+    571.4,
+    458.4
+   ],
+   "text": "Гибкость подписки",
+   "img_covers_page": 0.169,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 22,
+   "text_bbox": [
+    392.4,
+    382.4,
+    488.7,
+    397.6
+   ],
+   "img_bbox": [
+    381.2,
+    375.7,
+    559.3,
+    463.2
+   ],
+   "text": "Гибкость подписки",
+   "img_covers_page": 0.031,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 23,
+   "text_bbox": [
+    392.4,
+    382.4,
+    488.7,
+    397.6
+   ],
+   "img_bbox": [
+    383.2,
+    381.3,
+    557.2,
+    457.6
+   ],
+   "text": "Гибкость подписки",
+   "img_covers_page": 0.026,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 0.94,
+   "text_block_idx": 25,
+   "img_block_idx": 24,
+   "text_bbox": [
+    392.4,
+    382.4,
+    488.7,
+    397.6
+   ],
+   "img_bbox": [
+    385.2,
+    383.3,
+    551.0,
+    451.4
+   ],
+   "text": "Гибкость подписки",
+   "img_covers_page": 0.023,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 26,
+   "img_block_idx": 15,
+   "text_bbox": [
+    392.4,
+    405.0,
+    524.2,
+    448.6
+   ],
+   "img_bbox": [
+    99.1,
+    278.8,
+    571.4,
+    458.4
+   ],
+   "text": "Одну подписку могут  использовать несколько  человек с разных устройств",
+   "img_covers_page": 0.169,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 26,
+   "img_block_idx": 22,
+   "text_bbox": [
+    392.4,
+    405.0,
+    524.2,
+    448.6
+   ],
+   "img_bbox": [
+    381.2,
+    375.7,
+    559.3,
+    463.2
+   ],
+   "text": "Одну подписку могут  использовать несколько  человек с разных устройств",
+   "img_covers_page": 0.031,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 26,
+   "img_block_idx": 23,
+   "text_bbox": [
+    392.4,
+    405.0,
+    524.2,
+    448.6
+   ],
+   "img_bbox": [
+    383.2,
+    381.3,
+    557.2,
+    457.6
+   ],
+   "text": "Одну подписку могут  использовать несколько  человек с разных устройств",
+   "img_covers_page": 0.026,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 26,
+   "img_block_idx": 24,
+   "text_bbox": [
+    392.4,
+    405.0,
+    524.2,
+    448.6
+   ],
+   "img_bbox": [
+    385.2,
+    383.3,
+    551.0,
+    451.4
+   ],
+   "text": "Одну подписку могут  использовать несколько  человек с разных устройств",
+   "img_covers_page": 0.023,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 30,
+   "img_block_idx": 15,
+   "text_bbox": [
+    393.3,
+    279.4,
+    516.1,
+    294.6
+   ],
+   "img_bbox": [
+    99.1,
+    278.8,
+    571.4,
+    458.4
+   ],
+   "text": "Точность рекомендаций",
+   "img_covers_page": 0.169,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 30,
+   "img_block_idx": 27,
+   "text_bbox": [
+    393.3,
+    279.4,
+    516.1,
+    294.6
+   ],
+   "img_bbox": [
+    381.7,
+    272.2,
+    559.3,
+    375.2
+   ],
+   "text": "Точность рекомендаций",
+   "img_covers_page": 0.036,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 30,
+   "img_block_idx": 28,
+   "text_bbox": [
+    393.3,
+    279.4,
+    516.1,
+    294.6
+   ],
+   "img_bbox": [
+    384.1,
+    278.3,
+    556.8,
+    369.1
+   ],
+   "text": "Точность рекомендаций",
+   "img_covers_page": 0.031,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 0.94,
+   "text_block_idx": 30,
+   "img_block_idx": 29,
+   "text_bbox": [
+    393.3,
+    279.4,
+    516.1,
+    294.6
+   ],
+   "img_bbox": [
+    386.1,
+    280.3,
+    550.6,
+    362.9
+   ],
+   "text": "Точность рекомендаций",
+   "img_covers_page": 0.027,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 31,
+   "img_block_idx": 15,
+   "text_bbox": [
+    393.3,
+    301.9,
+    520.1,
+    345.6
+   ],
+   "img_bbox": [
+    99.1,
+    278.8,
+    571.4,
+    458.4
+   ],
+   "text": "ИИ в Яндекс Музыке и  Кинопоиске улучшает  персонализацию контента",
+   "img_covers_page": 0.169,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 31,
+   "img_block_idx": 27,
+   "text_bbox": [
+    393.3,
+    301.9,
+    520.1,
+    345.6
+   ],
+   "img_bbox": [
+    381.7,
+    272.2,
+    559.3,
+    375.2
+   ],
+   "text": "ИИ в Яндекс Музыке и  Кинопоиске улучшает  персонализацию контента",
+   "img_covers_page": 0.036,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 31,
+   "img_block_idx": 28,
+   "text_bbox": [
+    393.3,
+    301.9,
+    520.1,
+    345.6
+   ],
+   "img_bbox": [
+    384.1,
+    278.3,
+    556.8,
+    369.1
+   ],
+   "text": "ИИ в Яндекс Музыке и  Кинопоиске улучшает  персонализацию контента",
+   "img_covers_page": 0.031,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 31,
+   "img_block_idx": 29,
+   "text_bbox": [
+    393.3,
+    301.9,
+    520.1,
+    345.6
+   ],
+   "img_bbox": [
+    386.1,
+    280.3,
+    550.6,
+    362.9
+   ],
+   "text": "ИИ в Яндекс Музыке и  Кинопоиске улучшает  персонализацию контента",
+   "img_covers_page": 0.027,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 0.989,
+   "text_block_idx": 35,
+   "img_block_idx": 15,
+   "text_bbox": [
+    97.3,
+    381.2,
+    263.5,
+    396.4
+   ],
+   "img_bbox": [
+    99.1,
+    278.8,
+    571.4,
+    458.4
+   ],
+   "text": "Развитие оригинального контента",
+   "img_covers_page": 0.169,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 35,
+   "img_block_idx": 32,
+   "text_bbox": [
+    97.3,
+    381.2,
+    263.5,
+    396.4
+   ],
+   "img_bbox": [
+    86.1,
+    374.5,
+    381.7,
+    462.0
+   ],
+   "text": "Развитие оригинального контента",
+   "img_covers_page": 0.052,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 35,
+   "img_block_idx": 33,
+   "text_bbox": [
+    97.3,
+    381.2,
+    263.5,
+    396.4
+   ],
+   "img_bbox": [
+    88.1,
+    380.1,
+    379.6,
+    456.4
+   ],
+   "text": "Развитие оригинального контента",
+   "img_covers_page": 0.044,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 0.94,
+   "text_block_idx": 35,
+   "img_block_idx": 34,
+   "text_bbox": [
+    97.3,
+    381.2,
+    263.5,
+    396.4
+   ],
+   "img_bbox": [
+    90.1,
+    382.1,
+    373.4,
+    450.2
+   ],
+   "text": "Развитие оригинального контента",
+   "img_covers_page": 0.038,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 0.992,
+   "text_block_idx": 36,
+   "img_block_idx": 15,
+   "text_bbox": [
+    97.3,
+    403.8,
+    312.6,
+    433.0
+   ],
+   "img_bbox": [
+    99.1,
+    278.8,
+    571.4,
+    458.4
+   ],
+   "text": "Продюсерский центр Плюс Студия выпускает  эксклюзивные сериалы и фильмы",
+   "img_covers_page": 0.169,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 36,
+   "img_block_idx": 32,
+   "text_bbox": [
+    97.3,
+    403.8,
+    312.6,
+    433.0
+   ],
+   "img_bbox": [
+    86.1,
+    374.5,
+    381.7,
+    462.0
+   ],
+   "text": "Продюсерский центр Плюс Студия выпускает  эксклюзивные сериалы и фильмы",
+   "img_covers_page": 0.052,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 36,
+   "img_block_idx": 33,
+   "text_bbox": [
+    97.3,
+    403.8,
+    312.6,
+    433.0
+   ],
+   "img_bbox": [
+    88.1,
+    380.1,
+    379.6,
+    456.4
+   ],
+   "text": "Продюсерский центр Плюс Студия выпускает  эксклюзивные сериалы и фильмы",
+   "img_covers_page": 0.044,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 50,
+   "frac": 1.0,
+   "text_block_idx": 36,
+   "img_block_idx": 34,
+   "text_bbox": [
+    97.3,
+    403.8,
+    312.6,
+    433.0
+   ],
+   "img_bbox": [
+    90.1,
+    382.1,
+    373.4,
+    450.2
+   ],
+   "text": "Продюсерский центр Плюс Студия выпускает  эксклюзивные сериалы и фильмы",
+   "img_covers_page": 0.038,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 51,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 21,
+   "text_bbox": [
+    93.2,
+    77.5,
+    343.9,
+    121.1
+   ],
+   "img_bbox": [
+    74.3,
+    63.0,
+    383.2,
+    144.5
+   ],
+   "text": "Яндекс Плюс —  крупнейшая подписка в России. Она  объединяет доступ к различным развлекате",
+   "img_covers_page": 0.05,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 51,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 22,
+   "text_bbox": [
+    93.2,
+    77.5,
+    343.9,
+    121.1
+   ],
+   "img_bbox": [
+    75.1,
+    67.4,
+    382.4,
+    140.2
+   ],
+   "text": "Яндекс Плюс —  крупнейшая подписка в России. Она  объединяет доступ к различным развлекате",
+   "img_covers_page": 0.045,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 51,
+   "frac": 0.979,
+   "text_block_idx": 24,
+   "img_block_idx": 23,
+   "text_bbox": [
+    93.2,
+    77.5,
+    343.9,
+    121.1
+   ],
+   "img_bbox": [
+    86.0,
+    78.4,
+    367.2,
+    125.0
+   ],
+   "text": "Яндекс Плюс —  крупнейшая подписка в России. Она  объединяет доступ к различным развлекате",
+   "img_covers_page": 0.026,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 56,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 16,
+   "text_bbox": [
+    93.4,
+    381.4,
+    546.3,
+    468.7
+   ],
+   "img_bbox": [
+    73.8,
+    366.3,
+    567.7,
+    494.9
+   ],
+   "text": "Яндекс 360  — это виртуальный офис (SaaS) с сервисами для личных дел и совместной работы. ",
+   "img_covers_page": 0.127,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 56,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 17,
+   "text_bbox": [
+    93.4,
+    381.4,
+    546.3,
+    468.7
+   ],
+   "img_bbox": [
+    75.2,
+    371.3,
+    566.2,
+    489.8
+   ],
+   "text": "Яндекс 360  — это виртуальный офис (SaaS) с сервисами для личных дел и совместной работы. ",
+   "img_covers_page": 0.116,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 56,
+   "frac": 0.99,
+   "text_block_idx": 19,
+   "img_block_idx": 18,
+   "text_bbox": [
+    93.4,
+    381.4,
+    546.3,
+    468.7
+   ],
+   "img_bbox": [
+    86.2,
+    382.3,
+    551.0,
+    474.7
+   ],
+   "text": "Яндекс 360  — это виртуальный офис (SaaS) с сервисами для личных дел и совместной работы. ",
+   "img_covers_page": 0.086,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 58,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 16,
+   "text_bbox": [
+    94.0,
+    170.8,
+    547.8,
+    228.9
+   ],
+   "img_bbox": [
+    74.9,
+    156.1,
+    568.7,
+    251.0
+   ],
+   "text": "Yandex Cloud  — это платформа для создания ИТ-продуктов, которая предоставляет крупным  ко",
+   "img_covers_page": 0.093,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 58,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 17,
+   "text_bbox": [
+    94.0,
+    170.8,
+    547.8,
+    228.9
+   ],
+   "img_bbox": [
+    75.8,
+    160.7,
+    567.7,
+    246.4
+   ],
+   "text": "Yandex Cloud  — это платформа для создания ИТ-продуктов, которая предоставляет крупным  ко",
+   "img_covers_page": 0.084,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 58,
+   "frac": 0.984,
+   "text_block_idx": 19,
+   "img_block_idx": 18,
+   "text_bbox": [
+    94.0,
+    170.8,
+    547.8,
+    228.9
+   ],
+   "img_bbox": [
+    86.8,
+    171.7,
+    552.5,
+    231.2
+   ],
+   "text": "Yandex Cloud  — это платформа для создания ИТ-продуктов, которая предоставляет крупным  ко",
+   "img_covers_page": 0.055,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 59,
+   "frac": 1.0,
+   "text_block_idx": 11,
+   "img_block_idx": 10,
+   "text_bbox": [
+    95.6,
+    581.1,
+    182.4,
+    619.3
+   ],
+   "img_bbox": [
+    88.4,
+    548.9,
+    226.1,
+    651.2
+   ],
+   "text": "75  сервисов",
+   "img_covers_page": 0.028,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 59,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 12,
+   "text_bbox": [
+    248.9,
+    575.0,
+    359.1,
+    624.0
+   ],
+   "img_bbox": [
+    241.7,
+    550.2,
+    380.6,
+    651.2
+   ],
+   "text": "х2   рост выручки от  ИИ-сервисов",
+   "img_covers_page": 0.028,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 59,
+   "frac": 1.0,
+   "text_block_idx": 15,
+   "img_block_idx": 14,
+   "text_bbox": [
+    404.2,
+    575.0,
+    543.7,
+    624.0
+   ],
+   "img_bbox": [
+    397.0,
+    550.2,
+    552.0,
+    651.2
+   ],
+   "text": "83%   доля выручки от  крупного и среднего бизнеса",
+   "img_covers_page": 0.031,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 61,
+   "frac": 0.982,
+   "text_block_idx": 12,
+   "img_block_idx": 9,
+   "text_bbox": [
+    95.9,
+    398.2,
+    250.6,
+    427.8
+   ],
+   "img_bbox": [
+    84.8,
+    398.7,
+    539.2,
+    536.9
+   ],
+   "text": "Выделение в отдельное бизнес- направление",
+   "img_covers_page": 0.125,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 61,
+   "frac": 0.969,
+   "text_block_idx": 12,
+   "img_block_idx": 11,
+   "text_bbox": [
+    95.9,
+    398.2,
+    250.6,
+    427.8
+   ],
+   "img_bbox": [
+    88.7,
+    399.1,
+    301.9,
+    536.5
+   ],
+   "text": "Выделение в отдельное бизнес- направление",
+   "img_covers_page": 0.058,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 61,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 9,
+   "text_bbox": [
+    95.9,
+    435.1,
+    294.6,
+    530.4
+   ],
+   "img_bbox": [
+    84.8,
+    398.7,
+    539.2,
+    536.9
+   ],
+   "text": "В 2025 году автономный транспорт был  выделен в самостоятельное направление  внутри Yandex",
+   "img_covers_page": 0.125,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 61,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 11,
+   "text_bbox": [
+    95.9,
+    435.1,
+    294.6,
+    530.4
+   ],
+   "img_bbox": [
+    88.7,
+    399.1,
+    301.9,
+    536.5
+   ],
+   "text": "В 2025 году автономный транспорт был  выделен в самостоятельное направление  внутри Yandex",
+   "img_covers_page": 0.058,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 61,
+   "frac": 0.964,
+   "text_block_idx": 15,
+   "img_block_idx": 9,
+   "text_bbox": [
+    329.3,
+    398.2,
+    437.5,
+    413.4
+   ],
+   "img_bbox": [
+    84.8,
+    398.7,
+    539.2,
+    536.9
+   ],
+   "text": "Инвестиционная фаза",
+   "img_covers_page": 0.125,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 61,
+   "frac": 0.94,
+   "text_block_idx": 15,
+   "img_block_idx": 14,
+   "text_bbox": [
+    329.3,
+    398.2,
+    437.5,
+    413.4
+   ],
+   "img_bbox": [
+    322.1,
+    399.1,
+    549.1,
+    536.5
+   ],
+   "text": "Инвестиционная фаза",
+   "img_covers_page": 0.062,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 61,
+   "frac": 1.0,
+   "text_block_idx": 16,
+   "img_block_idx": 9,
+   "text_bbox": [
+    329.3,
+    420.7,
+    538.4,
+    529.4
+   ],
+   "img_bbox": [
+    84.8,
+    398.7,
+    539.2,
+    536.9
+   ],
+   "text": "В 2025 году совокупные капитальные и  операционные расходы составили около 18  млрд рублей",
+   "img_covers_page": 0.125,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 61,
+   "frac": 1.0,
+   "text_block_idx": 16,
+   "img_block_idx": 14,
+   "text_bbox": [
+    329.3,
+    420.7,
+    538.4,
+    529.4
+   ],
+   "img_bbox": [
+    322.1,
+    399.1,
+    549.1,
+    536.5
+   ],
+   "text": "В 2025 году совокупные капитальные и  операционные расходы составили около 18  млрд рублей",
+   "img_covers_page": 0.062,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 10,
+   "text_bbox": [
+    102.1,
+    86.1,
+    299.0,
+    102.8
+   ],
+   "img_bbox": [
+    88.8,
+    73.6,
+    316.0,
+    236.4
+   ],
+   "text": "Масштабирование флота в 2026 году",
+   "img_covers_page": 0.074,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 11,
+   "text_bbox": [
+    102.1,
+    86.1,
+    299.0,
+    102.8
+   ],
+   "img_bbox": [
+    92.9,
+    79.2,
+    311.9,
+    228.7
+   ],
+   "text": "Масштабирование флота в 2026 году",
+   "img_covers_page": 0.065,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 12,
+   "text_bbox": [
+    102.1,
+    86.1,
+    299.0,
+    102.8
+   ],
+   "img_bbox": [
+    94.9,
+    81.2,
+    305.8,
+    222.5
+   ],
+   "text": "Масштабирование флота в 2026 году",
+   "img_covers_page": 0.059,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 10,
+   "text_bbox": [
+    102.1,
+    107.1,
+    296.2,
+    202.3
+   ],
+   "img_bbox": [
+    88.8,
+    73.6,
+    316.0,
+    236.4
+   ],
+   "text": "В 2026 году планируется вывести в  эксплуатацию 5 тыс. роботов- доставщиков. Это позволит ",
+   "img_covers_page": 0.074,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 11,
+   "text_bbox": [
+    102.1,
+    107.1,
+    296.2,
+    202.3
+   ],
+   "img_bbox": [
+    92.9,
+    79.2,
+    311.9,
+    228.7
+   ],
+   "text": "В 2026 году планируется вывести в  эксплуатацию 5 тыс. роботов- доставщиков. Это позволит ",
+   "img_covers_page": 0.065,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 12,
+   "text_bbox": [
+    102.1,
+    107.1,
+    296.2,
+    202.3
+   ],
+   "img_bbox": [
+    94.9,
+    81.2,
+    305.8,
+    222.5
+   ],
+   "text": "В 2026 году планируется вывести в  эксплуатацию 5 тыс. роботов- доставщиков. Это позволит ",
+   "img_covers_page": 0.059,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 18,
+   "img_block_idx": 15,
+   "text_bbox": [
+    101.9,
+    251.7,
+    297.1,
+    282.9
+   ],
+   "img_bbox": [
+    88.8,
+    239.3,
+    316.0,
+    393.8
+   ],
+   "text": "Выпуск 20 тыс. роботов к концу 2027  года",
+   "img_covers_page": 0.07,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 18,
+   "img_block_idx": 16,
+   "text_bbox": [
+    101.9,
+    251.7,
+    297.1,
+    282.9
+   ],
+   "img_bbox": [
+    92.7,
+    244.7,
+    312.1,
+    386.3
+   ],
+   "text": "Выпуск 20 тыс. роботов к концу 2027  года",
+   "img_covers_page": 0.062,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 18,
+   "img_block_idx": 17,
+   "text_bbox": [
+    101.9,
+    251.7,
+    297.1,
+    282.9
+   ],
+   "img_bbox": [
+    94.7,
+    246.7,
+    305.9,
+    380.2
+   ],
+   "text": "Выпуск 20 тыс. роботов к концу 2027  года",
+   "img_covers_page": 0.056,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 15,
+   "text_bbox": [
+    101.9,
+    287.2,
+    296.9,
+    369.1
+   ],
+   "img_bbox": [
+    88.8,
+    239.3,
+    316.0,
+    393.8
+   ],
+   "text": "Стратегический ориентир —  производство 20 тыс. роботов нового  поколения к концу 2027 год",
+   "img_covers_page": 0.07,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 16,
+   "text_bbox": [
+    101.9,
+    287.2,
+    296.9,
+    369.1
+   ],
+   "img_bbox": [
+    92.7,
+    244.7,
+    312.1,
+    386.3
+   ],
+   "text": "Стратегический ориентир —  производство 20 тыс. роботов нового  поколения к концу 2027 год",
+   "img_covers_page": 0.062,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 17,
+   "text_bbox": [
+    101.9,
+    287.2,
+    296.9,
+    369.1
+   ],
+   "img_bbox": [
+    94.7,
+    246.7,
+    305.9,
+    380.2
+   ],
+   "text": "Стратегический ориентир —  производство 20 тыс. роботов нового  поколения к концу 2027 год",
+   "img_covers_page": 0.056,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 23,
+   "img_block_idx": 20,
+   "text_bbox": [
+    329.8,
+    251.7,
+    511.3,
+    282.9
+   ],
+   "img_bbox": [
+    316.8,
+    237.3,
+    559.3,
+    393.7
+   ],
+   "text": "Дальнейшее снижение стоимости  доставки",
+   "img_covers_page": 0.076,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 23,
+   "img_block_idx": 21,
+   "text_bbox": [
+    329.8,
+    251.7,
+    511.3,
+    282.9
+   ],
+   "img_bbox": [
+    320.6,
+    244.7,
+    555.4,
+    386.2
+   ],
+   "text": "Дальнейшее снижение стоимости  доставки",
+   "img_covers_page": 0.066,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 23,
+   "img_block_idx": 22,
+   "text_bbox": [
+    329.8,
+    251.7,
+    511.3,
+    282.9
+   ],
+   "img_bbox": [
+    322.6,
+    246.7,
+    549.2,
+    380.0
+   ],
+   "text": "Дальнейшее снижение стоимости  доставки",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 20,
+   "text_bbox": [
+    329.8,
+    287.2,
+    524.2,
+    369.1
+   ],
+   "img_bbox": [
+    316.8,
+    237.3,
+    559.3,
+    393.7
+   ],
+   "text": "За счёт эффекта масштаба, оптимизации  компонентов и роста загрузки флота  ожидается перех",
+   "img_covers_page": 0.076,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 21,
+   "text_bbox": [
+    329.8,
+    287.2,
+    524.2,
+    369.1
+   ],
+   "img_bbox": [
+    320.6,
+    244.7,
+    555.4,
+    386.2
+   ],
+   "text": "За счёт эффекта масштаба, оптимизации  компонентов и роста загрузки флота  ожидается перех",
+   "img_covers_page": 0.066,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 22,
+   "text_bbox": [
+    329.8,
+    287.2,
+    524.2,
+    369.1
+   ],
+   "img_bbox": [
+    322.6,
+    246.7,
+    549.2,
+    380.0
+   ],
+   "text": "За счёт эффекта масштаба, оптимизации  компонентов и роста загрузки флота  ожидается перех",
+   "img_covers_page": 0.06,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 25,
+   "text_bbox": [
+    329.9,
+    88.9,
+    499.5,
+    120.2
+   ],
+   "img_bbox": [
+    316.8,
+    74.5,
+    559.3,
+    233.9
+   ],
+   "text": "Расширение производственных  мощностей",
+   "img_covers_page": 0.077,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 26,
+   "text_bbox": [
+    329.9,
+    88.9,
+    499.5,
+    120.2
+   ],
+   "img_bbox": [
+    320.7,
+    82.0,
+    555.4,
+    226.4
+   ],
+   "text": "Расширение производственных  мощностей",
+   "img_covers_page": 0.068,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 27,
+   "text_bbox": [
+    329.9,
+    88.9,
+    499.5,
+    120.2
+   ],
+   "img_bbox": [
+    322.7,
+    84.0,
+    549.2,
+    220.2
+   ],
+   "text": "Расширение производственных  мощностей",
+   "img_covers_page": 0.062,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 25,
+   "text_bbox": [
+    329.9,
+    124.5,
+    543.5,
+    206.3
+   ],
+   "img_bbox": [
+    316.8,
+    74.5,
+    559.3,
+    233.9
+   ],
+   "text": "Компания планирует нарастить объёмы  серийного выпуска, доведя производство до  индустриал",
+   "img_covers_page": 0.077,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 26,
+   "text_bbox": [
+    329.9,
+    124.5,
+    543.5,
+    206.3
+   ],
+   "img_bbox": [
+    320.7,
+    82.0,
+    555.4,
+    226.4
+   ],
+   "text": "Компания планирует нарастить объёмы  серийного выпуска, доведя производство до  индустриал",
+   "img_covers_page": 0.068,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 63,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 27,
+   "text_bbox": [
+    329.9,
+    124.5,
+    543.5,
+    206.3
+   ],
+   "img_bbox": [
+    322.7,
+    84.0,
+    549.2,
+    220.2
+   ],
+   "text": "Компания планирует нарастить объёмы  серийного выпуска, доведя производство до  индустриал",
+   "img_covers_page": 0.062,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 10,
+   "text_bbox": [
+    329.1,
+    90.3,
+    518.0,
+    106.9
+   ],
+   "img_bbox": [
+    314.8,
+    74.6,
+    559.5,
+    281.2
+   ],
+   "text": "Рост флота автономных грузовиков",
+   "img_covers_page": 0.101,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 11,
+   "text_bbox": [
+    329.1,
+    90.3,
+    518.0,
+    106.9
+   ],
+   "img_bbox": [
+    319.9,
+    83.3,
+    554.4,
+    272.5
+   ],
+   "text": "Рост флота автономных грузовиков",
+   "img_covers_page": 0.088,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 12,
+   "text_bbox": [
+    329.1,
+    90.3,
+    518.0,
+    106.9
+   ],
+   "img_bbox": [
+    321.9,
+    85.3,
+    548.2,
+    266.3
+   ],
+   "text": "Рост флота автономных грузовиков",
+   "img_covers_page": 0.082,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 10,
+   "text_bbox": [
+    329.1,
+    111.2,
+    525.7,
+    193.0
+   ],
+   "img_bbox": [
+    314.8,
+    74.6,
+    559.5,
+    281.2
+   ],
+   "text": "В 2026 году флот автономных грузовиков  планируется увеличить на 70 единиц.  Увеличение па",
+   "img_covers_page": 0.101,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 11,
+   "text_bbox": [
+    329.1,
+    111.2,
+    525.7,
+    193.0
+   ],
+   "img_bbox": [
+    319.9,
+    83.3,
+    554.4,
+    272.5
+   ],
+   "text": "В 2026 году флот автономных грузовиков  планируется увеличить на 70 единиц.  Увеличение па",
+   "img_covers_page": 0.088,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 12,
+   "text_bbox": [
+    329.1,
+    111.2,
+    525.7,
+    193.0
+   ],
+   "img_bbox": [
+    321.9,
+    85.3,
+    548.2,
+    266.3
+   ],
+   "text": "В 2026 году флот автономных грузовиков  планируется увеличить на 70 единиц.  Увеличение па",
+   "img_covers_page": 0.082,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 18,
+   "img_block_idx": 15,
+   "text_bbox": [
+    328.4,
+    295.0,
+    519.7,
+    326.3
+   ],
+   "img_bbox": [
+    314.8,
+    280.1,
+    559.5,
+    458.3
+   ],
+   "text": "Повышение уровня автономности и  снижение операционных издержек",
+   "img_covers_page": 0.087,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 18,
+   "img_block_idx": 16,
+   "text_bbox": [
+    328.4,
+    295.0,
+    519.7,
+    326.3
+   ],
+   "img_bbox": [
+    319.2,
+    288.1,
+    555.1,
+    450.3
+   ],
+   "text": "Повышение уровня автономности и  снижение операционных издержек",
+   "img_covers_page": 0.076,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 18,
+   "img_block_idx": 17,
+   "text_bbox": [
+    328.4,
+    295.0,
+    519.7,
+    326.3
+   ],
+   "img_bbox": [
+    321.2,
+    290.0,
+    548.9,
+    444.1
+   ],
+   "text": "Повышение уровня автономности и  снижение операционных издержек",
+   "img_covers_page": 0.07,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 15,
+   "text_bbox": [
+    328.4,
+    330.6,
+    526.6,
+    439.3
+   ],
+   "img_bbox": [
+    314.8,
+    280.1,
+    559.5,
+    458.3
+   ],
+   "text": "Дальнейшее развитие технологий  восприятия, планирования и  резервирования систем позволит",
+   "img_covers_page": 0.087,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 16,
+   "text_bbox": [
+    328.4,
+    330.6,
+    526.6,
+    439.3
+   ],
+   "img_bbox": [
+    319.2,
+    288.1,
+    555.1,
+    450.3
+   ],
+   "text": "Дальнейшее развитие технологий  восприятия, планирования и  резервирования систем позволит",
+   "img_covers_page": 0.076,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 17,
+   "text_bbox": [
+    328.4,
+    330.6,
+    526.6,
+    439.3
+   ],
+   "img_bbox": [
+    321.2,
+    290.0,
+    548.9,
+    444.1
+   ],
+   "text": "Дальнейшее развитие технологий  восприятия, планирования и  резервирования систем позволит",
+   "img_covers_page": 0.07,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 23,
+   "img_block_idx": 20,
+   "text_bbox": [
+    99.7,
+    295.0,
+    250.4,
+    326.3
+   ],
+   "img_bbox": [
+    86.0,
+    280.1,
+    310.3,
+    458.3
+   ],
+   "text": "Масштабирование в рамках  правового режима",
+   "img_covers_page": 0.08,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 23,
+   "img_block_idx": 21,
+   "text_bbox": [
+    99.7,
+    295.0,
+    250.4,
+    326.3
+   ],
+   "img_bbox": [
+    90.5,
+    288.1,
+    305.9,
+    450.3
+   ],
+   "text": "Масштабирование в рамках  правового режима",
+   "img_covers_page": 0.07,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 23,
+   "img_block_idx": 22,
+   "text_bbox": [
+    99.7,
+    295.0,
+    250.4,
+    326.3
+   ],
+   "img_bbox": [
+    92.5,
+    290.0,
+    299.8,
+    444.1
+   ],
+   "text": "Масштабирование в рамках  правового режима",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 20,
+   "text_bbox": [
+    99.7,
+    330.6,
+    278.0,
+    425.8
+   ],
+   "img_bbox": [
+    86.0,
+    280.1,
+    310.3,
+    458.3
+   ],
+   "text": "Компания продолжит работу по  расширению перечня допущенных  маршрутов и совершенствованию",
+   "img_covers_page": 0.08,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 21,
+   "text_bbox": [
+    99.7,
+    330.6,
+    278.0,
+    425.8
+   ],
+   "img_bbox": [
+    90.5,
+    288.1,
+    305.9,
+    450.3
+   ],
+   "text": "Компания продолжит работу по  расширению перечня допущенных  маршрутов и совершенствованию",
+   "img_covers_page": 0.07,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 22,
+   "text_bbox": [
+    99.7,
+    330.6,
+    278.0,
+    425.8
+   ],
+   "img_bbox": [
+    92.5,
+    290.0,
+    299.8,
+    444.1
+   ],
+   "text": "Компания продолжит работу по  расширению перечня допущенных  маршрутов и совершенствованию",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 25,
+   "text_bbox": [
+    100.3,
+    90.1,
+    292.7,
+    136.1
+   ],
+   "img_bbox": [
+    86.0,
+    74.6,
+    309.5,
+    278.9
+   ],
+   "text": "Вывод на дороги до 200  автономных легковых автомобилей  к концу 2026 года",
+   "img_covers_page": 0.091,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 26,
+   "text_bbox": [
+    100.3,
+    90.1,
+    292.7,
+    136.1
+   ],
+   "img_bbox": [
+    91.1,
+    83.2,
+    304.5,
+    270.2
+   ],
+   "text": "Вывод на дороги до 200  автономных легковых автомобилей  к концу 2026 года",
+   "img_covers_page": 0.08,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 28,
+   "img_block_idx": 27,
+   "text_bbox": [
+    100.3,
+    90.1,
+    292.7,
+    136.1
+   ],
+   "img_bbox": [
+    93.1,
+    85.2,
+    298.3,
+    264.1
+   ],
+   "text": "Вывод на дороги до 200  автономных легковых автомобилей  к концу 2026 года",
+   "img_covers_page": 0.073,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 25,
+   "text_bbox": [
+    100.3,
+    140.4,
+    287.4,
+    262.5
+   ],
+   "img_bbox": [
+    86.0,
+    74.6,
+    309.5,
+    278.9
+   ],
+   "text": "До конца 2026 года планируется  вывести на дороги до 200 автономных  легковых автомобилей,",
+   "img_covers_page": 0.091,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 26,
+   "text_bbox": [
+    100.3,
+    140.4,
+    287.4,
+    262.5
+   ],
+   "img_bbox": [
+    91.1,
+    83.2,
+    304.5,
+    270.2
+   ],
+   "text": "До конца 2026 года планируется  вывести на дороги до 200 автономных  легковых автомобилей,",
+   "img_covers_page": 0.08,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 65,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 27,
+   "text_bbox": [
+    100.3,
+    140.4,
+    287.4,
+    262.5
+   ],
+   "img_bbox": [
+    93.1,
+    85.2,
+    298.3,
+    264.1
+   ],
+   "text": "До конца 2026 года планируется  вывести на дороги до 200 автономных  легковых автомобилей,",
+   "img_covers_page": 0.073,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 7,
+   "img_block_idx": 4,
+   "text_bbox": [
+    103.9,
+    85.0,
+    326.9,
+    101.6
+   ],
+   "img_bbox": [
+    91.8,
+    71.6,
+    381.3,
+    192.2
+   ],
+   "text": "Масштабирование проектов роботизации",
+   "img_covers_page": 0.07,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 7,
+   "img_block_idx": 5,
+   "text_bbox": [
+    103.9,
+    85.0,
+    326.9,
+    101.6
+   ],
+   "img_bbox": [
+    94.7,
+    78.1,
+    378.4,
+    185.8
+   ],
+   "text": "Масштабирование проектов роботизации",
+   "img_covers_page": 0.061,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 7,
+   "img_block_idx": 6,
+   "text_bbox": [
+    103.9,
+    85.0,
+    326.9,
+    101.6
+   ],
+   "img_bbox": [
+    96.7,
+    80.0,
+    372.2,
+    179.6
+   ],
+   "text": "Масштабирование проектов роботизации",
+   "img_covers_page": 0.055,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 8,
+   "img_block_idx": 4,
+   "text_bbox": [
+    103.9,
+    105.9,
+    356.7,
+    174.3
+   ],
+   "img_bbox": [
+    91.8,
+    71.6,
+    381.3,
+    192.2
+   ],
+   "text": "Ожидается последовательное развитие рынка  складской робототехники в России — компания  пл",
+   "img_covers_page": 0.07,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 8,
+   "img_block_idx": 5,
+   "text_bbox": [
+    103.9,
+    105.9,
+    356.7,
+    174.3
+   ],
+   "img_bbox": [
+    94.7,
+    78.1,
+    378.4,
+    185.8
+   ],
+   "text": "Ожидается последовательное развитие рынка  складской робототехники в России — компания  пл",
+   "img_covers_page": 0.061,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 8,
+   "img_block_idx": 6,
+   "text_bbox": [
+    103.9,
+    105.9,
+    356.7,
+    174.3
+   ],
+   "img_bbox": [
+    96.7,
+    80.0,
+    372.2,
+    179.6
+   ],
+   "text": "Ожидается последовательное развитие рынка  складской робототехники в России — компания  пл",
+   "img_covers_page": 0.055,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 12,
+   "img_block_idx": 9,
+   "text_bbox": [
+    402.6,
+    131.3,
+    517.7,
+    147.9
+   ],
+   "img_bbox": [
+    389.3,
+    71.6,
+    559.0,
+    352.3
+   ],
+   "text": "Развитие Yandex RMS",
+   "img_covers_page": 0.095,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 12,
+   "img_block_idx": 10,
+   "text_bbox": [
+    402.6,
+    131.3,
+    517.7,
+    147.9
+   ],
+   "img_bbox": [
+    393.4,
+    79.3,
+    554.8,
+    344.5
+   ],
+   "text": "Развитие Yandex RMS",
+   "img_covers_page": 0.085,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 12,
+   "img_block_idx": 11,
+   "text_bbox": [
+    402.6,
+    131.3,
+    517.7,
+    147.9
+   ],
+   "img_bbox": [
+    395.4,
+    81.3,
+    548.6,
+    338.3
+   ],
+   "text": "Развитие Yandex RMS",
+   "img_covers_page": 0.079,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 9,
+   "text_bbox": [
+    402.6,
+    152.2,
+    541.8,
+    287.8
+   ],
+   "img_bbox": [
+    389.3,
+    71.6,
+    559.0,
+    352.3
+   ],
+   "text": "RMS будет развиваться как  единая SaaS-платформа для  проектирования, интеграции  и эксплу",
+   "img_covers_page": 0.095,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 10,
+   "text_bbox": [
+    402.6,
+    152.2,
+    541.8,
+    287.8
+   ],
+   "img_bbox": [
+    393.4,
+    79.3,
+    554.8,
+    344.5
+   ],
+   "text": "RMS будет развиваться как  единая SaaS-платформа для  проектирования, интеграции  и эксплу",
+   "img_covers_page": 0.085,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 11,
+   "text_bbox": [
+    402.6,
+    152.2,
+    541.8,
+    287.8
+   ],
+   "img_bbox": [
+    395.4,
+    81.3,
+    548.6,
+    338.3
+   ],
+   "text": "RMS будет развиваться как  единая SaaS-платформа для  проектирования, интеграции  и эксплу",
+   "img_covers_page": 0.079,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 17,
+   "img_block_idx": 14,
+   "text_bbox": [
+    104.6,
+    219.0,
+    293.1,
+    250.3
+   ],
+   "img_bbox": [
+    91.8,
+    204.9,
+    381.3,
+    352.0
+   ],
+   "text": "Переход к более высокому уровню  автоматизации",
+   "img_covers_page": 0.085,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 17,
+   "img_block_idx": 15,
+   "text_bbox": [
+    104.6,
+    219.0,
+    293.1,
+    250.3
+   ],
+   "img_bbox": [
+    95.4,
+    212.1,
+    377.7,
+    344.8
+   ],
+   "text": "Переход к более высокому уровню  автоматизации",
+   "img_covers_page": 0.075,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 17,
+   "img_block_idx": 16,
+   "text_bbox": [
+    104.6,
+    219.0,
+    293.1,
+    250.3
+   ],
+   "img_bbox": [
+    97.4,
+    214.1,
+    371.5,
+    338.6
+   ],
+   "text": "Переход к более высокому уровню  автоматизации",
+   "img_covers_page": 0.068,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 18,
+   "img_block_idx": 14,
+   "text_bbox": [
+    104.6,
+    254.6,
+    355.8,
+    336.5
+   ],
+   "img_bbox": [
+    91.8,
+    204.9,
+    381.3,
+    352.0
+   ],
+   "text": "В среднесрочной перспективе планируется развитие  решений, в которых роботы выполняют комп",
+   "img_covers_page": 0.085,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 18,
+   "img_block_idx": 15,
+   "text_bbox": [
+    104.6,
+    254.6,
+    355.8,
+    336.5
+   ],
+   "img_bbox": [
+    95.4,
+    212.1,
+    377.7,
+    344.8
+   ],
+   "text": "В среднесрочной перспективе планируется развитие  решений, в которых роботы выполняют комп",
+   "img_covers_page": 0.075,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 67,
+   "frac": 1.0,
+   "text_block_idx": 18,
+   "img_block_idx": 16,
+   "text_bbox": [
+    104.6,
+    254.6,
+    355.8,
+    336.5
+   ],
+   "img_bbox": [
+    97.4,
+    214.1,
+    371.5,
+    338.6
+   ],
+   "text": "В среднесрочной перспективе планируется развитие  решений, в которых роботы выполняют комп",
+   "img_covers_page": 0.068,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 68,
+   "frac": 1.0,
+   "text_block_idx": 15,
+   "img_block_idx": 12,
+   "text_bbox": [
+    91.3,
+    119.7,
+    530.8,
+    192.1
+   ],
+   "img_bbox": [
+    71.7,
+    104.9,
+    559.7,
+    229.6
+   ],
+   "text": "Яндекс Практикум — сервис онлайн-обучения, где каждый может получить востребованную  ИТ-пр",
+   "img_covers_page": 0.121,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 68,
+   "frac": 1.0,
+   "text_block_idx": 15,
+   "img_block_idx": 13,
+   "text_bbox": [
+    91.3,
+    119.7,
+    530.8,
+    192.1
+   ],
+   "img_bbox": [
+    73.1,
+    109.4,
+    559.7,
+    224.6
+   ],
+   "text": "Яндекс Практикум — сервис онлайн-обучения, где каждый может получить востребованную  ИТ-пр",
+   "img_covers_page": 0.112,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 68,
+   "frac": 0.989,
+   "text_block_idx": 15,
+   "img_block_idx": 14,
+   "text_bbox": [
+    91.3,
+    119.7,
+    530.8,
+    192.1
+   ],
+   "img_bbox": [
+    84.1,
+    120.4,
+    551.0,
+    209.4
+   ],
+   "text": "Яндекс Практикум — сервис онлайн-обучения, где каждый может получить востребованную  ИТ-пр",
+   "img_covers_page": 0.083,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 79,
+   "frac": 1.0,
+   "text_block_idx": 17,
+   "img_block_idx": 14,
+   "text_bbox": [
+    95.0,
+    158.1,
+    547.5,
+    201.7
+   ],
+   "img_bbox": [
+    76.1,
+    143.5,
+    568.3,
+    226.4
+   ],
+   "text": "Инфраструктура Яндекса — это высокие нагрузки и впечатляющий масштаб, для её стабильной  р",
+   "img_covers_page": 0.081,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 79,
+   "frac": 1.0,
+   "text_block_idx": 17,
+   "img_block_idx": 15,
+   "text_bbox": [
+    95.0,
+    158.1,
+    547.5,
+    201.7
+   ],
+   "img_bbox": [
+    76.8,
+    147.9,
+    567.4,
+    221.9
+   ],
+   "text": "Инфраструктура Яндекса — это высокие нагрузки и впечатляющий масштаб, для её стабильной  р",
+   "img_covers_page": 0.072,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 79,
+   "frac": 0.982,
+   "text_block_idx": 17,
+   "img_block_idx": 16,
+   "text_bbox": [
+    95.0,
+    158.1,
+    547.5,
+    201.7
+   ],
+   "img_bbox": [
+    87.8,
+    158.9,
+    552.2,
+    206.8
+   ],
+   "text": "Инфраструктура Яндекса — это высокие нагрузки и впечатляющий масштаб, для её стабильной  р",
+   "img_covers_page": 0.044,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 81,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 11,
+   "text_bbox": [
+    93.1,
+    198.0,
+    548.0,
+    255.9
+   ],
+   "img_bbox": [
+    74.0,
+    183.1,
+    568.9,
+    282.1
+   ],
+   "text": "Безопасность — фундаментальный принцип, интегрированный в каждый этап жизненного  цикла на",
+   "img_covers_page": 0.098,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 81,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 12,
+   "text_bbox": [
+    93.1,
+    198.0,
+    548.0,
+    255.9
+   ],
+   "img_bbox": [
+    75.0,
+    187.7,
+    567.9,
+    277.4
+   ],
+   "text": "Безопасность — фундаментальный принцип, интегрированный в каждый этап жизненного  цикла на",
+   "img_covers_page": 0.088,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 81,
+   "frac": 0.987,
+   "text_block_idx": 14,
+   "img_block_idx": 13,
+   "text_bbox": [
+    93.1,
+    198.0,
+    548.0,
+    255.9
+   ],
+   "img_bbox": [
+    86.0,
+    198.7,
+    552.7,
+    262.3
+   ],
+   "text": "Безопасность — фундаментальный принцип, интегрированный в каждый этап жизненного  цикла на",
+   "img_covers_page": 0.059,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 11,
+   "text_bbox": [
+    105.1,
+    100.3,
+    284.2,
+    131.6
+   ],
+   "img_bbox": [
+    91.4,
+    85.4,
+    300.9,
+    263.6
+   ],
+   "text": "Yandex Smart Web Security —  защита сайтов и веб-приложений",
+   "img_covers_page": 0.074,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 12,
+   "text_bbox": [
+    105.1,
+    100.3,
+    284.2,
+    131.6
+   ],
+   "img_bbox": [
+    95.9,
+    93.4,
+    296.5,
+    255.7
+   ],
+   "text": "Yandex Smart Web Security —  защита сайтов и веб-приложений",
+   "img_covers_page": 0.065,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 14,
+   "img_block_idx": 13,
+   "text_bbox": [
+    105.1,
+    100.3,
+    284.2,
+    131.6
+   ],
+   "img_bbox": [
+    97.9,
+    95.4,
+    290.3,
+    249.5
+   ],
+   "text": "Yandex Smart Web Security —  защита сайтов и веб-приложений",
+   "img_covers_page": 0.059,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 15,
+   "img_block_idx": 11,
+   "text_bbox": [
+    105.1,
+    135.9,
+    270.7,
+    244.6
+   ],
+   "img_bbox": [
+    91.4,
+    85.4,
+    300.9,
+    263.6
+   ],
+   "text": "Сервис на основе ML-моделей для  защиты от DDoS, веб-атак и ботов.  Защита веб-приложений ",
+   "img_covers_page": 0.074,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 15,
+   "img_block_idx": 12,
+   "text_bbox": [
+    105.1,
+    135.9,
+    270.7,
+    244.6
+   ],
+   "img_bbox": [
+    95.9,
+    93.4,
+    296.5,
+    255.7
+   ],
+   "text": "Сервис на основе ML-моделей для  защиты от DDoS, веб-атак и ботов.  Защита веб-приложений ",
+   "img_covers_page": 0.065,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 15,
+   "img_block_idx": 13,
+   "text_bbox": [
+    105.1,
+    135.9,
+    270.7,
+    244.6
+   ],
+   "img_bbox": [
+    97.9,
+    95.4,
+    290.3,
+    249.5
+   ],
+   "text": "Сервис на основе ML-моделей для  защиты от DDoS, веб-атак и ботов.  Защита веб-приложений ",
+   "img_covers_page": 0.059,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 16,
+   "text_bbox": [
+    105.3,
+    292.6,
+    258.6,
+    338.5
+   ],
+   "img_bbox": [
+    91.4,
+    277.4,
+    300.9,
+    465.5
+   ],
+   "text": "Yandex Cloud Detection and  Response — автоматизация  реагирования на инциденты",
+   "img_covers_page": 0.079,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 17,
+   "text_bbox": [
+    105.3,
+    292.6,
+    258.6,
+    338.5
+   ],
+   "img_bbox": [
+    96.1,
+    285.7,
+    296.3,
+    457.3
+   ],
+   "text": "Yandex Cloud Detection and  Response — автоматизация  реагирования на инциденты",
+   "img_covers_page": 0.069,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 19,
+   "img_block_idx": 18,
+   "text_bbox": [
+    105.3,
+    292.6,
+    258.6,
+    338.5
+   ],
+   "img_bbox": [
+    98.1,
+    287.6,
+    290.1,
+    451.1
+   ],
+   "text": "Yandex Cloud Detection and  Response — автоматизация  реагирования на инциденты",
+   "img_covers_page": 0.063,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 20,
+   "img_block_idx": 16,
+   "text_bbox": [
+    105.3,
+    342.8,
+    280.0,
+    451.5
+   ],
+   "img_bbox": [
+    91.4,
+    277.4,
+    300.9,
+    465.5
+   ],
+   "text": "YCDR обеспечивает сбор и  корреляцию событий, выявление  мисконфигураций и угроз, а также ",
+   "img_covers_page": 0.079,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 20,
+   "img_block_idx": 17,
+   "text_bbox": [
+    105.3,
+    342.8,
+    280.0,
+    451.5
+   ],
+   "img_bbox": [
+    96.1,
+    285.7,
+    296.3,
+    457.3
+   ],
+   "text": "YCDR обеспечивает сбор и  корреляцию событий, выявление  мисконфигураций и угроз, а также ",
+   "img_covers_page": 0.069,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 0.997,
+   "text_block_idx": 20,
+   "img_block_idx": 18,
+   "text_bbox": [
+    105.3,
+    342.8,
+    280.0,
+    451.5
+   ],
+   "img_bbox": [
+    98.1,
+    287.6,
+    290.1,
+    451.1
+   ],
+   "text": "YCDR обеспечивает сбор и  корреляцию событий, выявление  мисконфигураций и угроз, а также ",
+   "img_covers_page": 0.063,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 21,
+   "text_bbox": [
+    321.8,
+    100.5,
+    528.2,
+    131.8
+   ],
+   "img_bbox": [
+    308.2,
+    85.6,
+    557.3,
+    262.3
+   ],
+   "text": "Yandex Security Deck — платформа для  контроля облачной безопасности",
+   "img_covers_page": 0.088,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 22,
+   "text_bbox": [
+    321.8,
+    100.5,
+    528.2,
+    131.8
+   ],
+   "img_bbox": [
+    312.6,
+    93.6,
+    553.0,
+    254.5
+   ],
+   "text": "Yandex Security Deck — платформа для  контроля облачной безопасности",
+   "img_covers_page": 0.077,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 24,
+   "img_block_idx": 23,
+   "text_bbox": [
+    321.8,
+    100.5,
+    528.2,
+    131.8
+   ],
+   "img_bbox": [
+    314.6,
+    95.6,
+    546.8,
+    248.3
+   ],
+   "text": "Yandex Security Deck — платформа для  контроля облачной безопасности",
+   "img_covers_page": 0.071,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 21,
+   "text_bbox": [
+    321.8,
+    136.1,
+    540.1,
+    244.8
+   ],
+   "img_bbox": [
+    308.2,
+    85.6,
+    557.3,
+    262.3
+   ],
+   "text": "Платформа объединяет несколько модулей,  создающих единое пространство для  автоматизирова",
+   "img_covers_page": 0.088,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 22,
+   "text_bbox": [
+    321.8,
+    136.1,
+    540.1,
+    244.8
+   ],
+   "img_bbox": [
+    312.6,
+    93.6,
+    553.0,
+    254.5
+   ],
+   "text": "Платформа объединяет несколько модулей,  создающих единое пространство для  автоматизирова",
+   "img_covers_page": 0.077,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 25,
+   "img_block_idx": 23,
+   "text_bbox": [
+    321.8,
+    136.1,
+    540.1,
+    244.8
+   ],
+   "img_bbox": [
+    314.6,
+    95.6,
+    546.8,
+    248.3
+   ],
+   "text": "Платформа объединяет несколько модулей,  создающих единое пространство для  автоматизирова",
+   "img_covers_page": 0.071,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 26,
+   "text_bbox": [
+    321.9,
+    292.8,
+    504.4,
+    324.1
+   ],
+   "img_bbox": [
+    308.1,
+    277.6,
+    557.2,
+    465.7
+   ],
+   "text": "Yandex Identity Hub — управление  доступом и аутентификацией",
+   "img_covers_page": 0.093,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 27,
+   "text_bbox": [
+    321.9,
+    292.8,
+    504.4,
+    324.1
+   ],
+   "img_bbox": [
+    312.7,
+    285.9,
+    552.5,
+    457.6
+   ],
+   "text": "Yandex Identity Hub — управление  доступом и аутентификацией",
+   "img_covers_page": 0.082,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 29,
+   "img_block_idx": 28,
+   "text_bbox": [
+    321.9,
+    292.8,
+    504.4,
+    324.1
+   ],
+   "img_bbox": [
+    314.7,
+    287.9,
+    546.3,
+    451.4
+   ],
+   "text": "Yandex Identity Hub — управление  доступом и аутентификацией",
+   "img_covers_page": 0.076,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 30,
+   "img_block_idx": 26,
+   "text_bbox": [
+    321.9,
+    328.4,
+    539.4,
+    423.7
+   ],
+   "img_bbox": [
+    308.1,
+    277.6,
+    557.2,
+    465.7
+   ],
+   "text": "Решение для централизованного управления  учётными записями пользователей и  доступом к ко",
+   "img_covers_page": 0.093,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 30,
+   "img_block_idx": 27,
+   "text_bbox": [
+    321.9,
+    328.4,
+    539.4,
+    423.7
+   ],
+   "img_bbox": [
+    312.7,
+    285.9,
+    552.5,
+    457.6
+   ],
+   "text": "Решение для централизованного управления  учётными записями пользователей и  доступом к ко",
+   "img_covers_page": 0.082,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 83,
+   "frac": 1.0,
+   "text_block_idx": 30,
+   "img_block_idx": 28,
+   "text_bbox": [
+    321.9,
+    328.4,
+    539.4,
+    423.7
+   ],
+   "img_bbox": [
+    314.7,
+    287.9,
+    546.3,
+    451.4
+   ],
+   "text": "Решение для централизованного управления  учётными записями пользователей и  доступом к ко",
+   "img_covers_page": 0.076,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 85,
+   "frac": 1.0,
+   "text_block_idx": 9,
+   "img_block_idx": 6,
+   "text_bbox": [
+    271.9,
+    94.1,
+    372.9,
+    125.4
+   ],
+   "img_bbox": [
+    241.7,
+    82.1,
+    404.7,
+    145.7
+   ],
+   "text": "«Защита облачной  инфраструктуры»",
+   "img_covers_page": 0.021,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 85,
+   "frac": 1.0,
+   "text_block_idx": 9,
+   "img_block_idx": 7,
+   "text_bbox": [
+    271.9,
+    94.1,
+    372.9,
+    125.4
+   ],
+   "img_bbox": [
+    243.2,
+    87.2,
+    403.2,
+    140.6
+   ],
+   "text": "«Защита облачной  инфраструктуры»",
+   "img_covers_page": 0.017,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 85,
+   "frac": 1.0,
+   "text_block_idx": 9,
+   "img_block_idx": 8,
+   "text_bbox": [
+    271.9,
+    94.1,
+    372.9,
+    125.4
+   ],
+   "img_bbox": [
+    245.2,
+    89.2,
+    397.0,
+    134.5
+   ],
+   "text": "«Защита облачной  инфраструктуры»",
+   "img_covers_page": 0.014,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 85,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 10,
+   "text_bbox": [
+    105.8,
+    93.6,
+    229.4,
+    110.2
+   ],
+   "img_bbox": [
+    91.3,
+    81.6,
+    245.6,
+    145.2
+   ],
+   "text": "«Защита приложений»",
+   "img_covers_page": 0.02,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 85,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 11,
+   "text_bbox": [
+    105.8,
+    93.6,
+    229.4,
+    110.2
+   ],
+   "img_bbox": [
+    92.8,
+    86.7,
+    244.1,
+    140.2
+   ],
+   "text": "«Защита приложений»",
+   "img_covers_page": 0.016,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 85,
+   "frac": 1.0,
+   "text_block_idx": 13,
+   "img_block_idx": 12,
+   "text_bbox": [
+    105.8,
+    93.6,
+    229.4,
+    110.2
+   ],
+   "img_bbox": [
+    94.8,
+    88.7,
+    238.0,
+    134.0
+   ],
+   "text": "«Защита приложений»",
+   "img_covers_page": 0.013,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 85,
+   "frac": 1.0,
+   "text_block_idx": 17,
+   "img_block_idx": 14,
+   "text_bbox": [
+    419.5,
+    93.6,
+    547.5,
+    124.9
+   ],
+   "img_bbox": [
+    402.8,
+    81.6,
+    565.7,
+    145.2
+   ],
+   "text": "« DevSecOps в облачном  CI/CD»",
+   "img_covers_page": 0.021,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 85,
+   "frac": 1.0,
+   "text_block_idx": 17,
+   "img_block_idx": 15,
+   "text_bbox": [
+    419.5,
+    93.6,
+    547.5,
+    124.9
+   ],
+   "img_bbox": [
+    404.2,
+    86.7,
+    564.2,
+    140.2
+   ],
+   "text": "« DevSecOps в облачном  CI/CD»",
+   "img_covers_page": 0.017,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 85,
+   "frac": 1.0,
+   "text_block_idx": 17,
+   "img_block_idx": 16,
+   "text_bbox": [
+    419.5,
+    93.6,
+    547.5,
+    124.9
+   ],
+   "img_bbox": [
+    406.2,
+    88.7,
+    558.1,
+    134.0
+   ],
+   "text": "« DevSecOps в облачном  CI/CD»",
+   "img_covers_page": 0.014,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 89,
+   "frac": 0.972,
+   "text_block_idx": 4,
+   "img_block_idx": 7,
+   "text_bbox": [
+    90.4,
+    106.5,
+    100.5,
+    296.1
+   ],
+   "img_bbox": [
+    84.8,
+    84.3,
+    552.6,
+    290.7
+   ],
+   "text": "38",
+   "img_covers_page": 0.193,
+   "order": "image_above_text"
+  },
+  {
+   "pg": 107,
+   "frac": 1.0,
+   "text_block_idx": 30,
+   "img_block_idx": 27,
+   "text_bbox": [
+    92.8,
+    479.4,
+    547.5,
+    522.4
+   ],
+   "img_bbox": [
+    73.8,
+    464.8,
+    568.3,
+    547.6
+   ],
+   "text": "Совет директоров Яндекса осуществляет общее руководство деятельностью компании, за  исключ",
+   "img_covers_page": 0.082,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 107,
+   "frac": 1.0,
+   "text_block_idx": 30,
+   "img_block_idx": 28,
+   "text_bbox": [
+    92.8,
+    479.4,
+    547.5,
+    522.4
+   ],
+   "img_bbox": [
+    74.6,
+    469.1,
+    567.4,
+    543.1
+   ],
+   "text": "Совет директоров Яндекса осуществляет общее руководство деятельностью компании, за  исключ",
+   "img_covers_page": 0.073,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 107,
+   "frac": 0.982,
+   "text_block_idx": 30,
+   "img_block_idx": 29,
+   "text_bbox": [
+    92.8,
+    479.4,
+    547.5,
+    522.4
+   ],
+   "img_bbox": [
+    85.6,
+    480.1,
+    552.2,
+    527.9
+   ],
+   "text": "Совет директоров Яндекса осуществляет общее руководство деятельностью компании, за  исключ",
+   "img_covers_page": 0.045,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 115,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 18,
+   "text_bbox": [
+    93.8,
+    514.1,
+    547.1,
+    585.6
+   ],
+   "img_bbox": [
+    74.5,
+    499.0,
+    568.3,
+    609.8
+   ],
+   "text": "Яндекс стремится поддерживать справедливую и прозрачную систему вознаграждения  сотруднико",
+   "img_covers_page": 0.109,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 115,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 19,
+   "text_bbox": [
+    93.8,
+    514.1,
+    547.1,
+    585.6
+   ],
+   "img_bbox": [
+    75.7,
+    503.9,
+    567.0,
+    605.1
+   ],
+   "text": "Яндекс стремится поддерживать справедливую и прозрачную систему вознаграждения  сотруднико",
+   "img_covers_page": 0.099,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 115,
+   "frac": 0.989,
+   "text_block_idx": 21,
+   "img_block_idx": 20,
+   "text_bbox": [
+    93.8,
+    514.1,
+    547.1,
+    585.6
+   ],
+   "img_bbox": [
+    86.6,
+    514.9,
+    551.8,
+    589.9
+   ],
+   "text": "Яндекс стремится поддерживать справедливую и прозрачную систему вознаграждения  сотруднико",
+   "img_covers_page": 0.07,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 122,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 18,
+   "text_bbox": [
+    93.5,
+    87.4,
+    525.8,
+    159.4
+   ],
+   "img_bbox": [
+    74.3,
+    76.0,
+    568.9,
+    179.9
+   ],
+   "text": "Для   оценки надёжности и эффективности управления рисками и внутреннего контроля  сформир",
+   "img_covers_page": 0.102,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 122,
+   "frac": 1.0,
+   "text_block_idx": 21,
+   "img_block_idx": 19,
+   "text_bbox": [
+    93.5,
+    87.4,
+    525.8,
+    159.4
+   ],
+   "img_bbox": [
+    75.3,
+    80.7,
+    567.7,
+    175.2
+   ],
+   "text": "Для   оценки надёжности и эффективности управления рисками и внутреннего контроля  сформир",
+   "img_covers_page": 0.093,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 122,
+   "frac": 0.941,
+   "text_block_idx": 21,
+   "img_block_idx": 20,
+   "text_bbox": [
+    93.5,
+    87.4,
+    525.8,
+    159.4
+   ],
+   "img_bbox": [
+    86.3,
+    91.7,
+    552.5,
+    160.0
+   ],
+   "text": "Для   оценки надёжности и эффективности управления рисками и внутреннего контроля  сформир",
+   "img_covers_page": 0.064,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 123,
+   "frac": 1.0,
+   "text_block_idx": 26,
+   "img_block_idx": 23,
+   "text_bbox": [
+    92.4,
+    128.4,
+    546.8,
+    169.9
+   ],
+   "img_bbox": [
+    73.5,
+    113.8,
+    567.4,
+    194.2
+   ],
+   "text": "Яндекс регулярно публикует  финансовую отчётность  в соответствии с российскими и  междуна",
+   "img_covers_page": 0.079,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 123,
+   "frac": 1.0,
+   "text_block_idx": 26,
+   "img_block_idx": 24,
+   "text_bbox": [
+    92.4,
+    128.4,
+    546.8,
+    169.9
+   ],
+   "img_bbox": [
+    74.2,
+    118.1,
+    566.6,
+    189.8
+   ],
+   "text": "Яндекс регулярно публикует  финансовую отчётность  в соответствии с российскими и  междуна",
+   "img_covers_page": 0.07,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 123,
+   "frac": 0.98,
+   "text_block_idx": 26,
+   "img_block_idx": 25,
+   "text_bbox": [
+    92.4,
+    128.4,
+    546.8,
+    169.9
+   ],
+   "img_bbox": [
+    85.2,
+    129.2,
+    551.5,
+    174.7
+   ],
+   "text": "Яндекс регулярно публикует  финансовую отчётность  в соответствии с российскими и  междуна",
+   "img_covers_page": 0.042,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 130,
+   "frac": 1.0,
+   "text_block_idx": 20,
+   "img_block_idx": 17,
+   "text_bbox": [
+    93.0,
+    433.6,
+    547.8,
+    462.8
+   ],
+   "img_bbox": [
+    74.3,
+    419.2,
+    568.3,
+    488.0
+   ],
+   "text": "Финтех — это подразделение Яндекса, которое развивает финансовые технологии и платёжные  с",
+   "img_covers_page": 0.068,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 130,
+   "frac": 1.0,
+   "text_block_idx": 20,
+   "img_block_idx": 18,
+   "text_bbox": [
+    93.0,
+    433.6,
+    547.8,
+    462.8
+   ],
+   "img_bbox": [
+    74.8,
+    423.4,
+    567.7,
+    483.8
+   ],
+   "text": "Финтех — это подразделение Яндекса, которое развивает финансовые технологии и платёжные  с",
+   "img_covers_page": 0.059,
+   "order": "image_below_text"
+  },
+  {
+   "pg": 130,
+   "frac": 0.974,
+   "text_block_idx": 20,
+   "img_block_idx": 19,
+   "text_bbox": [
+    93.0,
+    433.6,
+    547.8,
+    462.8
+   ],
+   "img_bbox": [
+    85.8,
+    434.4,
+    552.5,
+    468.6
+   ],
+   "text": "Финтех — это подразделение Яндекса, которое развивает финансовые технологии и платёжные  с",
+   "img_covers_page": 0.032,
+   "order": "image_below_text"
+  }
+ ],
+ "invisible": [],
+ "tiny": [],
+ "samecolor": [],
+ "paint_order": {
+  "1": "has_images",
+  "2": "no_images",
+  "3": "no_images",
+  "4": "no_images",
+  "5": "no_images",
+  "6": "no_images",
+  "7": "no_images",
+  "8": "no_images",
+  "9": "no_images",
+  "10": "has_images",
+  "11": "no_images",
+  "12": "has_images",
+  "13": "no_images",
+  "14": "no_images",
+  "15": "no_images",
+  "16": "no_images",
+  "17": "has_images",
+  "18": "has_images",
+  "19": "has_images",
+  "20": "no_images",
+  "21": "has_images",
+  "22": "no_images",
+  "23": "no_images",
+  "24": "has_images",
+  "25": "has_images",
+  "26": "no_images",
+  "27": "has_images",
+  "28": "no_images",
+  "29": "has_images",
+  "30": "no_images",
+  "31": "no_images",
+  "32": "has_images",
+  "33": "has_images",
+  "34": "has_images",
+  "35": "no_images",
+  "36": "no_images",
+  "37": "has_images",
+  "38": "has_images",
+  "39": "has_images",
+  "40": "has_images",
+  "41": "no_images",
+  "42": "has_images",
+  "43": "no_images",
+  "44": "no_images",
+  "45": "no_images",
+  "46": "no_images",
+  "47": "has_images",
+  "48": "has_images",
+  "49": "has_images",
+  "50": "has_images",
+  "51": "has_images",
+  "52": "has_images",
+  "53": "has_images",
+  "54": "no_images",
+  "55": "no_images",
+  "56": "has_images",
+  "57": "no_images",
+  "58": "has_images",
+  "59": "has_images",
+  "60": "no_images",
+  "61": "has_images",
+  "62": "no_images",
+  "63": "has_images",
+  "64": "no_images",
+  "65": "has_images",
+  "66": "no_images",
+  "67": "has_images",
+  "68": "has_images",
+  "69": "no_images",
+  "70": "no_images",
+  "71": "no_images",
+  "72": "no_images",
+  "73": "has_images",
+  "74": "no_images",
+  "75": "no_images",
+  "76": "has_images",
+  "77": "has_images",
+  "78": "no_images",
+  "79": "has_images",
+  "80": "no_images",
+  "81": "has_images",
+  "82": "no_images",
+  "83": "has_images",
+  "84": "has_images",
+  "85": "has_images",
+  "86": "has_images",
+  "87": "has_images",
+  "88": "no_images",
+  "89": "has_images",
+  "90": "has_images",
+  "91": "has_images",
+  "92": "no_images",
+  "93": "no_images",
+  "94": "has_images",
+  "95": "no_images",
+  "96": "has_images",
+  "97": "has_images",
+  "98": "no_images",
+  "99": "no_images",
+  "100": "no_images",
+  "101": "has_images",
+  "102": "no_images",
+  "103": "has_images",
+  "104": "has_images",
+  "105": "no_images",
+  "106": "has_images",
+  "107": "has_images",
+  "108": "has_images",
+  "109": "no_images",
+  "110": "no_images",
+  "111": "has_images",
+  "112": "has_images",
+  "113": "has_images",
+  "114": "no_images",
+  "115": "has_images",
+  "116": "no_images",
+  "117": "no_images",
+  "118": "has_images",
+  "119": "has_images",
+  "120": "no_images",
+  "121": "no_images",
+  "122": "has_images",
+  "123": "has_images",
+  "124": "has_images",
+  "125": "has_images",
+  "126": "no_images",
+  "127": "no_images",
+  "128": "has_images",
+  "129": "no_images",
+  "130": "has_images",
+  "131": "has_images",
+  "132": "has_images",
+  "133": "no_images",
+  "134": "has_images",
+  "135": "has_images",
+  "136": "no_images",
+  "137": "no_images",
+  "138": "no_images",
+  "139": "no_images",
+  "140": "no_images",
+  "141": "no_images",
+  "142": "no_images",
+  "143": "no_images",
+  "144": "no_images",
+  "145": "no_images",
+  "146": "no_images",
+  "147": "no_images",
+  "148": "no_images",
+  "149": "has_images",
+  "150": "no_images",
+  "151": "no_images",
+  "152": "no_images",
+  "153": "no_images",
+  "154": "no_images",
+  "155": "no_images",
+  "156": "no_images",
+  "157": "no_images",
+  "158": "no_images",
+  "159": "no_images",
+  "160": "no_images",
+  "161": "no_images",
+  "162": "no_images",
+  "163": "no_images",
+  "164": "no_images",
+  "165": "no_images",
+  "166": "no_images",
+  "167": "no_images",
+  "168": "no_images",
+  "169": "no_images",
+  "170": "no_images",
+  "171": "no_images",
+  "172": "no_images",
+  "173": "no_images",
+  "174": "no_images",
+  "175": "no_images",
+  "176": "no_images",
+  "177": "no_images",
+  "178": "no_images",
+  "179": "no_images",
+  "180": "no_images",
+  "181": "no_images",
+  "182": "no_images",
+  "183": "no_images",
+  "184": "no_images",
+  "185": "no_images",
+  "186": "no_images",
+  "187": "no_images",
+  "188": "no_images",
+  "189": "no_images",
+  "190": "no_images",
+  "191": "no_images",
+  "192": "no_images",
+  "193": "no_images",
+  "194": "no_images",
+  "195": "has_images",
+  "196": "no_images",
+  "197": "no_images",
+  "198": "no_images",
+  "199": "no_images",
+  "200": "no_images",
+  "201": "no_images"
+ }
+}

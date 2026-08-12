@@ -1,0 +1,26 @@
+# Исходные PDF: 27 МБ, публично доступны по ссылкам из README
+data/*.pdf
+
+# Артефакты vision-прохода
+build/pages/
+build/vision_cache/
+*.png
+
+# Дампы страниц из разведки парсера
+build/p*.txt
+build/w*.txt
+build/dump.txt
+build/verify_out.txt
+
+# Секреты
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Streamlit
+.streamlit/secrets.toml

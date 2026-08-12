@@ -1,0 +1,213 @@
+<KnowledgeGraph>
+  <Project NAME="report_qa" VERSION="0.1.0">
+    <keywords>annual report QA, IFRS, PDF parsing, bookmarks, table extraction, long format JSON, provenance, section routing, long context, RAG comparison, guardrails, Streamlit, OpenRouter</keywords>
+    <annotation>Прототип AI-ассистента по годовому отчёту МКПАО «Яндекс» за 2025 (201 стр., 178 закладок, 120-175k токенов). Два конвейера: подготовка (PDF → разделы по закладкам + числовые таблицы в длинный JSON с провенансом + агрегаты и контрольные суммы) и ответ (роутер по оглавлению → сборка контекста XML+JSON → модель → атрибуция по страницам). Три стратегии поиска замеряются на общем наборе вопросов. Инвестиционные рекомендации не выдаются по проектному решению. Тестовое задание, ограничение 2 часа, защита голосом.</annotation>
+
+    <!-- === Корень === -->
+
+    <M-CONFIG NAME="Config" TYPE="UTILITY">
+      <purpose>Пути к данным и артефактам, ключ OpenRouter из окружения, модели по ролям, пороги.</purpose>
+      <path>report_qa/config.py</path>
+      <depends>none</depends>
+      <annotations>
+        <type-PDF_PATH PURPOSE="data/yandex_annual_report_2025.pdf — рабочий документ" />
+        <type-IFRS_PATH PURPOSE="data/yandex_ifrs_fy2025.pdf — контрольный пример: бизнес-рисков не содержит" />
+        <type-SECTIONS_JSON PURPOSE="артефакт подготовки: разделы" />
+        <type-TABLES_JSON PURPOSE="артефакт подготовки: ячейки в длинном формате + агрегаты + контрольные суммы" />
+        <type-MODELS PURPOSE="answer=anthropic/claude-opus-5-fast (1M ctx), router=дешёвая, embeddings=многоязычная" />
+        <type-THRESHOLDS PURPOSE="checksum_delta=0.5%, top_k=8, router_confidence_min" />
+      </annotations>
+      <verification-ref>V-M-CONFIG</verification-ref>
+    </M-CONFIG>
+
+    <!-- === Подготовка документа (offline) === -->
+
+    <M-PARSE NAME="SectionParser" TYPE="PROCESSING">
+      <purpose>PDF → разделы по встроенным закладкам документа. Закладки проставлены автором отчёта, это готовая смысловая разметка.</purpose>
+      <path>report_qa/parse.py</path>
+      <depends>M-CONFIG</depends>
+      <annotations>
+        <fn-load_toc PURPOSE="fitz get_toc: 178 закладок, 9 уровня 1, 33 уровня 2" />
+        <fn-build_sections PURPOSE="id, title, level, page_from, page_to, text" />
+        <fn-fallback_headings PURPOSE="эвристика по заголовкам для PDF без закладок" />
+      </annotations>
+      <verification-ref>V-M-PARSE</verification-ref>
+    </M-PARSE>
+
+    <M-NUM NAME="NumberNormalizer" TYPE="UTILITY">
+      <purpose>Нормализация чисел финотчётности. Без неё «(1 234)» становится 1234, знак теряется молча и вся арифметика уезжает.</purpose>
+      <path>report_qa/parse.py</path>
+      <depends>none</depends>
+      <annotations>
+        <fn-parse_number PURPOSE="скобки в минус, удаление U+0020/U+00A0/U+202F, запятая в точку, отсечение сносок" />
+        <fn-extract_unit PURPOSE="единица измерения из шапки таблицы в отдельное поле" />
+      </annotations>
+      <verification-ref>V-M-NUM</verification-ref>
+    </M-NUM>
+
+    <M-TABLES NAME="TableExtractor" TYPE="PROCESSING">
+      <purpose>Числовые таблицы → длинный формат, одна запись на ячейку. Провенанс встроен в запись: поле pg делает атрибуцию структурной, а не зависящей от послушности модели.</purpose>
+      <path>report_qa/parse.py</path>
+      <depends>M-CONFIG, M-NUM</depends>
+      <annotations>
+        <fn-extract_tables PURPOSE="fitz, вторым проходом pdfplumber по страницам с таблицами" />
+        <fn-to_long_format PURPOSE="запись {t, m, s, p, v, u, pg}; ключи короткие — развёрнутый формат кратно тяжелее исходной таблицы" />
+      </annotations>
+      <verification-ref>V-M-TABLES</verification-ref>
+    </M-TABLES>
+
+    <M-VISION NAME="ChartReader" TYPE="PROCESSING">
+      <purpose>Снятие чисел с растровых графиков. Из 266 записей первого прогона 61 не извлекается кодом вообще: сегментные графики — картинки без текстового слоя. Парсер при этом не падает, а молча отдаёт пусто.</purpose>
+      <path>report_qa/vision.py</path>
+      <depends>M-CONFIG, M-LLM</depends>
+      <annotations>
+        <fn-render_page PURPOSE="fitz → PNG 200 dpi" />
+        <fn-read_chart PURPOSE="vision-модель → записи длинного формата с src=vision" />
+        <type-TARGET_PAGES PURPOSE="все 201: растровые объекты на 74 страницах, на 51 картинки занимают >5% площади. Выборка по факту находки не является покрытием" />
+        <fn-crosscheck PURPOSE="где парсер и vision дали число независимо — сверка; расхождение поднимает флаг" />
+        <rule-COST PURPOSE="~300k токенов входа, 3-5 долларов, 3-5 минут при параллелизме 10. Один раз, офлайн" />
+        <rule-SRC PURPOSE="поле src отличает извлечённое зрением от извлечённого кодом, иначе теряется воспроизводимость" />
+      </annotations>
+      <verification-ref>V-M-VISION</verification-ref>
+    </M-VISION>
+
+    <M-AGG NAME="Aggregator" TYPE="PROCESSING">
+      <purpose>Агрегаты и контрольные суммы. Арифметику считает код, модель формулирует вывод.</purpose>
+      <path>report_qa/parse.py</path>
+      <depends>M-TABLES</depends>
+      <annotations>
+        <fn-compute_aggregates PURPOSE="yoy_abs, yoy_pct, share, margin, contrib_growth" />
+        <fn-contrib_growth PURPOSE="вклад в прирост — прямой ответ на вопрос, почему прибыль выросла сильнее выручки" />
+        <fn-checksum_segments PURPOSE="сумма сегментов против консолидированного итога, флаг при расхождении больше 0.5%" />
+        <type-CONTROL PURPOSE="выручка 2025 = 1 441,1 млрд (стр. 21, 86); сегменты 551,2 / 804,5 / 214,3 / 48,2 (стр. 21, 90-96)" />
+      </annotations>
+      <verification-ref>V-M-AGG</verification-ref>
+    </M-AGG>
+
+    <!-- === Конвейер ответа (online) === -->
+
+    <M-LLM NAME="OpenRouterClient" TYPE="INTEGRATION">
+      <purpose>Слой OpenRouter с обязательным timeout, счётчиком токенов и замером задержки.</purpose>
+      <path>report_qa/llm.py</path>
+      <depends>M-CONFIG</depends>
+      <annotations>
+        <fn-call PURPOSE="model, messages, timeout обязателен; возвращает текст + usage + latency" />
+        <fn-parse_json_response PURPOSE="разбор структурированного ответа роутера" />
+      </annotations>
+      <verification-ref>V-M-LLM</verification-ref>
+    </M-LLM>
+
+    <M-ROUTER NAME="SectionRouter" TYPE="LOGIC">
+      <purpose>Выбор разделов под вопрос по оглавлению (2-3k токенов). Не RAG: единица выборки — смысловой раздел с границами страниц, таблицы не рвутся.</purpose>
+      <path>report_qa/router.py</path>
+      <depends>M-LLM, M-PARSE</depends>
+      <annotations>
+        <fn-route PURPOSE="вопрос + оглавление → [{section_id, priority, confidence}] либо ALL" />
+        <rule-RECALL PURPOSE="полнота важнее точности: лишний раздел стоит копейки, потерянный — неверного ответа" />
+        <rule-FALLBACK PURPOSE="низкая уверенность расширяет набор; вопрос про весь документ возвращает ALL" />
+      </annotations>
+      <verification-ref>V-M-ROUTER</verification-ref>
+    </M-ROUTER>
+
+    <M-CONTEXT NAME="ContextBuilder" TYPE="LOGIC">
+      <purpose>Сборка промпта: текст XML-тегами, числа JSON-блоком. Разделение по типу содержимого, а не выбор одного формата.</purpose>
+      <path>report_qa/context.py</path>
+      <depends>M-PARSE, M-TABLES, M-AGG, M-ROUTER</depends>
+      <annotations>
+        <fn-build PURPOSE="question + mode (full | router | vector) → строка промпта" />
+        <rule-XML PURPOSE="&lt;section id title pages&gt; — текст без экранирования, атрибуты дают атрибуцию бесплатно" />
+        <rule-JSON_ALWAYS PURPOSE="таблицы и агрегаты подаются при любом вопросе, роутер выбирает только текст" />
+      </annotations>
+      <verification-ref>V-M-CONTEXT</verification-ref>
+    </M-CONTEXT>
+
+    <M-ANSWER NAME="Answerer" TYPE="LOGIC">
+      <purpose>Ответ строго по поданному контексту, с номерами страниц. При отсутствии данных — явный отказ с указанием границы документа.</purpose>
+      <path>report_qa/answer.py</path>
+      <depends>M-CONTEXT, M-LLM, M-GUARD</depends>
+      <annotations>
+        <fn-answer PURPOSE="question, mode → {text, citations[{page, section}], mode, tokens, latency}" />
+        <rule-NO_MEMORY PURPOSE="ответ из памяти модели — главный риск продукта для финансов, проверяется тестом на отчётности МСФО" />
+        <rule-NO_MENTAL_MATH PURPOSE="не пересчитывать в уме поданное готовым" />
+      </annotations>
+      <verification-ref>V-M-ANSWER</verification-ref>
+    </M-ANSWER>
+
+    <M-GUARD NAME="ScopeGuard" TYPE="LOGIC">
+      <purpose>Границы ответственности: фактическая часть выдаётся полностью, оценочный вердикт «покупать» не выдаётся никогда.</purpose>
+      <path>report_qa/answer.py</path>
+      <depends>none</depends>
+      <annotations>
+        <fn-is_advice_request PURPOSE="детектор запроса на инвестиционную рекомендацию" />
+        <fn-split_answer PURPOSE="факторы за и против с цифрами и страницами + объяснение, почему вердикта нет" />
+        <rule-RATIONALE PURPOSE="разделение в структуре (ТРИЗ, П3 в contradictions.md): система доводит до последнего шага и оставляет шаг человеку" />
+      </annotations>
+      <verification-ref>V-M-GUARD</verification-ref>
+    </M-GUARD>
+
+    <!-- === Замер и демонстрация === -->
+
+    <M-VECTOR NAME="VectorRetriever" TYPE="PROCESSING">
+      <purpose>Контрольная ветка замера. Реализация добросовестная: соломенное чучело обесценивает сравнение.</purpose>
+      <path>report_qa/vector.py</path>
+      <depends>M-PARSE, M-CONFIG</depends>
+      <annotations>
+        <fn-build_index PURPOSE="чанки по разделам, таблица целиком в чанк, заголовок и страница в тексте чанка" />
+        <fn-search PURPOSE="top-8, многоязычные эмбеддинги" />
+      </annotations>
+      <verification-ref>V-M-VECTOR</verification-ref>
+    </M-VECTOR>
+
+    <M-EVAL NAME="Evaluator" TYPE="TESTING">
+      <purpose>Матрица «режим × модель» на одном наборе вопросов. Заменяет мнение о выборе архитектуры измерением.</purpose>
+      <path>eval/run_eval.py</path>
+      <depends>M-ANSWER, M-VECTOR</depends>
+      <annotations>
+        <fn-run PURPOSE="10 вопросов × 3 режима × лестница моделей → eval/results.md" />
+        <type-METRICS PURPOSE="точность числа, наличие и верность страницы, корректный отказ, токены, задержка, цена" />
+        <type-GOLD PURPOSE="эталоны выписаны руками из PDF до написания кода" />
+      </annotations>
+      <verification-ref>V-M-EVAL</verification-ref>
+    </M-EVAL>
+
+    <M-UI NAME="StreamlitApp" TYPE="PRESENTATION">
+      <purpose>Демонстрация: поле ввода, ответ, раскрывающийся источник со страницами, переключатель режима.</purpose>
+      <path>app.py</path>
+      <depends>M-ANSWER</depends>
+      <verification-ref>V-M-UI</verification-ref>
+    </M-UI>
+
+    <M-SQL NAME="SqlTool" TYPE="LOGIC" priority="P2">
+      <purpose>DuckDB поверх tables.json как одна плоская таблица из шести колонок. Схему финотчётности не проектируем, она уже построена в длинном формате.</purpose>
+      <path>report_qa/sql_tool.py</path>
+      <depends>M-TABLES</depends>
+      <annotations>
+        <rule-CROSSCHECK PURPOSE="результат SQL сверяется с предвычисленным агрегатом; два независимых пути к числу превращают тихий отказ в шумный" />
+      </annotations>
+      <verification-ref>V-M-SQL</verification-ref>
+    </M-SQL>
+
+    <!-- === Связи === -->
+
+    <CrossLinks>
+      <link from="M-PARSE" to="M-ROUTER" what="оглавление как вход роутера" />
+      <link from="M-PARSE" to="M-CONTEXT" what="тексты выбранных разделов" />
+      <link from="M-NUM" to="M-TABLES" what="нормализация до попадания в JSON" />
+      <link from="M-VISION" to="M-AGG" what="числа с растровых графиков наравне с извлечёнными кодом" />
+      <link from="M-TABLES" to="M-AGG" what="ячейки для расчёта агрегатов" />
+      <link from="M-AGG" to="M-CONTEXT" what="готовые числа вместо счёта в уме" />
+      <link from="M-AGG" to="M-SQL" what="предвычисленный агрегат как контроль SQL-ответа" />
+      <link from="M-ROUTER" to="M-CONTEXT" what="список разделов" />
+      <link from="M-GUARD" to="M-ANSWER" what="разрез ответа на фактическую и оценочную часть" />
+      <link from="M-VECTOR" to="M-EVAL" what="контрольная ветка сравнения" />
+      <link from="M-CONFIG" to="ALL" what="пути, модели, пороги" />
+    </CrossLinks>
+
+    <ExternalRefs>
+      <ref name="docs/architecture.md" what="обоснование решений для защиты: тест-матрица вопросов, выбор документа, стратегии поиска, список отложенного" />
+      <ref name="docs/contradictions.md" what="девять противоречий ТЗ и архитектуры, разобранные по ТРИЗ" />
+      <ref name="data/yandex_annual_report_2025.pdf" what="ir.yandex.ru/MKPAO/issuer-report, 201 стр." />
+    </ExternalRefs>
+
+  </Project>
+</KnowledgeGraph>

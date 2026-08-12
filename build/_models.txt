@@ -1,0 +1,5 @@
+anthropic/claude-opus-5-fast: ctx=1000000 in=$10.00/M out=$50.00/M img=None mod=['text', 'image', 'file']
+anthropic/claude-opus-5: ctx=1000000 in=$5.00/M out=$25.00/M img=None mod=['text', 'image', 'file']
+anthropic/claude-fable-5: ctx=1000000 in=$10.00/M out=$50.00/M img=None mod=['text', 'image', 'file']
+openai/gpt-5.5-pro: ctx=1050000 in=$30.00/M out=$180.00/M img=None mod=['file', 'image', 'text']
+anthropic/claude-sonnet-5: ctx=1000000 in=$2.00/M out=$10.00/M img=None mod=['text', 'image', 'file']

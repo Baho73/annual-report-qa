@@ -1,0 +1,151 @@
+{
+ "main_financials": [
+  "grid",
+  [
+   86
+  ]
+ ],
+ "corp_code_compliance": [
+  "grid",
+  [
+   105,
+   106
+  ]
+ ],
+ "board_committees_composition": [
+  "grid",
+  [
+   112
+  ]
+ ],
+ "board_remuneration": [
+  "grid",
+  [
+   116
+  ]
+ ],
+ "share_issues_2025": [
+  "grid",
+  [
+   128
+  ]
+ ],
+ "share_trading_2025": [
+  "grid",
+  [
+   129
+  ]
+ ],
+ "analyst_coverage_2025": [
+  "grid",
+  [
+   129
+  ]
+ ],
+ "dividends_history": [
+  "grid",
+  [
+   131
+  ]
+ ],
+ "key_financials_3y": [
+  "vec",
+  [
+   12,
+   13
+  ]
+ ],
+ "key_operational_3y": [
+  "vec",
+  [
+   14
+  ]
+ ],
+ "revenue_distribution_2025": [
+  "vec",
+  [
+   21
+  ]
+ ],
+ "search_market_share": [
+  "vec",
+  [
+   26,
+   30
+  ]
+ ],
+ "plus_subscribers_quarterly": [
+  "vec",
+  [
+   51
+  ]
+ ],
+ "city_services_breakdown": [
+  "vec",
+  [
+   92,
+   93
+  ]
+ ],
+ "personal_services_breakdown": [
+  "vec",
+  [
+   94,
+   95
+  ]
+ ],
+ "share_capital": [
+  "vec",
+  [
+   127
+  ]
+ ],
+ "segment_revenue_2025": [
+  "img",
+  [
+   87
+  ]
+ ],
+ "capex": [
+  "img",
+  [
+   87
+  ]
+ ],
+ "operating_leverage_4y": [
+  "img",
+  [
+   89
+  ]
+ ],
+ "segment_search_ai": [
+  "img",
+  [
+   90
+  ]
+ ],
+ "segment_city": [
+  "img",
+  [
+   91
+  ]
+ ],
+ "segment_personal": [
+  "img",
+  [
+   94
+  ]
+ ],
+ "segment_b2b_tech": [
+  "img",
+  [
+   96
+  ]
+ ],
+ "segment_autonomous": [
+  "img",
+  [
+   97
+  ]
+ ]
+}

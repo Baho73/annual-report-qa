@@ -1,0 +1,24 @@
+--- ВЕСЬ текстовый слой стр.89 PDF:
+[0] TEXT  bbox=[388, 33, 556, 50] 'Яндекс   Годовой отчёт 2025'
+[1] TEXT  bbox=[542, 792, 555, 807] '90'
+[2] TEXT  bbox=[85, 57, 237, 72] 'Сильный операционный рычаг'
+[3] TEXT  bbox=[90, 80, 93, 108] ''
+[4] TEXT  bbox=[90, 106, 101, 296] '38'
+[5] TEXT  bbox=[85, 293, 234, 319] ''
+[6] TEXT  bbox=[85, 747, 555, 786] '38   Скорректированный показатель EBITDA и рентабельность скорректированного пок'
+[7] IMAGE bbox=[85, 84, 553, 291]
+
+--- VISION objects:
+   {'kind': 'chart', 'title': 'Сильный операционный рычаг: Скорр. EBITDA, млрд руб. и Рентабельность по скорр. EBITDA', 'has_numbers': True, 'rows': None, 'cols': None}
+   {'kind': 'text_only', 'title': 'Сноска 38: Скорректированный показатель EBITDA и рентабельность скорректированного показателя EBITDA не являются общепринятыми показателями по МСФО', 'has_numbers': False, 'rows': None, 'cols': None}
+--- VISION records:
+   {'t': 'operating_leverage_chart', 'm': 'Скорр. EBITDA', 's': None, 'p': '2022', 'v': 72.4, 'u': 'млрд_руб'}
+   {'t': 'operating_leverage_chart', 'm': 'Скорр. EBITDA', 's': None, 'p': '2023', 'v': 120.8, 'u': 'млрд_руб'}
+   {'t': 'operating_leverage_chart', 'm': 'Скорр. EBITDA', 's': None, 'p': '2024', 'v': 188.6, 'u': 'млрд_руб'}
+   {'t': 'operating_leverage_chart', 'm': 'Скорр. EBITDA', 's': None, 'p': '2025', 'v': 280.8, 'u': 'млрд_руб'}
+   {'t': 'operating_leverage_chart', 'm': 'Рентабельность по скорр. EBITDA', 's': None, 'p': '2022', 'v': 13.9, 'u': '%'}
+   {'t': 'operating_leverage_chart', 'm': 'Рентабельность по скорр. EBITDA', 's': None, 'p': '2023', 'v': 15.1, 'u': '%'}
+   {'t': 'operating_leverage_chart', 'm': 'Рентабельность по скорр. EBITDA', 's': None, 'p': '2024', 'v': 17.2, 'u': '%'}
+   {'t': 'operating_leverage_chart', 'm': 'Рентабельность по скорр. EBITDA', 's': None, 'p': '2025', 'v': 19.5, 'u': '%'}
+   {'t': 'operating_leverage_chart', 'm': 'Рост рентабельности скорр. EBITDA (изменение 2022-2025)', 's': None, 'p': '2025', 'v': 5.6, 'u': 'п.п.'}
+   {'t': 'operating_leverage_chart', 'm': 'Рост скорр. EBITDA (кратность 2022-2025)', 's': None, 'p': '2025', 'v': 3.9, 'u': None}
