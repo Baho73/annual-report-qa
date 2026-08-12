@@ -39,6 +39,7 @@ import yaml  # noqa: E402
 from report_qa import config  # noqa: E402
 from report_qa.answer import ask, numbers_in  # noqa: E402
 from report_qa.router import route  # noqa: E402
+from report_qa.vector import section_ids_for  # noqa: E402
 
 QUESTIONS_PATH = Path(__file__).resolve().parent / "questions.yaml"
 RESULTS_JSON = Path(__file__).resolve().parent / "results.json"
@@ -109,6 +110,10 @@ def run_one(question: dict, mode: str, model=None) -> dict:
         section_ids = decision.section_ids
         router_tokens, router_latency = decision.tokens, decision.latency_s
         effective_mode = decision.mode
+    elif mode == "vector":
+        # Локальный поиск: модель не вызывается, поэтому в счёт токенов
+        # и задержки роутера здесь ничего не добавляется.
+        section_ids = section_ids_for(question["question"])
 
     answer = ask(question["question"], mode=effective_mode,
                  section_ids=section_ids, model=model)
