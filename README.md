@@ -202,6 +202,7 @@ python eval/run_eval.py        # прогон замера
 
 ## Документы проекта
 
+- `docs/defense-plan.md` — сценарий защиты, что показывать вживую и ответы на ожидаемые вопросы
 - `docs/architecture.md` — обоснование решений, выбор документа из четырёх кандидатов, стратегии поиска
 - `docs/contradictions.md` — девять противоречий задания и архитектуры, разобранные по ТРИЗ
 - `docs/requirements.xml`, `docs/technology.xml`, `docs/development-plan.xml`, `docs/knowledge-graph.xml` — GRACE-артефакты
