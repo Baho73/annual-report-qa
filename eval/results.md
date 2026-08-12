@@ -5,7 +5,8 @@
 | Режим | Пройдено | Числа верны | Страницы верны | Медиана токенов | Медиана задержки | Цена набора |
 |---|---|---|---|---|---|---|
 | `router` | 10/10 | 7/7 | 8/8 | 36 416 | 17.25 с | $8.07 |
-| `full` | 5/10 | 3/3 | 4/4 | 206 245 | 15.03 с | $10.70 |
+| `full` | 10/10 | 7/7 | 8/8 | 206 250 | 19.58 с | $21.14 |
+| `vector` | 10/10 | 7/7 | 8/8 | 23 774 | 14.45 с | $3.06 |
 
 ## По вопросам
 
@@ -26,11 +27,21 @@
 | Q3-risks | narrative | `full` | пройден | — | да | 206249 | 38.69 с | $2.142 |
 | Q4-profit | causal | `full` | пройден | да | да | 206250 | 27.34 с | $2.144 |
 | Q5-invest | boundary | `full` | пройден | — | — | 206247 | 38.58 с | $2.183 |
-| Q6-segment | fact | `full` | провал | — | — | 0 | 0.0 с | $0.000 |
-| Q7-ebitda | fact | `full` | провал | — | — | 0 | 0.0 с | $0.000 |
-| Q8-netprofit | fact | `full` | провал | — | — | 0 | 0.0 с | $0.000 |
-| Q9-absent | refusal | `full` | провал | — | — | 0 | 0.0 с | $0.000 |
-| Q10-intersegment | causal | `full` | провал | — | — | 0 | 0.0 с | $0.000 |
+| Q1-revenue | fact | `vector` | пройден | да | да | 20465 | 10.86 с | $0.234 |
+| Q2-growth | aggregate | `vector` | пройден | да | да | 23774 | 19.17 с | $0.303 |
+| Q3-risks | narrative | `vector` | пройден | — | да | 18464 | 16.78 с | $0.244 |
+| Q4-profit | causal | `vector` | пройден | да | да | 26840 | 23.05 с | $0.330 |
+| Q5-invest | boundary | `vector` | пройден | — | — | 63821 | 22.48 с | $0.699 |
+| Q6-segment | fact | `vector` | пройден | да | да | 32267 | 10.8 с | $0.354 |
+| Q7-ebitda | fact | `vector` | пройден | да | да | 25229 | 10.78 с | $0.282 |
+| Q8-netprofit | fact | `vector` | пройден | да | да | 21900 | 6.66 с | $0.232 |
+| Q9-absent | refusal | `vector` | пройден | — | — | 15402 | 8.06 с | $0.168 |
+| Q10-intersegment | causal | `vector` | пройден | да | да | 17451 | 14.45 с | $0.214 |
+| Q6-segment | fact | `full` | пройден | да | да | 206250 | 16.31 с | $2.087 |
+| Q7-ebitda | fact | `full` | пройден | да | да | 206250 | 12.17 с | $2.091 |
+| Q8-netprofit | fact | `full` | пройден | да | да | 206251 | 10.39 с | $2.081 |
+| Q9-absent | refusal | `full` | пройден | — | — | 206247 | 10.3 с | $2.076 |
+| Q10-intersegment | causal | `full` | пройден | да | да | 206253 | 19.58 с | $2.106 |
 
 ## Числа без подтверждения в контексте
 
@@ -41,11 +52,9 @@
 - Q10-intersegment (`router`): 31.1, 34.1, 8.3
 - Q4-profit (`full`): 39.6, 56.2, 6.5, 8.7
 - Q5-invest (`full`): 1.799, 39.6
-
-## Ошибки прогона
-
-- Q6-segment (`full`): OpenRouter вернул 403: {"error":{"message":"Key limit exceeded (daily limit). Manage it using https://openrouter.ai/workspaces/default/keys/d615a0b64896c0d8bd8c0ba32b5813152f29eb5b0a4f79ba7f3f37679f3cca35","code":403}}
-- Q7-ebitda (`full`): OpenRouter вернул 403: {"error":{"message":"Key limit exceeded (daily limit). Manage it using https://openrouter.ai/workspaces/default/keys/d615a0b64896c0d8bd8c0ba32b5813152f29eb5b0a4f79ba7f3f37679f3cca35","code":403}}
-- Q8-netprofit (`full`): OpenRouter вернул 403: {"error":{"message":"Key limit exceeded (daily limit). Manage it using https://openrouter.ai/workspaces/default/keys/d615a0b64896c0d8bd8c0ba32b5813152f29eb5b0a4f79ba7f3f37679f3cca35","code":403}}
-- Q9-absent (`full`): OpenRouter вернул 403: {"error":{"message":"Key limit exceeded (daily limit). Manage it using https://openrouter.ai/workspaces/default/keys/d615a0b64896c0d8bd8c0ba32b5813152f29eb5b0a4f79ba7f3f37679f3cca35","code":403}}
-- Q10-intersegment (`full`): OpenRouter вернул 403: {"error":{"message":"Key limit exceeded (daily limit). Manage it using https://openrouter.ai/workspaces/default/keys/d615a0b64896c0d8bd8c0ba32b5813152f29eb5b0a4f79ba7f3f37679f3cca35","code":403}}
+- Q1-revenue (`vector`): 189.7
+- Q4-profit (`vector`): 39.6, 56.2
+- Q5-invest (`vector`): 39.6, 56.2, 6.9, 8.2
+- Q6-segment (`vector`): 31.1, 34.1
+- Q7-ebitda (`vector`): 39.6
+- Q10-intersegment (`full`): 34.1, 8.3

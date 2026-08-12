@@ -17,7 +17,7 @@
 #   load_questions - чтение вопросов с эталонами
 #   score - оценка одного ответа против эталона
 #   run_one - прогон одного вопроса в одном режиме
-#   run - прогон набора через выбранные режимы
+#   run - прогон набора через выбранные режимы, с отбором по id
 #   render_markdown - таблица результатов для README
 #   QUESTIONS_PATH - путь к набору вопросов с эталонами
 #   RESULTS_JSON - сырые результаты прогона
@@ -134,8 +134,11 @@ def run_one(question: dict, mode: str, model=None) -> dict:
     }
 
 
-def run(modes=("router",), limit=None, model=None) -> list:
+def run(modes=("router",), limit=None, model=None, ids=None) -> list:
     questions = load_questions()
+    if ids:
+        wanted = {i.strip() for i in ids}
+        questions = [q for q in questions if q["id"] in wanted]
     if limit:
         questions = questions[:limit]
 
@@ -215,13 +218,25 @@ def main():
     parser.add_argument("--limit", type=int, default=None, help="сколько вопросов взять")
     parser.add_argument("--model", default=None, help="переопределить модель ответа")
     parser.add_argument("--quick", action="store_true", help="три вопроса в режиме router")
+    parser.add_argument("--ids", default=None, help="прогнать только эти вопросы, через запятую")
+    parser.add_argument("--append", action="store_true",
+                        help="дописать к сохранённым результатам вместо перезаписи")
     args = parser.parse_args()
 
     modes = ("router",) if args.quick else tuple(m.strip() for m in args.modes.split(","))
     limit = 3 if args.quick else args.limit
 
     print(f"Прогон: режимы {modes}, вопросов {limit or 'все'}, модель {args.model or config.MODELS['answer']}")
-    results = run(modes=modes, limit=limit, model=args.model)
+    ids = [i for i in (args.ids or "").split(",") if i.strip()] or None
+    results = run(modes=modes, limit=limit, model=args.model, ids=ids)
+
+    if args.append and RESULTS_JSON.exists():
+        # Дозапись, а не перезапись: измеренное ранее стоило денег и
+        # повторять его незачем. Совпадающие id и режим замещаются свежими.
+        with io.open(RESULTS_JSON, encoding="utf-8") as f:
+            previous = json.load(f)
+        fresh = {(r["id"], r["mode"]) for r in results}
+        results = [r for r in previous if (r["id"], r["mode"]) not in fresh] + results
 
     with io.open(RESULTS_JSON, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=1)
